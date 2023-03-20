@@ -11,6 +11,7 @@ from utils import (
     search_docs,
     text_to_docs,
 )
+from tqdm import tqdm
 
 
 def main(uploaded_file=None):
@@ -32,20 +33,30 @@ def main(uploaded_file=None):
         except OpenAIError as e:
             print(e._message)
 
-    queries = load_query("query.txt")
-    for query in queries:
+    output = []
+    queries = load_query("chitchat-cli/query.txt")
+    for query in tqdm(queries):
         sources = search_docs(index, query)
+
+        qa = {}
+        qa["question"] = query
 
         try:
             answer = get_answer(sources, query)
             sources = get_sources(answer, sources)
-            output = answer["output_text"].split("SOURCES: ")[0]
-            print(output)
+            qa["answer"] = answer["output_text"].split("SOURCES: ")[0]
+            top_k_contents = []
+            top_k_pages = []
             for source in sources:
-                print(source.page_content)
-                print(source.metadata["source"])
+                top_k_contents.append(source.page_content)
+                top_k_pages.append(source.metadata["source"])
+            qa["source_contents"] = top_k_contents
+            qa["source_pages"] = top_k_pages
         except OpenAIError as e:
             print(e._message)
+
+        output.append(qa)
+    print(output)
 
 
 def load_query(query_file):
@@ -61,9 +72,9 @@ def load_query(query_file):
 
 if __name__ == "__main__":
     config = configparser.ConfigParser()
-    config.read("../config.ini")
+    config.read("config.ini")
     os.environ["OPENAI_API_KEY"] = config.get("API", "openai_api_key")
-    candidate_file = "../data/2023-03-06-text001.txt"
+    candidate_file = "data/Equity-Sustainability-Report-2021.pdf"
 
     with open(candidate_file, "rb") as uploaded_file:
         main(uploaded_file)
