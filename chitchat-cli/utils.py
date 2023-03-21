@@ -22,7 +22,7 @@ def parse_docx(file: BytesIO) -> str:
     text = docx2txt.process(file)
     # Remove multiple newlines
     text = re.sub(r"\n\s*\n", "\n\n", text)
-    return text
+    return {"text": text, "file": file.name}
 
 
 def parse_pdf(file: BytesIO) -> List[str]:
@@ -37,7 +37,7 @@ def parse_pdf(file: BytesIO) -> List[str]:
         # Remove multiple newlines
         text = re.sub(r"\n\s*\n", "\n\n", text)
 
-        output.append(text)
+        output.append({"text": text, "file": file.name})
 
     return output
 
@@ -46,20 +46,27 @@ def parse_txt(file: BytesIO) -> str:
     text = file.read().decode("utf-8")
     # Remove multiple newlines
     text = re.sub(r"\n\s*\n", "\n\n", text)
-    return text
+
+    return {"text": text, "file": file.name}
 
 
-def text_to_docs(text: str | List[str]) -> List[Document]:
-    """Converts a string or list of strings to a list of Documents
+def text_to_docs(cands: List[dict]) -> List[Document]:
+    """Converts a list of dictionaries to a list of Documents
     with metadata."""
-    if isinstance(text, str):
-        # Take a single string as one page
-        text = [text]
-    page_docs = [Document(page_content=page) for page in text]
+    page_docs = []
+    for cand in cands:
+        if isinstance(cand, dict):
+            # Take a single string as one page
+            cand = [cand]
+        for page in cand:
+            page_docs.append(
+                Document(page_content=page["text"], metadata={"file": page["file"]})
+            )
 
-    # Add page numbers as metadata
-    for i, doc in enumerate(page_docs):
-        doc.metadata["page"] = i + 1
+        # Add page numbers as metadata
+        for i, doc in enumerate(page_docs):
+            doc.metadata["page"] = i + 1
+    # page_docs = [Document(page_content=page) for page in text]
 
     # Split pages into chunks
     doc_chunks = []
@@ -73,11 +80,19 @@ def text_to_docs(text: str | List[str]) -> List[Document]:
         chunks = text_splitter.split_text(doc.page_content)
         for i, chunk in enumerate(chunks):
             doc = Document(
-                page_content=chunk, metadata={"page": doc.metadata["page"], "chunk": i}
+                page_content=chunk,
+                metadata={
+                    "file": os.path.basename(doc.metadata["file"]),
+                    "page": doc.metadata["page"],
+                    "chunk": i,
+                },
             )
             # Add sources a metadata
-            doc.metadata["source"] = f"{doc.metadata['page']}-{doc.metadata['chunk']}"
+            doc.metadata[
+                "source"
+            ] = f"{doc.metadata['file']}-{doc.metadata['page']}-{doc.metadata['chunk']}"
             doc_chunks.append(doc)
+
     return doc_chunks
 
 
@@ -96,7 +111,7 @@ def search_docs(_index: VectorStore, query: str) -> List[Document]:
     and returns a list of Documents."""
 
     # Search for similar chunks
-    docs = _index.similarity_search(query, k=5)
+    docs = _index.similarity_search(query, k=3)
     return docs
 
 
@@ -137,11 +152,3 @@ def get_sources(answer: Dict[str, Any], _docs: List[Document]) -> List[Document]
             source_docs.append(doc)
 
     return source_docs
-
-
-# def wrap_text_in_html(text: str | List[str]) -> str:
-#     """Wraps each text block separated by newlines in <p> tags"""
-#     if isinstance(text, list):
-#         # Add horizontal rules between pages
-#         text = "\n<hr/>\n".join(text)
-#     return "".join([f"<p>{line}</p>" for line in text.split("\n")])
