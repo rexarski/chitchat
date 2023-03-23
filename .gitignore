@@ -233,4 +233,4 @@ config.ini
 __pycache__/
 *.pyc
 draft/
-data/
+data/*

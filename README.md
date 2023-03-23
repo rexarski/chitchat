@@ -25,6 +25,15 @@ python chitchat-cli/cli-app.py
 - Specify the document path in `main.py`.
 - Modify `query.txt` if needed for additional questions.
 
+## Roadmap
+
+- [ ] Add variation to the `questions.csv`
+  - [ ] For each question (code), select the answer-variation pair that has higher confidence (?)
+- [ ] Confidence of the output. Probably a deadend though. (?)
+- [ ] Factcheck the output with human assessment
+- [ ] Better filepath handling
+- [ ] Better pdf parsing
+
 ## Resources
 
 - [Different document loaders that LangChain supports](https://langchain.readthedocs.io/en/latest/modules/document_loaders/how_to_guides.html)

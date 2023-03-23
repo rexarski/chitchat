@@ -13,13 +13,15 @@ from utils import (
 )
 from tqdm import tqdm
 
+config = configparser.ConfigParser()
+config.read("config.ini")
+os.environ["OPENAI_API_KEY"] = config.get("API", "openai_api_key")
+# candidate_files = ["data/ifc.txt", "data/walled-garden-part.pdf"]
+candidate_files = ["data/ifc.txt"]
 
-def process_submitted_files(candidate_files=None):
-    """Process a list of submitted files.
 
-    Args:
-        uploaded_file (_type_, optional): _description_. Defaults to None.
-    """
+def main():
+    """Process a list of submitted files."""
 
     index = None
     docs = []
@@ -54,6 +56,7 @@ def process_submitted_files(candidate_files=None):
         qa = {}
         qa["section"] = line["section"]
         qa["code"] = line["code"]
+        qa["variation"] = line["variation"]
         qa["question"] = query
 
         try:
@@ -82,16 +85,12 @@ def load_query(query_file):
             my_dict = {
                 "section": values[0],
                 "code": values[1],
-                "question": values[2].strip().strip('"'),
+                "variation": values[2],
+                "question": values[3].strip().strip('"'),
             }
             dict_list.append(my_dict)
     return dict_list
 
 
 if __name__ == "__main__":
-    config = configparser.ConfigParser()
-    config.read("config.ini")
-    os.environ["OPENAI_API_KEY"] = config.get("API", "openai_api_key")
-    candidate_files = ["data/ifc.txt", "data/walled-garden-part.pdf"]
-
-    process_submitted_files(candidate_files)
+    main()
