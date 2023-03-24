@@ -122,9 +122,9 @@ def get_answer(docs: List[Document], query: str) -> Dict[str, Any]:
 
     chain = load_qa_with_sources_chain(
         OpenAI(
-            temperature=0.8,
+            temperature=1,
             openai_api_key=os.environ["OPENAI_API_KEY"],
-            model_name="gpt-3.5-turbo-0301",
+            model_name="gpt-3.5-turbo",
         ),  # type: ignore
         chain_type="stuff",
         prompt=STUFF_PROMPT,

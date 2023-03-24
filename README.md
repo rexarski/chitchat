@@ -22,17 +22,26 @@ A command line interface for a set of predefined questions.
 ```bash
 python chitchat-cli/cli-app.py
 ```
+
 - Specify the document path in `main.py`.
 - Modify `query.txt` if needed for additional questions.
 
 ## Roadmap
 
-- [ ] Add variation to the `questions.csv`
-  - [ ] For each question (code), select the answer-variation pair that has higher confidence (?)
-- [ ] Confidence of the output. Probably a deadend though. (?)
-- [ ] Factcheck the output with human assessment
+- [x] Add variation to the `questions.csv`
+  - ~~For each question (code), select the answer-variation pair that has higher confidence (?)~~
+- [ ] Use rule-based approach to score each answer:
+  - Add some value for each 'YES'
+  - Minus some value for each 'NO'
+  - Such values will depend on the section that a question belongs to
+  - Generate company-level score based on answers to multiple documents
+  - Portfolio-level view will display the scores of all those companies
 - [ ] Better filepath handling
 - [ ] Better pdf parsing
+
+- Optional
+  - [ ] Confidence of the output. Probably a deadend though (?)
+  - [ ] Factcheck the output with human assessment (?)
 
 ## Resources
 
