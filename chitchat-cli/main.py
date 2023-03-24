@@ -12,12 +12,13 @@ from utils import (
     text_to_docs,
 )
 from tqdm import tqdm
+import json
 
 config = configparser.ConfigParser()
 config.read("config.ini")
 os.environ["OPENAI_API_KEY"] = config.get("API", "openai_api_key")
 # candidate_files = ["data/ifc.txt", "data/walled-garden-part.pdf"]
-candidate_files = ["data/ifc.txt"]
+candidate_files = ["data/Equity-Sustainability-Report-2021.pdf"]
 
 
 def main():
@@ -48,7 +49,7 @@ def main():
         print(e._message)
 
     output = []
-    questions = load_query("chitchat-cli/questions-lite.csv")
+    questions = load_query("chitchat-cli/questions.csv")
     for line in tqdm(questions):
         query = line["question"]
         sources = search_docs(index, query)
@@ -74,7 +75,9 @@ def main():
             print(e._message)
 
         output.append(qa)
-    print(output)
+
+    write_list(output)
+    print("Done writing JSON data into .json file")
 
 
 def load_query(query_file):
@@ -90,6 +93,11 @@ def load_query(query_file):
             }
             dict_list.append(my_dict)
     return dict_list
+
+
+def write_list(a_list):
+    with open("output.json", "w") as file:
+        json.dump(a_list, file)
 
 
 if __name__ == "__main__":
