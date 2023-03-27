@@ -1,5 +1,9 @@
 # README
 
+<p align="center">
+<img src="https://s3.amazonaws.com/moonup/production/uploads/noauth/b3AVwKK334lyREpZwqPxs.jpeg" width="40%">
+</p>
+
 ## How to use chitchat?
 
 - Make sure `poetry` is [installed](https://python-poetry.org/docs/) for package and dependency management.
