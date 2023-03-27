@@ -49,6 +49,9 @@ def main():
         print(e._message)
 
     output = []
+
+    # TODO: parallelize this
+
     questions = load_query("chitchat-cli/questions.csv")
     for line in tqdm(questions):
         query = line["question"]
@@ -73,6 +76,8 @@ def main():
             qa["source_pages"] = top_k_pages
         except OpenAIError as e:
             print(e._message)
+
+        # TODO: placeholder for scoring mechanism
 
         output.append(qa)
 
