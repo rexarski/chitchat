@@ -52,9 +52,18 @@ streamlit run main.py
 - [x] Add variation to the `questions.csv`
   - ~~For each question (code), select the answer-variation pair that has higher confidence (?)~~
 - [ ] Use rule-based approach to score each answer:
-  - Add some value for each 'YES'
-  - Minus some value for each 'NO'
-  - Such values will depend on the section that a question belongs to
+  - Add 2 points for straight `YES`
+    - If variations (alternatives) of the questions lead to `YES`, then add 1 point as a bonus
+    - [ ] The criterion for bonus point is not clear yet
+    - If a question has no variations, then give this bonus point for free
+  - [ ] What is the criterion for "partially observed" answer? (the case where we add 1 point)
+  - Zero point for each `NO`
+  - Zero point for `UNKNOWN`
+  - The final score of each company is the ratio of the [total points] to the [total number of questions times 3] normalized to [0, 1]
+    - Leadership rating (75% and above)
+    - Good rating (65% to 74%)
+    - Fair rating (50% to 64%)
+    - Needs improvement rating (below 50%)
   - Generate company-level score based on answers to multiple documents
   - Portfolio-level view will display the scores of all those companies
 - [ ] Better filepath handling
