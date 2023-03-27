@@ -15,10 +15,6 @@ from tqdm import tqdm
 import json
 
 config = configparser.ConfigParser()
-config.read("config.ini")
-os.environ["OPENAI_API_KEY"] = config.get("API", "openai_api_key")
-# candidate_files = ["data/ifc.txt", "data/walled-garden-part.pdf"]
-candidate_files = ["data/Equity-Sustainability-Report-2021.pdf"]
 
 
 def main():
@@ -52,7 +48,7 @@ def main():
 
     # TODO: parallelize this
 
-    questions = load_query("chitchat-cli/questions.csv")
+    questions = load_query(question_file)
     for line in tqdm(questions):
         query = line["question"]
         sources = search_docs(index, query)
@@ -106,4 +102,8 @@ def write_list(a_list):
 
 
 if __name__ == "__main__":
+    config.read("config.ini")
+    os.environ["OPENAI_API_KEY"] = config.get("API", "openai_api_key")
+    candidate_files = ["data/Equity-Sustainability-Report-2021.pdf"]
+    question_file = "data/questions.csv"
     main()

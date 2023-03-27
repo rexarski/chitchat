@@ -2,9 +2,22 @@
 
 ## How to use chitchat?
 
-- `poetry install` to initialize the virtual environment for the first time.
-- `poetry shell` to activate the virtual environment.
+- Make sure `poetry` is [installed](https://python-poetry.org/docs/) for package and dependency management.
+- Use `poetry install` to initialize the virtual environment for the first time.
+- Use `poetry shell` to activate the virtual environment.
 - Rename `config.ini.template` to `config.init`, and fill in the values.
+
+### CLI (WIP)
+
+A command line interface for a set of predefined questions.
+
+```bash
+# In root directory of this repo:
+python chitchat-cli/cli-app.py
+```
+
+- Specify the document path (`candidate_files`, `question_file`)in `main.py`.
+- Modify `chitchat-cli/questions.csv` if needed for additional questions.
 
 ### Streamlit app
 
@@ -14,17 +27,6 @@ An interactive web app.
 cd chitchat
 streamlit run main.py
 ```
-
-### CLI
-
-A command line interface for a set of predefined questions.
-
-```bash
-python chitchat-cli/cli-app.py
-```
-
-- Specify the document path in `main.py`.
-- Modify `query.txt` if needed for additional questions.
 
 ## Roadmap
 
