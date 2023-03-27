@@ -23,7 +23,7 @@ candidate_files = [
     "data/Equity-Sustainability-Report-2021.pdf",
     "data/Equity-Sustainability-Report-2020.pdf",
     ]
-question_file = "chitchat-cli/questions.csv"
+question_file = "chitchat-cli/data/questions.csv"
 ```
 
 ### CLI (WIP)

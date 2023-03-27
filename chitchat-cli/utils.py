@@ -87,7 +87,7 @@ def text_to_docs(cands: List[dict]) -> List[Document]:
                     "chunk": i,
                 },
             )
-            # Add sources a metadata
+            # Add sources as metadata
             doc.metadata[
                 "source"
             ] = f"{doc.metadata['file']}-{doc.metadata['page']}-{doc.metadata['chunk']}"
@@ -144,7 +144,7 @@ def get_sources(answer: Dict[str, Any], _docs: List[Document]) -> List[Document]
     """Gets the source documents for an answer."""
 
     # Get sources for the answer
-    source_keys = [s for s in answer["output_text"].split("SOURCES: ")[-1].split(", ")]
+    source_keys = [s for s in answer["output_text"].split("[SOURCES]:")[-1].split(", ")]
 
     source_docs = []
     for doc in _docs:

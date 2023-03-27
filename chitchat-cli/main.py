@@ -61,17 +61,22 @@ def main():
 
         try:
             answer = get_answer(sources, query)
-            sources = get_sources(answer, sources)
-            qa["answer"] = answer["output_text"].split("SOURCES: ")[0]
-            top_k_contents = []
-            top_k_pages = []
-            for source in sources:
-                top_k_contents.append(source.page_content)
-                top_k_pages.append(source.metadata["source"])
-            qa["source_contents"] = top_k_contents
-            qa["source_pages"] = top_k_pages
         except OpenAIError as e:
             print(e._message)
+        sources = get_sources(answer, sources)
+        qa["answer"] = answer["output_text"].split("[SOURCES]:")[0]
+        top_k_contents = []
+        top_k_pages = []
+        for source in sources:
+            top_k_contents.append(source.page_content)
+            top_k_pages.append(source.metadata["source"])
+        qa["source_contents"] = top_k_contents
+        qa["source_pages"] = top_k_pages
+        try:
+            qa["score"] = int(answer["output_text"].split("[SCORE]:")[-1])
+        except ValueError:
+            print("Score is not an integer. Setting score to 0.")
+            qa["score"] = 0
 
         # TODO: placeholder for scoring mechanism
 
@@ -106,5 +111,4 @@ if __name__ == "__main__":
     os.environ["OPENAI_API_KEY"] = config.get("API", "openai_api_key")
     candidate_files = json.loads(config.get("files", "candidate_files"))
     question_file = json.loads(config.get("files", "question_file"))
-    print(question_file)
     main()
