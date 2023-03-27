@@ -9,7 +9,22 @@
 - Make sure `poetry` is [installed](https://python-poetry.org/docs/) for package and dependency management.
 - Use `poetry install` to initialize the virtual environment for the first time.
 - Use `poetry shell` to activate the virtual environment.
-- Rename `config.ini.template` to `config.init`, and fill in the values.
+- Rename `config-template.ini` to `config.ini`, and fill in the values.
+
+For example:
+
+```ini
+[API]
+openai_api_key = sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+model_engine = gpt-3.5-turbo
+
+[files]
+candidate_files = [
+    "data/Equity-Sustainability-Report-2021.pdf",
+    "data/Equity-Sustainability-Report-2020.pdf",
+    ]
+question_file = "chitchat-cli/questions.csv"
+```
 
 ### CLI (WIP)
 

@@ -104,6 +104,7 @@ def write_list(a_list):
 if __name__ == "__main__":
     config.read("config.ini")
     os.environ["OPENAI_API_KEY"] = config.get("API", "openai_api_key")
-    candidate_files = ["data/Equity-Sustainability-Report-2021.pdf"]
-    question_file = "data/questions.csv"
+    candidate_files = json.loads(config.get("files", "candidate_files"))
+    question_file = json.loads(config.get("files", "question_file"))
+    print(question_file)
     main()
