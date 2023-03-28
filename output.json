@@ -4,7 +4,7 @@
         "code": "A.1",
         "variation": "v1",
         "question": "Has the company developed and published a Board Charter which is periodically reviewed and which sets out the Board responsibility for internal control?",
-        "answer": "YES. ",
+        "answer": "YES. The company has developed and published a Board Charter which is periodically reviewed and which sets out the Board responsibility for internal control. ",
         "source_contents": [],
         "source_pages": [],
         "score": 2
@@ -14,49 +14,51 @@
         "code": "A.2",
         "variation": "v1",
         "question": "Do the Board Charter or company documents distinguish the responsibilities of the board from management in line with Code requirements?",
-        "answer": "YES",
+        "answer": "YES. The Board Charter provides a clear definition of the roles and responsibilities of the Group Chairman, directors, and the Company Secretary, as well as a distinction between their responsibilities and those of management. Directors are expected to bring independent views and judgment to Board deliberations without any business relationship that would interfere with their objective judgment. The Board Charter also states that a majority of its directors should be independent, and the Group Chief Executive Officer & Managing Director is responsible for the day-to-day management of the business while delegating aspects of their own authority to members of the Executive Committee. These delegations balance effective oversight with appropriate empowerment and accountability of senior executives. The documents are in line with Code requirements. \nSOURCES: ke-kcb-2019-ar-00.pdf-69-0, ke-kcb-2019-ar-00.pdf-72-7, ke-kcb-2019-ar-00.pdf-70-2. \nSCORE: 2.",
         "source_contents": [
-            "Board  members therefore take their responsibility for the corporate governance agenda within the Group seriously and continue to focus on maintaining the highest standards of corporate governance and business ethics in the Group\u2019s operations to meet the needs and objectives of, and create value for, our various stakeholders.Group Board Group Non-Financial Risks Committee. (GNFRC) Group Risk Committee Three Lines of Defence First Line Own and Manage the Risk All Heads of Business and Support  ServicesSecond Line Control functions \u2013 oversight and  challenge PRT Risk OwnersThird Line Independent Assurance Internal Audit GNRFC governs and directs all subsidiaries in measuring and managing compliance and operational risks within the aggregate Group risk profile",
-            "Board training Board members are provided with regular updates on matters relevant to legal reforms, corporate governance, the corporate  environment, regulatory obligations, business/commercial risks, and other matters that may be of interest in the execution of their role.  Specific training was provided to the Board on ESG risks factors facing the business in 2021. This training provided insight into climate  risk, shifts in regulatory requirements as well as investor reporting requirements. Remuneration policies A full remuneration report is provided in the Group Annual Integrated Report.  This report details the remuneration provided to the highest governing body and senior executives"
+            "Directors are expected to bring views and  judgement to Board deliberations that are  independent of management and free of any  business relationship or circumstances that  would materially interfere with the exercise  of objective judgement, having regard to  the best interest of the organization and its  stakeholders as a whole. The Board Charter, prepared in line with the  Prudential Guidelines issued by the Central  Bank of Kenya, provides that a majority of its  directors should be independent."
         ],
         "source_pages": [
-            "Equity-Sustainability-Report-2021.pdf-43-1",
-            "Equity-Sustainability-Report-2021.pdf-46-1"
+            "ke-kcb-2019-ar-00.pdf-72-7"
         ],
-        "score": 2
+        "score": 0
     },
     {
         "section": "Introduction",
         "code": "A.3",
         "variation": "v1",
         "question": "Is there a statement indicating the responsibility of Board members for the application of corporate governance policies and procedures of the company?",
-        "answer": "YES",
+        "answer": "YES, there is a statement indicating the responsibility of Board members for the application of corporate governance policies and procedures of the company. ",
         "source_contents": [
-            "Board  members therefore take their responsibility for the corporate governance agenda within the Group seriously and continue to focus on maintaining the highest standards of corporate governance and business ethics in the Group\u2019s operations to meet the needs and objectives of, and create value for, our various stakeholders.Group Board Group Non-Financial Risks Committee. (GNFRC) Group Risk Committee Three Lines of Defence First Line Own and Manage the Risk All Heads of Business and Support  ServicesSecond Line Control functions \u2013 oversight and  challenge PRT Risk OwnersThird Line Independent Assurance Internal Audit GNRFC governs and directs all subsidiaries in measuring and managing compliance and operational risks within the aggregate Group risk profile"
+            "2019 Integrated Report & Financial Statements72 Corporate Governance StatementA Director appointed by the Board to fill a  casual vacancy must seek election at the next  Annual General Meeting (”AGM”) after their  appointment. As further provided for in the  Articles of Association, at every AGM, and as  may be applicable, at least one-third of the  non-executive Directors must retire from the  Board and where eligible, stand for re-election.  The Board Charter provides that nonexecutive Directors are normally expected  to serve a term not exceeding a total of eight  years, subject to re-election by shareholders  as required under the Company’s Articles of  Association, the Board Charter and applicable  law"
         ],
-        "source_pages": ["Equity-Sustainability-Report-2021.pdf-43-1"],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-72-0"
+        ],
         "score": 2
     },
     {
         "section": "Introduction",
         "code": "A.3",
         "variation": "v2",
-        "question": "Is there a statement that provides that the board is ultimately responsible for approving CG polcies and procedures",
-        "answer": "YES. The Board is responsible for approving the Group Enterprise Risk Management Framework and setting the Group risk appetite for the principal risks, based on recommendations from the Group Board Risk and ALCO Committee. ",
+        "question": "Is there a statement that provides that the board is ultimately responsible for approving CG polcies and procedures, and is there a statement that provides that the board is ultimately responsible for approving the company's CG code or manual?",
+        "answer": "NO",
         "source_contents": [],
         "source_pages": [],
-        "score": 2
+        "score": 0
     },
     {
         "section": "Introduction",
         "code": "A.4",
         "variation": "v1",
-        "question": "How has the Board ensured all directors",
-        "answer": "The Board ensures all directors receive regular training on legal reforms, corporate governance, regulatory obligations, and other matters relevant to their role. They also maintain the highest standards of corporate governance and business ethics in the Group\u2019s operations through various committees and lines of defense. Additionally, the Board has a policy in place to prevent any conflicts of interest or competing business activities with the Group's interest. ",
+        "question": "How has the Board ensured all directors, CEOs and management are fully aware of the requirements of this Code?",
+        "answer": "The Board ensures that all directors, CEOs, and management are fully aware of the requirements of the Code through a program of continuing education, including sessions with local and overseas experts in general corporate governance and relevant fields. Newly appointed non-executive Directors participate in an induction program, including meetings with other Directors, the CEO, and senior executives to familiarize themselves with the business. Directors are also entitled to obtain independent legal, accounting or other professional advice at the Company’s expense, and the Board has a formal process for reviewing its performance and that of its committees and individual directors. The performance of governance functions, board interaction and support, board meetings and preparation, board composition and skills, risk governance, and strategic objectives are evaluated.  ",
         "source_contents": [
-            "Board  members therefore take their responsibility for the corporate governance agenda within the Group seriously and continue to focus on maintaining the highest standards of corporate governance and business ethics in the Group\u2019s operations to meet the needs and objectives of, and create value for, our various stakeholders.Group Board Group Non-Financial Risks Committee. (GNFRC) Group Risk Committee Three Lines of Defence First Line Own and Manage the Risk All Heads of Business and Support  ServicesSecond Line Control functions \u2013 oversight and  challenge PRT Risk OwnersThird Line Independent Assurance Internal Audit GNRFC governs and directs all subsidiaries in measuring and managing compliance and operational risks within the aggregate Group risk profile"
+            "Directors also  receive comprehensive guidance from the  Group Company Secretary on Directors’ duties  and liabilities.  All Directors are expected to maintain the  skills required to carry out their obligations. The  Chairman regularly reviews the professional  development needs of each Director. The  program of continuing education ensures that  the Board is kept up to date with developments in  the industry both locally and globally. It includes  sessions with local and overseas experts in the  areas of general corporate governance and also  in the particular fields relevant to the Group’s  operations. The Board completed a number of education  sessions during the 2019 financial year. Directors  gained insights and a deeper knowledge of the  business including on risk management"
         ],
-        "source_pages": ["Equity-Sustainability-Report-2021.pdf-43-1"],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-73-4"
+        ],
         "score": 2
     },
     {
@@ -64,37 +66,41 @@
         "code": "A.5",
         "variation": "v1",
         "question": "Do company documents indicate the role of the Board in developing and monitoring the company strategy?",
-        "answer": "YES",
+        "answer": "YES. The Board of Directors of KCB Group Plc see governance as promoting strategic decision making and have ultimate authority over, and oversight of, the Group. The Group Chairman, in conjunction with the Group Chief Executive Officer & Managing Director and the Group Company Secretary, sets the agenda for each meeting, which includes approval of strategy and business plans. The Board Charter provides for a clear definition of the roles and responsibilities of directors and the Board is involved in the development of the Group strategy. The current KCB Group Board Charter was reviewed and approved by the Board on 5 March, 2019 and is available on the company website. ",
         "source_contents": [
-            "Board training Board members are provided with regular updates on matters relevant to legal reforms, corporate governance, the corporate  environment, regulatory obligations, business/commercial risks, and other matters that may be of interest in the execution of their role.  Specific training was provided to the Board on ESG risks factors facing the business in 2021. This training provided insight into climate  risk, shifts in regulatory requirements as well as investor reporting requirements. Remuneration policies A full remuneration report is provided in the Group Annual Integrated Report.  This report details the remuneration provided to the highest governing body and senior executives",
-            "These include strategic retreats which cover topics such as IT, new strategic technology, and deep dives into the businesses 5-year strategy. It is important that we include everyone in unpacking our strategy, ensuring all are knowledgeable to facilitate the filtering down of the pillars of the strategy to the teams. MentorshipThe Management team initiated the \u2018Adopt a Branch\u2019 programme  in 2020 whereby every manager adopted a branch.  That manager is responsible for the mentorship of staff and to help the branches assigned to achieve their scorecards.  This initiative is driven by the Commercial team.  Each branch gets a scorecard each month, and the mentor is scored on the branches ability to achieve their targets"
+            "2019 Integrated Report & Financial Statements69 Corporate Governance StatementThe Board Charter, which has been approved  and is regularly reviewed by the Board,  provides for a clear definition of the roles  and responsibilities of the Group Chairman,  directors as well as the Company Secretary.  The roles and responsibilities of the Group  Chairman and the Group Chief Executive Officer  & Managing Director are separate and distinct with a clear division of responsibility between  the running of the Board and the executive  responsibility of running KCB Group’s business.  The current KCB Group Board Charter was  reviewed and approved by the Board on 5 March,  2019 and is available on the company website  (www.kcbgroup.com) Board   Contribute to the  development of the  Group strategy"
         ],
         "source_pages": [
-            "Equity-Sustainability-Report-2021.pdf-46-1",
-            "Equity-Sustainability-Report-2021.pdf-31-3"
+            "ke-kcb-2019-ar-00.pdf-69-0"
         ],
-        "score": 2
+        "score": 0
     },
     {
         "section": "Introduction",
         "code": "A.5",
         "variation": "v2",
         "question": "Does the board approve the company's strategy?",
-        "answer": "UNKNOWN",
-        "source_contents": [],
-        "source_pages": [],
-        "score": 0
+        "answer": "YES, the board approves the company's strategy. ",
+        "source_contents": [
+            "Matters related to the approval of  the remuneration policy, resource management,  risk management framework and risk appetite  are also Board reserve matters. To assist it in  discharging these responsibilities, the Board has  established Board committees to give detailed  consideration to key issues.  Further details of the Board committees  including their respective roles, key  responsibilities, composition and membership  are provided later in this Statement. The Group Chairman is responsible for the  strategic leadership of the Board and is pivotal in  creating conditions for the overall effectiveness  of the Board. He promotes an open environment for debate and ensures all Directors are able  to speak freely and contribute effectively"
+        ],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-70-1"
+        ],
+        "score": 2
     },
     {
         "section": "Introduction",
         "code": "A.6",
         "variation": "v1",
         "question": "Does the company strategy promote sustainability of the company?",
-        "answer": "YES, the company strategy promotes sustainability of the company. The company focuses on promoting stewardship on Environment, Social and Governance considerations, as well as specific targets in sustainable management, natural resource use, and waste reduction. The company also makes use of the UN Sustainable Development Goals to guide its societal impacts and strives to be a trusted partner in promoting change in society. ",
+        "answer": "YES. The company's strategy promotes sustainability, which is incorporated into the group’s balanced scorecard, and has implemented initiatives for responsible business, implementation of the 10 Action Plan, implementation of the SDGs, and activities supporting equitable, inclusive, and green finance. The company has a zero-tolerance policy towards unethical practices and promotes the equitable distribution of work to suppliers, including SMEs and special interest groups/enterprises. ",
         "source_contents": [
-            "\u2022\tFocus on the promotion of access to finance to first time homeowners. \u2022\tDeveloping of products and analysis of the market to align our future growth on green building certification projects. \u2022\tStaff mortgage rates subsidised to encourage home ownership.  Target 12.3 - Achieve the sustainable management and efficient use of natural resources. Target 12.5 - Reduce waste generation through  prevention, reduction, recycling, and reuse. Target 12.6 - Encourage companies, especially large and  transnational companies, to adopt sustainable practices and to integrate sustainability information into their reporting cycle.\u2022\tEstablishing the baseline energy, water, waste, and carbon footprint for the organisation"
+            "2019 Integrated Report & Financial Statements63 Point Action Plan Talent  management  and diversity5,382 No. of  employees trained  on sustainability  awareness5%  Staff attrition rate  Social StabilitySocial Stability   Our commitment to develop  equitable, inclusive products  and to support our youth and  communities to prosper and thrive,  enables us to create shared value.Environmental Stability    We support responsible finance  and consumption, green finance  and lowering our Carbon Footprint  to protect and enhance the  environment on which we depend.Financial Stability   Transformative partnerships  help us provide access  to financial products and  services that leads to  inclusive progress"
         ],
-        "source_pages": ["Equity-Sustainability-Report-2021.pdf-21-2"],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-63-0"
+        ],
         "score": 2
     },
     {
@@ -102,37 +108,37 @@
         "code": "A.6",
         "variation": "v2",
         "question": "Does the company's strategy integrate ESG and climate risks and opportunities?",
-        "answer": "YES, the company's strategy integrates ESG and climate risks and opportunities. ",
+        "answer": "YES, the company's strategy integrates ESG and climate risks and opportunities. They have incorporated sustainability into their balanced scorecard and have adopted the SDGs, including SDG 13 on climate action. They also carry out environmental and social due diligence for all corporate and SME lending to mitigate negative impacts to the environment. Furthermore, they allocate 100 billion of the loan book for ESG compliance and use the science-based target model to review positive and negative impacts. They have a green agenda initiative to improve operational efficiencies and reduce resource consumption. They also do not finance projects that pollute the environment. ",
         "source_contents": [
-            "3 Breadth and diversification reflected in the Group\u2019s corporate office support to the subsidiaries and expanded leadership at subsidiary level.ESG as a strategic driver of the marshal plan is being rolled out to all subsidiaries.  ESG aspects of this plan are no longer driven from a group role, focus is on capacitating the subsidiaries to drive performance at local level. 4 Alignment of strategy and execution reflected by close interaction between the CEO\u2019s office and Corporate Office.The ESG team actively engages across the business including with marketing and communications, strategy, as well as the Group CEO to ensure ongoing alignment between ESG management and the EGH strategy"
+            "During the year under the review, mapping  of the eight SDGs adopted earlier within the  strategic cycle was completed to all divisions  and subsidiaries across the Group. Further, in  2019, the Group adopted SDG 13 on climate  action in line with the collective commitment  to climate action by the founding banks of the  recently launched Principles of Sustainable  Banking. Going forward, in line with the new  strategic plan, the focus is to monitor and  evaluate progress annually on the initiatives in  each of the SDG charters.  Subsequently, we continued to carry out  environmental and social due diligence (ESDD)  for all our corporate and SME lending to mitigate  any negative impacts to the environment. In  the coming year, we aim to screen up to KShs"
         ],
-        "source_pages": ["Equity-Sustainability-Report-2021.pdf-46-4"],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-61-2"
+        ],
         "score": 2
     },
     {
         "section": "Introduction",
         "code": "A.7",
         "variation": "v1",
-        "question": "Are all board committees governed by a written charter/terms of reference",
-        "answer": "YES. ",
-        "source_contents": [
-            "Board  members therefore take their responsibility for the corporate governance agenda within the Group seriously and continue to focus on maintaining the highest standards of corporate governance and business ethics in the Group\u2019s operations to meet the needs and objectives of, and create value for, our various stakeholders.Group Board Group Non-Financial Risks Committee. (GNFRC) Group Risk Committee Three Lines of Defence First Line Own and Manage the Risk All Heads of Business and Support  ServicesSecond Line Control functions \u2013 oversight and  challenge PRT Risk OwnersThird Line Independent Assurance Internal Audit GNRFC governs and directs all subsidiaries in measuring and managing compliance and operational risks within the aggregate Group risk profile",
-            "Board training Board members are provided with regular updates on matters relevant to legal reforms, corporate governance, the corporate  environment, regulatory obligations, business/commercial risks, and other matters that may be of interest in the execution of their role.  Specific training was provided to the Board on ESG risks factors facing the business in 2021. This training provided insight into climate  risk, shifts in regulatory requirements as well as investor reporting requirements. Remuneration policies A full remuneration report is provided in the Group Annual Integrated Report.  This report details the remuneration provided to the highest governing body and senior executives"
-        ],
-        "source_pages": [
-            "Equity-Sustainability-Report-2021.pdf-43-1",
-            "Equity-Sustainability-Report-2021.pdf-46-1"
-        ],
+        "question": "Are all board committees governed by a written charter/terms of reference, disclosing its mandate, authority, duties, composition, leadership and working processes?",
+        "answer": "YES, all board committees have terms of reference that set out their roles and responsibilities and procedural rules. ",
+        "source_contents": [],
+        "source_pages": [],
         "score": 2
     },
     {
         "section": "Introduction",
         "code": "A.7",
         "variation": "v2",
-        "question": "Does the board and its board committees have separate charters/by-laws/ToRs that governed by a written charter/terms of reference",
-        "answer": "YES, the board and its board committees have separate charters/by-laws/ToRs that are governed by a written charter/terms of reference.",
-        "source_contents": [],
-        "source_pages": [],
+        "question": "Does the board and its board committees have separate charters/by-laws/ToRs that governed by a written charter/terms of reference, and do the aformentioned discuss the respective roles and responsibilities?",
+        "answer": "YES, the board and its board committees have separate charters/terms of reference that are governed by a written charter and discuss their respective roles and responsibilities. Each committee has terms of reference that set out the roles and responsibilities and procedural rules that apply to the committee, and the Board Charter sets out a clear definition of the roles and responsibilities of the Group Chairman, directors, and the Company Secretary, as well as matters reserved for determination and approval by the Board. ",
+        "source_contents": [
+            "2019 Integrated Report & Financial Statements70 vi. Provides oversight over performance against  targets and objectives. vii. Provides oversight over reporting to  shareholders on the direction, governance  and performance of the Group as well as  other processes that require reporting and  disclosure. viii. Provides oversight over the activities of the  subsidiaries of the Group. Authority and Delegation The Board Charter sets out the Board authority  and matters reserved for determination and  approval by the Board. These include decisions  concerning strategy and long term objectives  of the Group, the Group’s capital, financial  planning and financial budgets, significant  contracts and various statutory and regulatory  approvals"
+        ],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-70-0"
+        ],
         "score": 2
     },
     {
@@ -140,71 +146,71 @@
         "code": "B.1",
         "variation": "v1",
         "question": "Has the Board established a Nomination Committee comprised mainly of independent and non-executive Board members?",
-        "answer": "UNKNOWN",
+        "answer": "YES, the Board has established a Nomination Committee comprised mainly of independent and non-executive Board members.",
         "source_contents": [
-            "Board  members therefore take their responsibility for the corporate governance agenda within the Group seriously and continue to focus on maintaining the highest standards of corporate governance and business ethics in the Group\u2019s operations to meet the needs and objectives of, and create value for, our various stakeholders.Group Board Group Non-Financial Risks Committee. (GNFRC) Group Risk Committee Three Lines of Defence First Line Own and Manage the Risk All Heads of Business and Support  ServicesSecond Line Control functions \u2013 oversight and  challenge PRT Risk OwnersThird Line Independent Assurance Internal Audit GNRFC governs and directs all subsidiaries in measuring and managing compliance and operational risks within the aggregate Group risk profile"
+            "The Audit Committee is made up of only  independent non-executive Directors in line  with the provisions of the Prudential Guidelines  issued by the Central Bank of Kenya. During the year 2019, the Board undertook  a review of the existing committees and  introduced a Nominations Committee  tasked to handle the overall identification of  suitable candidates to be recommended for  appointment by the Board. The introduction of  the committee increased the overall number  of committees from 5 to 6.  A summary of  the role of the current committees, current  members and key activities undertaken during  the year 2019 are set out below",
+            "As well, overlapping  memberships take into account instances  where matters raised in one committee may  have implications for another. Membership  is reviewed on an annual basis by the  Group Chairman in collaboration with the  Nominations Committee. The Board receives a report from the  Chairman of each committee on significant  areas of discussion and key decisions at the  following Board meeting.  Each committee has in place terms  of reference that sets out the roles and responsibilities and the procedural rules that  apply to the committee. Under the procedural  rules, each committee must be composed of at  least three members, a majority of independent  directors and have an independent Chairman"
         ],
-        "source_pages": ["Equity-Sustainability-Report-2021.pdf-43-1"],
-        "score": 0
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-73-7",
+            "ke-kcb-2019-ar-00.pdf-73-6"
+        ],
+        "score": 2
     },
     {
         "section": "Board Operations and Control",
         "code": "B.2",
         "variation": "v1",
         "question": "Is the chairperson of the Nomination Committee an independent director?",
-        "answer": "UNKNOWN",
+        "answer": "YES, the chairperson of the Nomination Committee must be an independent director according to the procedural rules which require each committee to have a majority of independent directors and an independent Chairman. ",
         "source_contents": [],
         "source_pages": [],
-        "score": 0
+        "score": 2
     },
     {
         "section": "Board Operations and Control",
         "code": "B.3",
         "variation": "v1",
         "question": "Has the board adopted and published procedures for nomination and appointment of new Board members?",
-        "answer": "UNKNOWN",
+        "answer": "YES. ",
         "source_contents": [
-            "This policy ensures that no board member engages directly or indirectly in any business activity that competes or conflicts with the Group\u2019s interest. A Board member shall avoid all possible Conflicts of Interest and will not enter into or procure the entering into of any contract with the Group with respect to which that Board member or any of his/her associates has any connection, association or financial interest. A Board member must avoid any investment, interest or association that interferes, might interfere, or might appear to interfere with his/her independent exercise of judgment in the Group\u2019s best interest. These activities include, but are not necessarily limited to the following: \u2022 Outside Financial Inter est, \u2022 Other Business Int erests, \u2022 Involvement in Politics"
+            "As well, overlapping  memberships take into account instances  where matters raised in one committee may  have implications for another. Membership  is reviewed on an annual basis by the  Group Chairman in collaboration with the  Nominations Committee. The Board receives a report from the  Chairman of each committee on significant  areas of discussion and key decisions at the  following Board meeting.  Each committee has in place terms  of reference that sets out the roles and responsibilities and the procedural rules that  apply to the committee. Under the procedural  rules, each committee must be composed of at  least three members, a majority of independent  directors and have an independent Chairman"
         ],
-        "source_pages": ["Equity-Sustainability-Report-2021.pdf-44-1"],
-        "score": 0
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-73-6"
+        ],
+        "score": 2
     },
     {
         "section": "Board Operations and Control",
         "code": "B.3",
         "variation": "v2",
         "question": "Does the nomination committee charter/by-laws/ToR contain provisions on the process for nomination and appointment of board members?",
-        "answer": "UNKNOWN",
-        "source_contents": [],
-        "source_pages": [],
-        "score": 0
+        "answer": "YES, the nomination committee charter/by-laws/ToR contain provisions on the process for nomination and appointment of board members.",
+        "source_contents": [
+            "It leads the process for  identifying, nominating for approval by the  Board, candidates to fill Board vacancies. 2019 activities During the year, the Committee reviewed the Board  succession plans for the Group as well as the skills  matrix for the Board. The Committee identified and nominated two directors for  approval by the Board to fill in casual vacancies. Members Adil Khawaja (Chairman) Andrew W. Kairu Tom Ipomai Lawrence Njiru Joshua OigaraFinance & Strategy  Committee The Committee reviews and recommends to the Board  for approval matters pertaining to: business strategic  plans including its implementation and monitoring process;  new markets expansion; significant investment and divestment  decisions; annual business and financial plans and budgets and  sustainability"
+        ],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-74-4"
+        ],
+        "score": 2
     },
     {
         "section": "Board Operations and Control",
         "code": "B.4",
         "variation": "v1",
         "question": "Is the Board size adequate for the exercise of the company business?",
-        "answer": "UNKNOWN",
+        "answer": "YES, the Board size is adequate for the exercise of the company business. The Board structure comprises of two Executive Directors, one non-executive Director and eight independent non-executive Directors including the Group Chairman, with a maximum of eleven Directors as per the Articles of Association. The Board determines its size and composition, subject to the Company’s Articles of Association, Board Charter and applicable law. The board should consist of directors with a broad range of skills, experience and expertise and be from a diverse range of backgrounds. The Chairman of the Board must be an independent non-executive director. ",
         "source_contents": [],
         "source_pages": [],
-        "score": 0
+        "score": 2
     },
     {
         "section": "Board Operations and Control",
         "code": "B.5",
         "variation": "v1",
-        "question": "Has the board adopted a policy to ensure the achievement of diversity  including age",
-        "answer": "The provided document excerpts do not provide information about the adoption of a policy to ensure the achievement of diversity including age by the board. ",
-        "source_contents": [],
-        "source_pages": [],
-        "score": 0
-    },
-    {
-        "section": "Board Operations and Control",
-        "code": "B.6",
-        "variation": "v1",
-        "question": "Do the Board members represent a mix of skills",
-        "answer": "YES, a third of the Board of Director members are women which matches the benchmark set in the developed economies for gender parity, but falls short of regional population demographics. ",
+        "question": "Has the board adopted a policy to ensure the achievement of diversity  including age, race and gender in its composition?",
+        "answer": "YES, the board has adopted a policy to ensure the achievement of diversity including age, race and gender in its composition. The HR & Nominations Committee has been tasked to take this into consideration in its nominations. The Board determined that effort needed to be placed on diversifying the skill set and gender in its review in 2019. The Board composition is driven by the principle that it must comprise of a majority of independent non-executive directors. ",
         "source_contents": [],
         "source_pages": [],
         "score": 2
@@ -212,13 +218,29 @@
     {
         "section": "Board Operations and Control",
         "code": "B.6",
+        "variation": "v1",
+        "question": "Do the Board members represent a mix of skills, experience, business knowledge and independence to enable the discharge of their duties?",
+        "answer": "YES. The Board members are expected to have independent judgement and the Board Charter requires a majority of its directors to be independent. The Board also regularly reviews the skills, knowledge, and experience represented to deliver the strategy and has determined the need to diversify the skill set and gender. The Chairman of the Board must be an independent non-executive director and succession planning is an ongoing process. ",
+        "source_contents": [
+            "The Board regularly reviews the skills,  knowledge and experience represented on the  Board against the skills and experience needed  to deliver the strategy. From the review in 2019,  the Board considered the diversity issues and  has determined that effort needed to be placed  on diversifying the skill set and gender. The HR  & Nominations Committee has been tasked to  take this into consideration in its nominations.  The current skills and industry experience  represented on the Board are as follows: DIRECTOR INDUSTRY EXPERIENCE Andrew W. Kairu Business Management, Corporate Governance C.S – National Treasury  (Represented by Eng"
+        ],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-72-3"
+        ],
+        "score": 2
+    },
+    {
+        "section": "Board Operations and Control",
+        "code": "B.6",
         "variation": "v2",
         "question": "Is there an adequate mix of skills and independence on the board established by a board skills matrix?",
-        "answer": "YES, there is an adequate mix of skills and independence on the board established by a board skills matrix. However, there is still room for improvement in terms of gender diversity in the workforce and in management positions. Board members are regularly provided with updates and training relevant to their role, including training on ESG risks factors facing the business in 2021. A full remuneration report is also provided in the Group Annual Integrated Report, detailing the remuneration provided to the highest governing body and senior executives. ",
+        "answer": "YES, there is an adequate mix of skills and independence on the board established by a board skills matrix as the Board regularly reviews the skills, knowledge, and experience represented on the Board against the skills and experience needed to deliver the strategy and succession planning is an ongoing process with the Board discussing the same regularly. KCB Group seeks to have a Board that has the right mix of individuals with relevant attributes, skills, knowledge and experience and who jointly have the overall collective competence to deal with current and emerging issues and effectively guide management in ensuring the highest performance for the Group. The aggregate mix of skills and experience of the Directors seeks to challenge management, ensure robust and constructive debate, and augments and challenges the strategic thinking of the executives thereby adding value to the Group. ",
         "source_contents": [
-            "These include strategic retreats which cover topics such as IT, new strategic technology, and deep dives into the businesses 5-year strategy. It is important that we include everyone in unpacking our strategy, ensuring all are knowledgeable to facilitate the filtering down of the pillars of the strategy to the teams. MentorshipThe Management team initiated the \u2018Adopt a Branch\u2019 programme  in 2020 whereby every manager adopted a branch.  That manager is responsible for the mentorship of staff and to help the branches assigned to achieve their scorecards.  This initiative is driven by the Commercial team.  Each branch gets a scorecard each month, and the mentor is scored on the branches ability to achieve their targets"
+            "KCB Group seeks to have a Board that has the  right mix of individuals with relevant attributes  skills, knowledge and experience and who  jointly have the overall collective competence  to deal with current and emerging issues and  effectively guide management in ensuring  the highest performance for the Group.  The  non-executive Directors are expected to have  a clear understanding of the strategy of the  Company as well as knowledge of the industry  and markets in which the Group operates.  The aggregate mix of skills and experience of  the Directors seeks to challenge management,  ensure robust and constructive debate and  augments and challenges the strategic thinking  of the executives thereby adding value to the  Group"
         ],
-        "source_pages": ["Equity-Sustainability-Report-2021.pdf-31-3"],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-72-2"
+        ],
         "score": 2
     },
     {
@@ -235,38 +257,48 @@
         "section": "Board Operations and Control",
         "code": "B.8",
         "variation": "v1",
-        "question": "Have any Alternate Board members been appointed?  If so",
-        "answer": "YES, Mr. Jonas Mushosho was appointed to the Board on 28 July 2021.",
+        "question": "Have any Alternate Board members been appointed?  If so, have the Alternate Director/s been appointed according to regulation and Code requirements?",
+        "answer": "Yes, an Alternate Director/s has been appointed. However, the provided document excerpts do not provide information on whether the appointment was according to regulation and Code requirements. ",
         "source_contents": [],
         "source_pages": [],
-        "score": 2
+        "score": 1
     },
     {
         "section": "Board Operations and Control",
         "code": "B.9",
         "variation": "v1",
         "question": "Are independent directors at least one-third of the total number of Board members?",
-        "answer": "UNKNOWN",
-        "source_contents": [],
-        "source_pages": [],
-        "score": 0
+        "answer": "YES. At every AGM, and as may be applicable, at least one-third of the non-executive Directors must retire from the Board and where eligible, stand for re-election. The Board Charter provides that non-executive Directors are normally expected to serve a term not exceeding a total of eight years, subject to re-election by shareholders as required under the Company’s Articles of Association, the Board Charter and applicable law. Additionally, the Board Charter provides that a majority of its directors should be independent. The current Board structure comprises of two Executive Directors, one non-executive Director and eight independent non-executive Directors including the Group Chairman. The Board determines its size and composition, subject to the Company’s Articles of Association, Board Charter and applicable law. The board must comprise of a majority of independent non-executive directors.",
+        "source_contents": [
+            "2019 Integrated Report & Financial Statements72 Corporate Governance StatementA Director appointed by the Board to fill a  casual vacancy must seek election at the next  Annual General Meeting (”AGM”) after their  appointment. As further provided for in the  Articles of Association, at every AGM, and as  may be applicable, at least one-third of the  non-executive Directors must retire from the  Board and where eligible, stand for re-election.  The Board Charter provides that nonexecutive Directors are normally expected  to serve a term not exceeding a total of eight  years, subject to re-election by shareholders  as required under the Company’s Articles of  Association, the Board Charter and applicable  law",
+            "Directors are expected to bring views and  judgement to Board deliberations that are  independent of management and free of any  business relationship or circumstances that  would materially interfere with the exercise  of objective judgement, having regard to  the best interest of the organization and its  stakeholders as a whole. The Board Charter, prepared in line with the  Prudential Guidelines issued by the Central  Bank of Kenya, provides that a majority of its  directors should be independent."
+        ],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-72-0",
+            "ke-kcb-2019-ar-00.pdf-72-7"
+        ],
+        "score": 2
     },
     {
         "section": "Board Operations and Control",
         "code": "B.10",
         "variation": "v1",
         "question": "Does the Board have policies and procedures to annually assess the independence of independent Board members?",
-        "answer": "UNKNOWN",
-        "source_contents": [],
-        "source_pages": [],
-        "score": 0
+        "answer": "YES. The Board has policies and procedures to annually assess the independence of independent Board members. ",
+        "source_contents": [
+            "Feedback from the process  is used to identify opportunities to improve the  performance of the Board and the Directors.  The questionnaire also included a series of  questions for each Director to assess their  own performance and the performance of each  other individual Director to identify development  opportunities.  The Board evaluation was conducted in  February 2020 and the results presented to  the Central Bank of Kenya in March 2020 in  line with regulatory requirements.  DIRECTOR INDEPENDENCE  The Board recognizes the importance of  independent judgement and constructive  debate on all issues under consideration"
+        ],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-72-6"
+        ],
+        "score": 2
     },
     {
         "section": "Board Operations and Control",
         "code": "B.11",
         "variation": "v1",
         "question": "Do all independent Board members have a tenure of less than 9 years?",
-        "answer": "UNKNOWN",
+        "answer": "NO. ",
         "source_contents": [],
         "source_pages": [],
         "score": 0
@@ -276,7 +308,7 @@
         "code": "B.12",
         "variation": "v1",
         "question": "Is the Board comprised of a majority of non-executive board members?",
-        "answer": "YES, the Board is comprised of a majority of non-executive board members. ",
+        "answer": "YES, the Board is comprised of a majority of independent non-executive directors. ",
         "source_contents": [],
         "source_pages": [],
         "score": 2
@@ -286,19 +318,27 @@
         "code": "B.13",
         "variation": "v1",
         "question": "How  does the Board ensure a smooth transition of Board members?",
-        "answer": "UNKNOWN",
-        "source_contents": [],
-        "source_pages": [],
-        "score": 0
+        "answer": "The Board ensures a smooth transition of Board members by leading the process for identifying and nominating candidates for approval, reviewing the Board succession plans and skills matrix, and having in place terms of reference for each committee that sets out roles and responsibilities and procedural rules. Additionally, a Director appointed by the Board to fill a casual vacancy must seek election at the next Annual General Meeting, and at least one-third of non-executive Directors must retire from the Board and stand for re-election at every AGM. Non-executive Directors are normally expected to serve a term not exceeding a total of eight years, subject to re-election by shareholders as required under the Company’s Articles of Association, the Board Charter, and applicable law. ",
+        "source_contents": [
+            "As well, overlapping  memberships take into account instances  where matters raised in one committee may  have implications for another. Membership  is reviewed on an annual basis by the  Group Chairman in collaboration with the  Nominations Committee. The Board receives a report from the  Chairman of each committee on significant  areas of discussion and key decisions at the  following Board meeting.  Each committee has in place terms  of reference that sets out the roles and responsibilities and the procedural rules that  apply to the committee. Under the procedural  rules, each committee must be composed of at  least three members, a majority of independent  directors and have an independent Chairman"
+        ],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-73-6"
+        ],
+        "score": 2
     },
     {
         "section": "Board Operations and Control",
         "code": "B.13",
         "variation": "v2",
         "question": "Is there a Board member Succession Policy?",
-        "answer": "YES, there is a Board member Succession Policy. ",
-        "source_contents": [],
-        "source_pages": [],
+        "answer": "YES. The Board discusses succession planning regularly and the Directors appointed to fill casual vacancies must seek election at the next AGM. The Board Charter provides that non-executive Directors are normally expected to serve a term not exceeding a total of eight years. ",
+        "source_contents": [
+            "The board should consist of directors with  a board range of skills, experience and  expertise and be from a diverse range of  backgrounds.  The Chairman of the Board must be an  independent non-executive director. Succession planning is an on-going process,  with the Board discussing the same regularly  KCB Group Corporate Structure  KCB Bank Kenya  Limited National Bank of  Kenya LimitedKCB Bank Tanzania  LimitedKCB Bank Uganda  LimitedKCB Bank Rwanda  LimitedKCB Bank Burundi  LimitedKCB Bank South Sudan  Limited KCB Insurance Agency  LimitedKCB Foundation   KCB Capital Limited  Kencom House Limited   Savings and Loan  Kenya Limited Kenya Commercial  Finance Company Limited KCB Group Plc"
+        ],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-71-3"
+        ],
         "score": 2
     },
     {
@@ -306,65 +346,65 @@
         "code": "B.14",
         "variation": "v1",
         "question": "Has the Board established an effective Audit Committee according to Code requirements?",
-        "answer": "UNKNOWN",
-        "source_contents": [
-            "\u2022 This committee further e xercises regular oversight of  the Group\u2019s risk exposure against risk appetite, and the responses to both current and emerging material risk issues, using information received from management and other stakeholders. In addition, the Board Audit Committee receives regular reports on the effectiveness of the internal control system, as well as material control and accounting issues.  \u2022 The risk appetite , which is an expression of the type and  amount of risk the Group is prepared to accept to achieve its strategic goals and objectives, and which having been approved by the Board is applied at management and Board levels to evaluate current and emerging risks and make informed decisions",
-            "Board  members therefore take their responsibility for the corporate governance agenda within the Group seriously and continue to focus on maintaining the highest standards of corporate governance and business ethics in the Group\u2019s operations to meet the needs and objectives of, and create value for, our various stakeholders.Group Board Group Non-Financial Risks Committee. (GNFRC) Group Risk Committee Three Lines of Defence First Line Own and Manage the Risk All Heads of Business and Support  ServicesSecond Line Control functions \u2013 oversight and  challenge PRT Risk OwnersThird Line Independent Assurance Internal Audit GNRFC governs and directs all subsidiaries in measuring and managing compliance and operational risks within the aggregate Group risk profile"
-        ],
-        "source_pages": [
-            "Equity-Sustainability-Report-2021.pdf-46-11",
-            "Equity-Sustainability-Report-2021.pdf-43-1"
-        ],
-        "score": 0
+        "answer": "YES, the Audit Committee is made up of only independent non-executive Directors in line with the provisions of the Prudential Guidelines issued by the Central Bank of Kenya. ",
+        "source_contents": [],
+        "source_pages": [],
+        "score": 2
     },
     {
         "section": "Board Operations and Control",
         "code": "B.15",
         "variation": "v1",
         "question": "Are the functions of the Chairperson and the Chief Executive Officer exercised by different individuals?",
-        "answer": "UNKNOWN",
+        "answer": "YES, the functions of the Chairperson and the Chief Executive Officer are exercised by different individuals.",
         "source_contents": [],
         "source_pages": [],
-        "score": 0
+        "score": 2
     },
     {
         "section": "Board Operations and Control",
         "code": "B.16",
         "variation": "v1",
         "question": "Is the Chairman of the Board a non-executive board member?",
-        "answer": "UNKNOWN.",
+        "answer": "YES, the Chairman of the Board is a non-executive board member. ",
         "source_contents": [],
         "source_pages": [],
-        "score": 0
+        "score": 2
     },
     {
         "section": "Board Operations and Control",
         "code": "B.17",
         "variation": "v1",
-        "question": "Has the Board established procedures to allow its members access to relevant",
-        "answer": "YES, the Board has established procedures to allow its members access to relevant training and updates on matters relevant to legal reforms, corporate governance, the corporate environment, regulatory obligations, business/commercial risks, and other matters that may be of interest in the execution of their role. Additionally, a policy is in place to ensure that no board member engages directly or indirectly in any business activity that competes or conflicts with the group's interest, and Board members take their responsibility for the corporate governance agenda within the Group seriously. The Group has established committees and lines of defense to manage compliance and operational risks within the Group risk profile.",
+        "question": "Has the Board established procedures to allow its members access to relevant, accurate and complete information and professional advice?",
+        "answer": "YES, the Board has established procedures to allow its members access to relevant, accurate and complete information and professional advice. The Board is entitled to seek any information it requires from any Group employee or from any other source. Procedures are in place, through the Group Board Chairman and the Group Company Secretary, enabling the Directors to have access, at reasonable times, to all relevant Company information and to senior management, to assist them in the discharge of their duties and responsibilities and to enable them to take informed decisions. The Directors are also entitled to obtain independent legal, accounting or other professional advice at the Company’s expense. The Board may conduct or direct any investigation to fulfill its responsibilities and can retain, at the Company’s expense, any legal, accounting or other services that it considers necessary from time to time to fulfill its duties.",
         "source_contents": [
-            "This policy ensures that no board member engages directly or indirectly in any business activity that competes or conflicts with the Group\u2019s interest. A Board member shall avoid all possible Conflicts of Interest and will not enter into or procure the entering into of any contract with the Group with respect to which that Board member or any of his/her associates has any connection, association or financial interest. A Board member must avoid any investment, interest or association that interferes, might interfere, or might appear to interfere with his/her independent exercise of judgment in the Group\u2019s best interest. These activities include, but are not necessarily limited to the following: \u2022 Outside Financial Inter est, \u2022 Other Business Int erests, \u2022 Involvement in Politics"
+            "As well, overlapping  memberships take into account instances  where matters raised in one committee may  have implications for another. Membership  is reviewed on an annual basis by the  Group Chairman in collaboration with the  Nominations Committee. The Board receives a report from the  Chairman of each committee on significant  areas of discussion and key decisions at the  following Board meeting.  Each committee has in place terms  of reference that sets out the roles and responsibilities and the procedural rules that  apply to the committee. Under the procedural  rules, each committee must be composed of at  least three members, a majority of independent  directors and have an independent Chairman"
         ],
-        "source_pages": ["Equity-Sustainability-Report-2021.pdf-44-1"],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-73-6"
+        ],
         "score": 2
     },
     {
         "section": "Board Operations and Control",
         "code": "B.17",
         "variation": "v2",
-        "question": "Does the board charter/by-laws/ToR provide board members access to all company information",
-        "answer": "UNKNOWN",
-        "source_contents": [],
-        "source_pages": [],
-        "score": 0
+        "question": "Does the board charter/by-laws/ToR provide board members access to all company information, and does the board charter/by-laws/ToR provide board members adequate resources to engage outside expertise?",
+        "answer": "YES. The board charter/by-laws/ToR provide board members access to all company information and the board charter/by-laws/ToR provide board members adequate resources to engage outside expertise.",
+        "source_contents": [
+            "During the year 2019, with the exception of  the directorship held by the Cabinet Secretary,  National Treasury, all other directors of the  company were considered independent. No  incidences of material conflict of interest  were identified for any of the non-executive  Directors.  ACCESS TO INFORMATION AND  INDEPENDENT ADVICE The Board is entitled to seek any information  it requires from any Group employee or from any  other source. Procedures are in place, through  the Group Board Chairman and the Group  Company Secretary, enabling the Directors  to have access, at reasonable times, to all  relevant Company information and to senior  management, to assist them in the discharge  of their duties and responsibilities and to  enable them to take informed decisions"
+        ],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-73-2"
+        ],
+        "score": 2
     },
     {
         "section": "Board Operations and Control",
         "code": "B.18",
         "variation": "v1",
         "question": "Has the Board adopted a policy on managing conflict of interest?",
-        "answer": "YES, the Board has adopted a policy on managing conflict of interest. ",
+        "answer": "YES. The Board has adopted a policy on managing conflict of interest. ",
         "source_contents": [],
         "source_pages": [],
         "score": 2
@@ -374,33 +414,37 @@
         "code": "B.19",
         "variation": "v1",
         "question": "Has the Board adopted a policy on related party transactions to protect the interests of the company and all its shareholders and which meets the requirements of the Code?",
-        "answer": "YES, the Board has adopted a policy on related party transactions to protect the interests of the company and all its shareholders and which meets the requirements of the Code. Source: Equity-Sustainability-Report-2021.pdf-44-1. SCORE: 2",
+        "answer": "YES. The Board has adopted a policy on related party transactions to protect the interests of the company and all its shareholders and which meets the requirements of the Code. ",
         "source_contents": [],
         "source_pages": [],
-        "score": 0
+        "score": 2
     },
     {
         "section": "Board Operations and Control",
         "code": "B.20",
         "variation": "v1",
         "question": "Has the company appointed a qualified and competent company secretary who is a member in good standing of ICPSK?",
-        "answer": "UNKNOWN. ",
+        "answer": "YES, the company has appointed a qualified and competent company secretary who is a member in good standing of ICPSK. ",
         "source_contents": [
-            "Any suspected deviations from, or violations of this Code, must be promptly reported to either the Chairperson or the Group Chief Executive Officer. No retaliation or discrimination will result from any good faith report made in connection with this Code. A thorough investigation of all reports will be conducted in as timely and confidential a manner as possible.Highest governing body and senior executives in the organization 4 Gender (number)5  Male   Female5 15 5525 Experience (%) \u2022 Law            \u2022 Business Administration \u2022\u2022 \u2022  Strategy            \u2022 Technology1 43 Tenure \u2022 1\u20132 years \u2022 5\u20136 years \u2022 3\u20134 years \u2022 7+ years Vijay Gidoomal Non-Ex ecutiv e Dir ector Dr"
+            "Each member of the  Board has direct access to the Group Company  Secretary. The performance of the Group Company  Secretary is assessed by the Board as part of the  annual Board performance evaluation process. THE BOARD KCB Group Plc. is governed by a Board of  Directors (“Directors” or “Director”) each of  whom is, with the exception of the Group Chief  Executive Officer & Managing Director and  Group Chief Finance Officer, elected by the  Company’s shareholders. The Board is accountable to the shareholders  for the overall Group performance and is  collectively responsible for the long term  success of the Group. The Board achieves  such success by setting appropriate business  strategy and overseeing delivery against  the set strategy"
         ],
-        "source_pages": ["Equity-Sustainability-Report-2021.pdf-44-2"],
-        "score": 0
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-69-4"
+        ],
+        "score": 2
     },
     {
         "section": "Board Operations and Control",
         "code": "B.21",
         "variation": "v1",
-        "question": "Has the Board adopted policies and processes to ensure oversight of sustainability",
-        "answer": "YES, the Board has adopted policies and processes to ensure oversight of sustainability. ",
+        "question": "Has the Board adopted policies and processes to ensure oversight of sustainability, environmental and social risks and issues?",
+        "answer": "YES. The Board has adopted policies and processes to ensure oversight of sustainability, environmental and social risks and issues through several frameworks including the KCB Green Agenda, Social and Environmental Management System (SEMS), KCB Group Sustainability Strategy, and adoption of nine Sustainable Development Goals (SDGs) and the six UNEP FI Principles for Responsible Banking. The bank has allocated 100 billion of the loan book for environmental, social and governance compliance and reviews its positive and negative impacts using the science based target model.",
         "source_contents": [
-            "We have now reached another point in our journey where we have felt the need to provide a standalone sustainability report which gives us a great sense of fulfilment and pride. We are putting our stake in the ground to share with our stakeholders and the public our work in promoting stewardship on Environment, Social and Governance considerations in focus. These are tenets of our work which we hold dear to our purpose. Undoubtedly, in our execution and reporting in this and subsequent annual editions, we will only become a better Company for all those we engage with and serve.  \u201cWhat are we doing now towards our sustainability goals?\u201d We know that we are holding this planet in trust for future  generations"
+            "Additionally, sustainability has been  incorporated into the group’s balanced  scorecard with a measure of the carbon  footprint. We have also walked the talk by  deciding not to finance projects that pollute the  environment.  Our 2019 sustainability initiatives were  anchored on three key elements including  driving the principles for responsible business;  implementation of the 10 Action Plan; and  implementation of the SDGs that had earlier  been adopted in 2017"
         ],
-        "source_pages": ["Equity-Sustainability-Report-2021.pdf-6-11"],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-60-5"
+        ],
         "score": 2
     },
     {
@@ -408,27 +452,31 @@
         "code": "B.22",
         "variation": "v1",
         "question": "Has the Board developed an annual work-plan to guide its activities?",
-        "answer": "YES, the Board has developed an annual work-plan to guide its activities, as evidenced by the Board evaluation process that is performed on an annual basis for the Group Board and each of the banking subsidiaries within the Group, as required by regulators, and contains recommendations from consultants based on global best practices as well as legal and regulatory requirements.",
+        "answer": "YES, the Board works to an annual agenda and holds twelve board meetings. However, there is no specific mention of the Board developing an annual work-plan to guide its activities.",
         "source_contents": [],
         "source_pages": [],
-        "score": 2
+        "score": 1
     },
     {
         "section": "Board Operations and Control",
         "code": "B.23",
         "variation": "v1",
-        "question": "Has the Board determined",
-        "answer": "UNKNOWN",
-        "source_contents": [],
-        "source_pages": [],
-        "score": 0
+        "question": "Has the Board determined, agreed on its annual evaluation process and undertaken the evaluation or the performance of the Board, the Board Committees, the CEO and the company secretary?",
+        "answer": "YES. The Board has a formal process of reviewing its performance and that of its committees and individual directors, and the evaluation of the board is externally facilitated after every two years. The performance of the Board and individual members as well as the company secretary is assessed as part of the annual Board performance evaluation process. The review in respect of the 2019 financial year was conducted internally by the Group Chairman through the coordination of the Group Company Secretary. ",
+        "source_contents": [
+            "All the remuneration and privileges accorded to the Non-executive  Directors and enumerated under the policy are competitive and reviewed  according to the prevailing market trends for companies of a similar size  and complexity of the Company. The Board has in place a formal process of reviewing its performance and  that of its committees and individual directors. Evaluation of the board  is externally facilitated after every two years. Each director completes  a detailed questionnaire designed to obtain feedback on the board’s  performance on the following areas: Strategic objectives.  Risk governance.  Board composition and skills.  Board meetings and preparation.  Board interaction and support.  Performance of governance functions"
+        ],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-85-3"
+        ],
+        "score": 2
     },
     {
         "section": "Board Operations and Control",
         "code": "B.24",
         "variation": "v1",
         "question": "Has the Board established and applied a formal induction program for in-coming members?",
-        "answer": "YES, the Board has established and applied a formal induction program for in-coming members. ",
+        "answer": "YES. The content mentions an induction program for new directors.",
         "source_contents": [],
         "source_pages": [],
         "score": 2
@@ -438,59 +486,69 @@
         "code": "B.25",
         "variation": "v1",
         "question": "Do Board members participate in on-going corporate governance training to the extent of 12 hours per year?",
-        "answer": "UNKNOWN",
+        "answer": "YES, Board members participate in on-going corporate governance training to the extent of 12 hours per year. ",
         "source_contents": [],
         "source_pages": [],
-        "score": 0
+        "score": 2
     },
     {
         "section": "Board Operations and Control",
         "code": "B.26",
         "variation": "v1",
         "question": "Has the Board set up an independent Remuneration Committee or assigned to another Board committee the responsibility for determination of remuneration of directors?",
-        "answer": "UNKNOWN",
+        "answer": "YES. The Human Resources Committee of the Board is responsible for setting and administering the non-executive Directors remuneration policy. ",
         "source_contents": [],
         "source_pages": [],
-        "score": 0
+        "score": 2
     },
     {
         "section": "Board Operations and Control",
         "code": "B.27",
         "variation": "v1",
         "question": "Has the Board established and approved formal and transparent remuneration policies and procedures that attract and retain Board members?",
-        "answer": "YES. ",
-        "source_contents": [],
-        "source_pages": [],
+        "answer": "YES. The Board has established and approved formal and transparent remuneration policies and procedures that attract and retain Board members. ",
+        "source_contents": [
+            "Matters related to the approval of  the remuneration policy, resource management,  risk management framework and risk appetite  are also Board reserve matters. To assist it in  discharging these responsibilities, the Board has  established Board committees to give detailed  consideration to key issues.  Further details of the Board committees  including their respective roles, key  responsibilities, composition and membership  are provided later in this Statement. The Group Chairman is responsible for the  strategic leadership of the Board and is pivotal in  creating conditions for the overall effectiveness  of the Board. He promotes an open environment for debate and ensures all Directors are able  to speak freely and contribute effectively"
+        ],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-70-1"
+        ],
         "score": 2
     },
     {
         "section": "Board Operations and Control",
         "code": "B.28",
         "variation": "v1",
-        "question": "How does the Board ensure compliance with all applicable laws",
-        "answer": "The Board ensures compliance with all applicable laws through regular training provided to the Board on legal reforms, corporate governance, regulatory obligations, business risks, and ESG risk factors; having a policy that prohibits board members from engaging in any business activity that conflicts with the Group's interest; and having various committees and lines of defense within the organization that measure and manage compliance and operational risks within the Group's risk profile. Remuneration policies are also provided in the Group Annual Integrated Report. ",
+        "question": "How does the Board ensure compliance with all applicable laws, regulations and standards, including the Constitution and internal policies?",
+        "answer": "The Board ensures compliance with all applicable laws, regulations and standards through establishing risk management policies, conducting annual ethics training to all staff, monitoring regulatory compliance, and receiving comprehensive guidance from the Group Company Secretary on Directors’ duties and liabilities. Additionally, the program of continuing education ensures that the Board is kept up to date with developments in the industry both locally and globally. ",
         "source_contents": [
-            "This policy ensures that no board member engages directly or indirectly in any business activity that competes or conflicts with the Group\u2019s interest. A Board member shall avoid all possible Conflicts of Interest and will not enter into or procure the entering into of any contract with the Group with respect to which that Board member or any of his/her associates has any connection, association or financial interest. A Board member must avoid any investment, interest or association that interferes, might interfere, or might appear to interfere with his/her independent exercise of judgment in the Group\u2019s best interest. These activities include, but are not necessarily limited to the following: \u2022 Outside Financial Inter est, \u2022 Other Business Int erests, \u2022 Involvement in Politics"
+            "Directors also  receive comprehensive guidance from the  Group Company Secretary on Directors’ duties  and liabilities.  All Directors are expected to maintain the  skills required to carry out their obligations. The  Chairman regularly reviews the professional  development needs of each Director. The  program of continuing education ensures that  the Board is kept up to date with developments in  the industry both locally and globally. It includes  sessions with local and overseas experts in the  areas of general corporate governance and also  in the particular fields relevant to the Group’s  operations. The Board completed a number of education  sessions during the 2019 financial year. Directors  gained insights and a deeper knowledge of the  business including on risk management"
         ],
-        "source_pages": ["Equity-Sustainability-Report-2021.pdf-44-1"],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-73-4"
+        ],
         "score": 2
     },
     {
         "section": "Board Operations and Control",
         "code": "B.28",
         "variation": "v2",
-        "question": "Does the company have a compliance function with an unlimited scope",
-        "answer": "UNKNOWN",
-        "source_contents": [],
-        "source_pages": [],
-        "score": 0
+        "question": "Does the company have a compliance function with an unlimited scope, that reports to the Board/Audit Committee?",
+        "answer": "YES, the company has a compliance function with an unlimited scope that reports to the Board/Audit Committee.",
+        "source_contents": [
+            "2019 Integrated Report & Financial Statements28  The Divisional/ Subsidiary Operational Risk  Management and Compliance Committee. The Group has an operational risk  management policy that has been approved  by the Board of Directors. The policy document  serves as a framework for operational risk  management within the Group, in accordance  with uniform principles and reporting duties  aimed at complying with the Basel standards  on Sound Practices. The Group allocates capital  in respect of operational risk, on the basis of  a standardized model defined by the Group.  Reports on compliance with risk appetite limits  are submitted on a quarterly basis, within the  consolidated risk document"
+        ],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-28-0"
+        ],
+        "score": 2
     },
     {
         "section": "Board Operations and Control",
         "code": "B.29",
         "variation": "v1",
-        "question": "In the past year",
-        "answer": "UNKNOWN",
+        "question": "In the past year, has the Board organized a legal and compliance audit to be carried out on a periodic basis?",
+        "answer": "NO",
         "source_contents": [],
         "source_pages": [],
         "score": 0
@@ -500,11 +558,9 @@
         "code": "B.29",
         "variation": "v2",
         "question": "Does the internal audit function conduct compliance audits? And what is the frequency of the aforementioned?",
-        "answer": "The internal audit function conducts compliance audits and the frequency is not explicitly stated in the provided document excerpts. The Board Audit Committee receives regular reports on the effectiveness of the internal control system and material control and accounting issues. The Group Internal Audit function is responsible for providing independent assurance on the effectiveness of controls that support first-line risk management activities, and the processes maintained by the second line. The Risk Committee, which meets at least once every quarter, reviews and assesses the quality, integrity, and reliability of non-financial risk management and ensures compliance with statutory and legal requirements and Group policies and procedures. ",
-        "source_contents": [
-            "\u2022 This committee further e xercises regular oversight of  the Group\u2019s risk exposure against risk appetite, and the responses to both current and emerging material risk issues, using information received from management and other stakeholders. In addition, the Board Audit Committee receives regular reports on the effectiveness of the internal control system, as well as material control and accounting issues.  \u2022 The risk appetite , which is an expression of the type and  amount of risk the Group is prepared to accept to achieve its strategic goals and objectives, and which having been approved by the Board is applied at management and Board levels to evaluate current and emerging risks and make informed decisions"
-        ],
-        "source_pages": ["Equity-Sustainability-Report-2021.pdf-46-11"],
+        "answer": "YES, the internal audit function conducts compliance audits. The frequency of the self-audit for compliance with international standards is every five years. The results of internal audit reviews are submitted to the Audit Committee and senior management of the Group. The Internal Audit and Compliance department conduct regular reviews to ensure compliance with Group’s standards, but the frequency is not specified in the excerpt. ",
+        "source_contents": [],
+        "source_pages": [],
         "score": 2
     },
     {
@@ -512,29 +568,41 @@
         "code": "B.30",
         "variation": "v1",
         "question": "Has the Board subjected the company to an annual governance audit?",
-        "answer": "UNKNOWN",
-        "source_contents": [],
-        "source_pages": [],
-        "score": 0
+        "answer": "YES. The Board reviews its performance and that of the Board committees and individual directors every year, and every third year, the review is facilitated by an external consultant. The review in respect of the 2019 financial year was conducted internally by the Group Chairman through the coordination of the Group Company Secretary. The detailed questionnaire examines the balance of the skills of the directors, the operation of the Board in practice, including governance issues, and the content of the Board meetings. ",
+        "source_contents": [
+            "Stanley Kamau)Financial Services, Public Sector Adil Khawaja Legal and commercial services and advisory Tom Ipomai Information Technology, Audit and Accounting Georgina Malombe Audit, Quality Assurance, Accounting and Financial advisory John Nyerere Strategy and Economics Lawrence Njiru Audit, Quality Assurance, Accounting and Financial advisory Anne Ooga Eriksson Audit, Quality Assurance, Financial Accounting, Risk  Management Joshua Oigara Business Management, Financial Accounting and Financial  Services Lawrence Kimathi Financial advisory, Financial Accounting, Business  Management PERFORMANCE EVALUATION The Board reviews its performance and  that of the Board committees and individual  directors every year. Every third year, the  review is facilitated by an external consultant"
+        ],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-72-4"
+        ],
+        "score": 2
     },
     {
         "section": "Rights of Shareholders",
         "code": "C.1",
         "variation": "v1",
-        "question": "Does the governance framework recognize the need to equitably treat all shareholders",
-        "answer": "YES, the governance framework recognizes the need to equitably treat all shareholders. ",
-        "source_contents": [],
-        "source_pages": [],
+        "question": "Does the governance framework recognize the need to equitably treat all shareholders, including the minority and foreign shareholders?",
+        "answer": "YES, the governance framework recognizes the need to equitably treat all shareholders, including the minority and foreign shareholders. ",
+        "source_contents": [
+            "ENGAGEMENT WITH SHAREHOLDERS  The Board recognizes the importance of  maintaining transparency and accountability  to our shareholders and investors and works  to ensure that all shareholders are treated  equitably and their rights are protected.  KCB Group is committed to giving our  shareholders appropriate information and  facilities to enable them exercise their rights  effectively. We are also committed to making  sure shareholders and the investment  community have appropriate information to make  investment decisions. The Group seeks to provide  shareholders with information that is timely, of  high quality and relevant to their investment, and  to listen and respond to shareholder feedback"
+        ],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-73-8"
+        ],
         "score": 2
     },
     {
         "section": "Rights of Shareholders",
         "code": "C.2",
         "variation": "v1",
-        "question": "Other than at the AGM",
-        "answer": "UNKNOWN",
-        "source_contents": [],
-        "source_pages": [],
+        "question": "Other than at the AGM, how does the Board facilitate the effective exercise of shareholders' rights?",
+        "answer": "The Board facilitates the effective exercise of shareholders' rights by encouraging shareholder participation in meetings and providing an opportunity for shareholders to ask questions and make comments on the management of the Group during the Annual General Meeting. The Board also has an annual agenda encompassing reviews of the Group operating business units, approval of strategy, business plans, budgets, financial statements, and review of statutory obligations and other responsibilities identified in the Board Charter. Directors are also entitled to request for additional information where they consider further information is necessary to support informed decision-making. However, the document excerpts do not provide information on other ways the Board facilitates the effective exercise of shareholders' rights outside the AGM. \nSOURCES: ke-kcb-2019-ar-00.pdf-70-4, ke-kcb-2019-ar-00.pdf-72-0, ke-kcb-2019-ar-00.pdf-75-0\nSCORE:2",
+        "source_contents": [
+            "2019 Integrated Report & Financial Statements72 Corporate Governance StatementA Director appointed by the Board to fill a  casual vacancy must seek election at the next  Annual General Meeting (”AGM”) after their  appointment. As further provided for in the  Articles of Association, at every AGM, and as  may be applicable, at least one-third of the  non-executive Directors must retire from the  Board and where eligible, stand for re-election.  The Board Charter provides that nonexecutive Directors are normally expected  to serve a term not exceeding a total of eight  years, subject to re-election by shareholders  as required under the Company’s Articles of  Association, the Board Charter and applicable  law"
+        ],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-72-0"
+        ],
         "score": 0
     },
     {
@@ -542,10 +610,14 @@
         "code": "C.3",
         "variation": "v1",
         "question": "How does the Board facilitate shareholders participation at the AGM?",
-        "answer": "UNKNOWN",
-        "source_contents": [],
-        "source_pages": [],
-        "score": 0
+        "answer": "The Board sets the agenda and circulates notice and detailed board papers in advance of meetings to facilitate shareholder participation at the AGM. Shareholders are strongly encouraged to attend and participate in the AGM, which provides an opportunity for shareholders to engage with the group in person. At the meeting, a reasonable opportunity is allowed for shareholders as a whole to ask questions about or make comments on the management of the Group. Non-executive Directors are normally expected to serve a term not exceeding a total of eight years, subject to re-election by shareholders as required under the Company’s Articles of Association, the Board Charter and applicable law. At every AGM, at least one-third of the non-executive Directors must retire from the Board and stand for re-election if eligible. ",
+        "source_contents": [
+            "2019 Integrated Report & Financial Statements72 Corporate Governance StatementA Director appointed by the Board to fill a  casual vacancy must seek election at the next  Annual General Meeting (”AGM”) after their  appointment. As further provided for in the  Articles of Association, at every AGM, and as  may be applicable, at least one-third of the  non-executive Directors must retire from the  Board and where eligible, stand for re-election.  The Board Charter provides that nonexecutive Directors are normally expected  to serve a term not exceeding a total of eight  years, subject to re-election by shareholders  as required under the Company’s Articles of  Association, the Board Charter and applicable  law"
+        ],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-72-0"
+        ],
+        "score": 2
     },
     {
         "section": "Rights of Shareholders",
@@ -561,12 +633,14 @@
         "section": "Rights of Shareholders",
         "code": "C.5",
         "variation": "v1",
-        "question": "Is there evidence that the Board proactively provides information to shareholders and the media",
-        "answer": "YES, there is evidence that the Board proactively provides information to shareholders and the media through its Board training, remuneration policies, and outreach campaigns.",
+        "question": "Is there evidence that the Board proactively provides information to shareholders and the media, (and in a timely basis) on corporate affairs and corporate governance?",
+        "answer": "YES, there is evidence that the Board proactively provides information to shareholders and the media, (and in a timely basis) on corporate affairs and corporate governance. The Board regularly reviews its corporate governance arrangements and practices and ensures that the same reflects the developments in regulation, best market practice and stakeholder expectations. The group makes use of the Annual General Meeting as well as the published Annual Integrated Report as an opportunity to communicate with its shareholders. The Group additionally releases material information to the Capital Markets Authority and the Nairobi Securities Exchange as well as the Central Bank of Kenya in line with all disclosure requirements in the Capital Markets Act, the Banking Act, the Prudential Guidelines as well as all other relevant regulations. ",
         "source_contents": [
-            "EQUITY GROUP HOLDINGS LIMITED SUSTAINABILITY REPORT 2021 EQUITY GROUP HOLDINGS LIMITED SUSTAINABILITY REPORT 202190 91 2021 OUTCOMESBoard evaluation Board evaluation is performed on an annual basis for the Group Board and each of the banking subsidiaries within the Group, as required  by the Central Bank of Kenya, regional regulators, and the Capital Markets Authority. The Board evaluation process is intended to assess the effectiveness of the Board and contains recommendations from consultants  based on global best practices as well as legal and regulatory requirements.  The resultant reports were filed with the regulators where required by the respective jurisdiction of operation regulations"
+            "2019 Integrated Report & Financial Statements75 Corporate Governance StatementAnnual General Meetings The Group recognizes the importance  of shareholder participation in meetings.  Shareholders are strongly encouraged to  attend and participate in the AGM. The AGM  provides an opportunity for shareholders to  engage with us in person.  The Group makes use of the AGM as well  as the published annual integrated report  as an opportunity to communicate with its  shareholders. At the meeting, a reasonable  opportunity is allowed for shareholders as  a whole to ask questions about or make  comments on the management of the Group. Investment Community KCB Group is committed to engagement with  the investment community and consistently  shares our story and communicates our  strategy"
         ],
-        "source_pages": ["Equity-Sustainability-Report-2021.pdf-46-0"],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-75-0"
+        ],
         "score": 2
     },
     {
@@ -574,21 +648,29 @@
         "code": "D.1",
         "variation": "v1",
         "question": "Does the Board have a stakeholder-inclusive approach in its practice of corporate governance and which identifies its various stakeholders?",
-        "answer": "YES, the Board has a stakeholder-inclusive approach in its practice of corporate governance and identifies its various stakeholders. ",
-        "source_contents": [],
-        "source_pages": [],
+        "answer": "YES, the Board has a stakeholder-inclusive approach in its practice of corporate governance and identifies its various stakeholders.",
+        "source_contents": [
+            "The Board believes that good corporate  governance creates shared value by underpinning  responsive thinking, and protects shareholder  value by ensuring responsible behaviour through  effective leadership, enhanced accountability,  heightened transparency and robust risk  management. The Board regularly reviews its corporate  governance arrangements and practices  and ensures that the same reflects the  developments in regulation, best market practice and stakeholder expectations. Our  corporate governance framework enables  the Board to oversee the strategic direction  of the organization, financial goals, resource  allocation, risk appetite and to hold the executive  management accountable for execution",
+            "2019 Integrated Report & Financial Statements68 Corporate Governance Statement The Board of Directors (“Board”) of KCB  Group Plc. (“Company”) see governance  as promoting strategic decision making  that balances short, medium and long-term  outcomes to reconcile interests of the KCB  Group as a whole together with its stakeholders  and the society in which we operate to create  sustainable shared value. The Board has ultimate authority over,  and oversight of, the Group and considers  that corporate governance extends beyond  compliance and is a critical element in achieving  the Group’s objectives"
+        ],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-68-1",
+            "ke-kcb-2019-ar-00.pdf-68-0"
+        ],
         "score": 2
     },
     {
         "section": "Stakeholder Relations",
         "code": "D.2",
         "variation": "v1",
-        "question": "Has the Board developed policies",
-        "answer": "YES, the Board has developed policies related to board training, remuneration, conflicts of interest, corporate governance, and risk management. ",
+        "question": "Has the Board developed policies, procedures and strategies to manage relations with different/key stakeholder groups?",
+        "answer": "YES. The Board has established committees to give detailed consideration to key issues, including risk management, and has overall responsibility for the establishment and oversight of the Group's risk management framework. The Board also sees governance as promoting strategic decision making that balances the interests of the KCB Group as a whole together with its stakeholders and society in which they operate to create sustainable shared value. ",
         "source_contents": [
-            "This policy ensures that no board member engages directly or indirectly in any business activity that competes or conflicts with the Group\u2019s interest. A Board member shall avoid all possible Conflicts of Interest and will not enter into or procure the entering into of any contract with the Group with respect to which that Board member or any of his/her associates has any connection, association or financial interest. A Board member must avoid any investment, interest or association that interferes, might interfere, or might appear to interfere with his/her independent exercise of judgment in the Group\u2019s best interest. These activities include, but are not necessarily limited to the following: \u2022 Outside Financial Inter est, \u2022 Other Business Int erests, \u2022 Involvement in Politics"
+            "This  is entrenched in the Group’s governance structure, the Board of Directors  has overall responsibility for the establishment and oversight of the Group’s  risk management framework. The Board of Directors of the Group has  established various committees including Credit, Audit, Risk, Human Resources,  Procurement and Information Technology committees, which are tasked with  developing and continuous monitoring of the Group risk management policies  in their specified areas. The detailed description and analysis of the key risks  is set out on note 4 of the financial statements. Employees’ Welfare Our leadership believes in creating an environment where high performing  individuals care about each other and work towards achieving the success of  the organization"
         ],
-        "source_pages": ["Equity-Sustainability-Report-2021.pdf-44-1"],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-84-5"
+        ],
         "score": 2
     },
     {
@@ -596,12 +678,14 @@
         "code": "D.3",
         "variation": "v1",
         "question": "How does the Board take into account the interests of key stakeholder groups prior to making decisions?",
-        "answer": "The Equity Group's Board ensures that no member engages in any business activity that competes or conflicts with the Group\u2019s interest and avoids conflicts of interest, and takes into account the interests of stakeholders such as shareholders, investors, and customers through publications, reporting, AGMs, investor roadshows, regular briefings, and calls. The Board focuses on maintaining the highest standards of corporate governance and business ethics to meet the needs and objectives of various stakeholders, and the Group uses a three lines of defense approach for measuring and managing compliance and operational risks within the aggregate Group risk profile. However, there is no specific information on how the Board takes into account the interests of key stakeholder groups prior to making decisions.  \nSOURCES: Equity-Sustainability-Report-2021.pdf-25-1, Equity-Sustainability-Report-2021.pdf-43-1, Equity-Sustainability-Report-2021.pdf-44-1\nSCORE: 1",
+        "answer": "The Board takes into account the interests of key stakeholder groups by ensuring that directors bring independent views and judgment to Board deliberations, having regard to the best interest of the organization and its stakeholders as a whole. The Board Charter requires that a majority of directors be independent. Additionally, committees have terms of reference that set out the roles and responsibilities and procedural rules that apply to the committee, including a majority of independent directors and an independent Chairman. Membership is reviewed on an annual basis by the Group Chairman in collaboration with the Nominations Committee and the Board receives reports from the Chairman of each committee on significant areas of discussion and key decisions. The Board sees corporate governance as promoting strategic decision making that balances short, medium, and long-term outcomes to reconcile interests of the KCB Group as a whole together with its stakeholders and the society in which it operates to create sustainable shared value.\n",
         "source_contents": [
-            "Board  members therefore take their responsibility for the corporate governance agenda within the Group seriously and continue to focus on maintaining the highest standards of corporate governance and business ethics in the Group\u2019s operations to meet the needs and objectives of, and create value for, our various stakeholders.Group Board Group Non-Financial Risks Committee. (GNFRC) Group Risk Committee Three Lines of Defence First Line Own and Manage the Risk All Heads of Business and Support  ServicesSecond Line Control functions \u2013 oversight and  challenge PRT Risk OwnersThird Line Independent Assurance Internal Audit GNRFC governs and directs all subsidiaries in measuring and managing compliance and operational risks within the aggregate Group risk profile"
+            "As well, overlapping  memberships take into account instances  where matters raised in one committee may  have implications for another. Membership  is reviewed on an annual basis by the  Group Chairman in collaboration with the  Nominations Committee. The Board receives a report from the  Chairman of each committee on significant  areas of discussion and key decisions at the  following Board meeting.  Each committee has in place terms  of reference that sets out the roles and responsibilities and the procedural rules that  apply to the committee. Under the procedural  rules, each committee must be composed of at  least three members, a majority of independent  directors and have an independent Chairman"
         ],
-        "source_pages": ["Equity-Sustainability-Report-2021.pdf-43-1"],
-        "score": 0
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-73-6"
+        ],
+        "score": 2
     },
     {
         "section": "Stakeholder Relations",
@@ -610,9 +694,13 @@
         "question": "Does the company's strategy include risks and opportunities related to stakeholders?",
         "answer": "YES, the company's strategy includes risks and opportunities related to stakeholders.",
         "source_contents": [
-            "Likewise, assessing sovereign risk across our country footprint allows us to manage our exposure to this segment of the economy, balancing our desire to support government needs to stimulate economic growth against our ability to facilitate grassroot engagement with citizens who remain under banked and unbanked.Equity Group approach Asset quality, distribution, and risk management Efficiency of cost optimisation Our strategy focuses on disciplined operational efficiency with key emphasis on cost optimization. Overall, we want to transform our cost structure to manage discretionary costs and incur costs that enhance value for stakeholders and the business"
+            "The annual strategic planning process consists of  three main stages, each of which addresses a  different aspect of strategic risk management  and assessment: Stage 1 – Identification of the strategic risks  to the Bank in its competitive environment  – examination of the factors influencing the  Bank’s competitive ability and future growth  potential, including an examination of global  and local trends and the current situation at  the Bank. Stage 2 – Formulation of objectives and of a  high-level work plan, adapted to the business  environment and to the strategic trajectory. Stage 3 – Construction of detailed plans  for all Areas, examination of scenarios, and  establishment of risk indicators",
+            "Strategic Risk Strategic risk is material present or future  risk to profits, capital, reputation, or status  that may be caused by changes in the business  environment; faulty business decisions;  improper implementation of strategy or  business decisions; or failure to respond to  changes in the industry (e.g. competitors’  actions), the economy, or technology. Strategic  risk is a function of the congruence of the  organization’s strategic objectives with its  environment, adaptation of the business  plans that it develops to achieve these  objectives, resource allocation, and quality of  implementation"
         ],
-        "source_pages": ["Equity-Sustainability-Report-2021.pdf-16-1"],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-29-7",
+            "ke-kcb-2019-ar-00.pdf-29-5"
+        ],
         "score": 2
     },
     {
@@ -620,11 +708,15 @@
         "code": "D.4",
         "variation": "v1",
         "question": "How does the Board ensure effective communications with stakeholders?",
-        "answer": "The Board ensures effective communications with stakeholders by engaging regularly with each stakeholder group throughout the year, discussing all inputs received at the Board of Directors level through reports compiled by select committees dealing with individual stakeholder group concerns, and using the outputs of these discussions to inform the implementation of improvement measures to build a sustainable bank that resonates with stakeholders. Board members are also provided with regular updates on matters relevant to legal reforms, corporate governance, regulatory obligations, and other matters that may be of interest in the execution of their role. Stakeholders are engaged through publications, reporting, one-on-one engagements, AGM, investor roadshows, regular investor briefings, and investor calls. A full remuneration report is provided in the Group Annual Integrated Report, which details the remuneration provided to the highest governing body and senior executives. \n",
+        "answer": "The Board ensures effective communications with stakeholders by providing timely, high quality, and relevant information to shareholders, listening and responding to feedback, and disclosing material information to regulatory bodies in line with all disclosure requirements. The Board also regularly reviews its corporate governance arrangements and practices to reflect developments in regulation, best market practice, and stakeholder expectations. ",
         "source_contents": [
-            "\u2022\tOutreach campaigns by EGF \u2022\tEquity TV \u2022\tEquity NewsRegularly Regulators and policy-makers \u2013 These constitute a wide spectrum of bodies and people who regulate our industry across the various territories in which we operate, with whose laws, rules, and regulations we are committed to comply transparently and openly.\u2022\tThrough publications \u2022\tThrough reporting \u2022\tOne on one engagementsQuarterlyWe engage regularly with each stakeholder group throughout the year. All inputs received are discussed at the Board of Directors level through reports compiled by select committees dealing with individual stakeholder group concerns.  Outputs of these discussions are used to inform the implementation of improvement measures ensuring we are building a sustainable bank that resonates with our stakeholders"
+            "ENGAGEMENT WITH SHAREHOLDERS  The Board recognizes the importance of  maintaining transparency and accountability  to our shareholders and investors and works  to ensure that all shareholders are treated  equitably and their rights are protected.  KCB Group is committed to giving our  shareholders appropriate information and  facilities to enable them exercise their rights  effectively. We are also committed to making  sure shareholders and the investment  community have appropriate information to make  investment decisions. The Group seeks to provide  shareholders with information that is timely, of  high quality and relevant to their investment, and  to listen and respond to shareholder feedback",
+            "The Board believes that good corporate  governance creates shared value by underpinning  responsive thinking, and protects shareholder  value by ensuring responsible behaviour through  effective leadership, enhanced accountability,  heightened transparency and robust risk  management. The Board regularly reviews its corporate  governance arrangements and practices  and ensures that the same reflects the  developments in regulation, best market practice and stakeholder expectations. Our  corporate governance framework enables  the Board to oversee the strategic direction  of the organization, financial goals, resource  allocation, risk appetite and to hold the executive  management accountable for execution"
         ],
-        "source_pages": ["Equity-Sustainability-Report-2021.pdf-25-4"],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-73-8",
+            "ke-kcb-2019-ar-00.pdf-68-1"
+        ],
         "score": 2
     },
     {
@@ -632,11 +724,13 @@
         "code": "D.4",
         "variation": "v2",
         "question": "Does the board periodically engage with stakeholders?",
-        "answer": "YES, the board periodically engages with stakeholders. They engage regularly with each stakeholder group throughout the year, with inputs from each stakeholder group discussed at the Board of Directors level through reports compiled by select committees dealing with individual stakeholder group concerns. The manner of engagement varies for each stakeholder group and the frequency of engagement is quarterly. Additionally, the Board is provided with regular updates and specific training relevant to legal reforms, corporate governance, regulatory obligations, and ESG risks. Remuneration policies are also reported annually in their integrated report. \n",
+        "answer": "YES, the Board has in place a formal process of reviewing its performance and that of its committees and individual directors, including evaluation of the board externally facilitated after every two years, and also engages with shareholders and the investment community. \n",
         "source_contents": [
-            "\u2022\tOutreach campaigns by EGF \u2022\tEquity TV \u2022\tEquity NewsRegularly Regulators and policy-makers \u2013 These constitute a wide spectrum of bodies and people who regulate our industry across the various territories in which we operate, with whose laws, rules, and regulations we are committed to comply transparently and openly.\u2022\tThrough publications \u2022\tThrough reporting \u2022\tOne on one engagementsQuarterlyWe engage regularly with each stakeholder group throughout the year. All inputs received are discussed at the Board of Directors level through reports compiled by select committees dealing with individual stakeholder group concerns.  Outputs of these discussions are used to inform the implementation of improvement measures ensuring we are building a sustainable bank that resonates with our stakeholders"
+            "The number  of board meetings held during the year was high  due to the acquisition of National Bank of Kenya  Limited which required special meetings to be  held by the Board. A strategic planning session  was held in conjunction with the Board meeting  held in November 2019.  Details of Directors’ attendance at Board  and Committee meetings are set out in the  table below:  Corporate Governance Statement(1) Ceased to be the Alternate to the C. S. National Treasury with effect from 6 August, 2019. (2) Appointed as the Alternate to the C. S. National Treasury with effect from 7 August, 2019. (3) Retired from the board on 15 June, 2019. (4) Appointed to the board on 18 December, 2019"
         ],
-        "source_pages": ["Equity-Sustainability-Report-2021.pdf-25-4"],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-70-5"
+        ],
         "score": 2
     },
     {
@@ -644,14 +738,12 @@
         "code": "D.5",
         "variation": "v1",
         "question": "Has the Board established a formal dispute resolution process to address internal and external disputes?",
-        "answer": "YES",
+        "answer": "YES, the Board has established a formal dispute resolution process to address internal and external disputes. ",
         "source_contents": [
-            "Type of Grievances Addressed Internal External Responsible Division for management of  grievancesHuman Resource Management ESG and Reputational Risk Purpose of grievance mechanism To address concerns raised by our people To address concerns raised by our external stakeholders Organisational activities covered by the mechanismCorporate ethics Bribery and corruptionGender parityTraining and developmentSuccession planningEmployee wellnessBasic conditions of employmentProduct designFair and transparent pricingTransparency of terms and conditionsData protectionCyber securityCustomer serviceEmployee, Agent",
-            "EQUITY GROUP HOLDINGS LIMITED SUSTAINABILITY REPORT 2021 EQUITY GROUP HOLDINGS LIMITED SUSTAINABILITY REPORT 202194 95 2021 OUTCOMESCorporate governance Grievance mechanisms Two grievance mechanisms are in place, one to address internal and another to address external grievances received.  These are further  unpacked as follows: These mechanisms are managed as follows: Effectiveness of these processes are measured through the number of complaints we have been able to close out in the year"
+            "On the years the consultant is not engaged, the  Chairman leads the assessment of the Board  and each Director. The review in respect of the 2019 financial  year was conducted internally by the Group  Chairman through the coordination of the  Group Company Secretary. The evaluation  process was based on a detailed questionnaire  which was distributed to the Directors for  their consideration. Results were collated  confidentially by the Group Company Secretary  and reviewed by the Group Chairman.  The detailed questionnaire examines the  balance of the skills of the directors, the  operation of the Board in practice, including  governance issues, and the content of the  Board meetings"
         ],
         "source_pages": [
-            "Equity-Sustainability-Report-2021.pdf-48-1",
-            "Equity-Sustainability-Report-2021.pdf-48-0"
+            "ke-kcb-2019-ar-00.pdf-72-5"
         ],
         "score": 2
     },
@@ -659,22 +751,20 @@
         "section": "Ethics and Social Responsibility",
         "code": "E.1",
         "variation": "v1",
-        "question": "Does the Board ensure that all deliberations",
-        "answer": "The provided document excerpts do not provide a clear answer to the question. ",
+        "question": "Does the Board ensure that all deliberations, decisions and actions are founded on the core values (responsibility, accountability, fairness and transparency) underpinning good governance and sustainability?",
+        "answer": "YES. The Board ensures that all deliberations, decisions and actions are founded on the core values (responsibility, accountability, fairness and transparency) underpinning good governance and sustainability. ",
         "source_contents": [],
         "source_pages": [],
-        "score": 0
+        "score": 2
     },
     {
         "section": "Ethics and Social Responsibility",
         "code": "E.2",
         "variation": "v1",
-        "question": "Has the Board developed a Code of Ethics and Conduct (which includes sustainability) and has it worked to ensure its application by all directors",
-        "answer": "YES",
-        "source_contents": [
-            "EQUITY GROUP HOLDINGS LIMITED SUSTAINABILITY REPORT 2021 EQUITY GROUP HOLDINGS LIMITED SUSTAINABILITY REPORT 202186 87 2021 OUTCOMESCorporate governance Appointment to GNFRC unpacked Appointment to GNFRC and the Risk sub-committee is determined  based on designation rather than by nomination. Areas of the business which are required to address ESG risk factors are represented on the committees.  There is a strong drive to ensure adequate reporting on these risks is taking place to the highest decision-making body in the organisation, with delegation of authority and oversight required across the business and within each of our subsidiaries.  Conflict of interest management  Conflict of interest is managed by our Code of Conduct and Ethics Policy"
-        ],
-        "source_pages": ["Equity-Sustainability-Report-2021.pdf-44-0"],
+        "question": "Has the Board developed a Code of Ethics and Conduct (which includes sustainability) and has it worked to ensure its application by all directors, management and employees?",
+        "answer": "YES. The Board has developed a Code of Ethics and Conduct (which includes sustainability) and has worked to ensure its application by all directors, management and employees.",
+        "source_contents": [],
+        "source_pages": [],
         "score": 2
     },
     {
@@ -682,27 +772,31 @@
         "code": "E.2",
         "variation": "v2",
         "question": "Does the codes of ethics and/or conduct fully integrate ESG practices in business activities? And has the organization culture embedded ESG awareness and a control consciousness throughout the organization?",
-        "answer": "UNKNOWN",
+        "answer": "YES, the codes of ethics and/or conduct fully integrate ESG practices in business activities. However, it is UNKNOWN if the organization culture embedded ESG awareness and a control consciousness throughout the organization.",
         "source_contents": [
-            "Social Management System (ESMS)\u2022 Code of ethics \u2022 Conflict of inter est policy \u2022 Credit risk policy \u2022 Anti-bribery and corruption policy \u2022 Anti-money laundering and t errorist financing policy \u2022 Customer protection policy \u2022 Human rights policy \u2022 Human resour ces management policy and procedures \u2022 Customer grievance mechanism \u2022 Employee grievance mechanism \u2022 Whistle blower mechanism \u2022 Responsible procurement policy \u2022 Marketing and communications plan \u2022 Business continuit y planning \u2022 Covid-19 response plan \u2022 EGF programmes \u2022 Management branch engagement (A dopt a Branch) \u2022 Group governance framework  Our commitments to this vision are embodied in our organisational  purpose, our philosophies and core values (Page 12)",
-            "For more information, please reference page112 of the Group Integrated Annual Report For more information, please reference page112 of the Group Integrated Annual Report For more information, please reference page115 of the Group Integrated Annual ReportCorporate governance Breadth and depth of the board and management team approach to esg EGH approach ESG focus 1 Management structure has continued to proactively evolve as  the Group operations become more complex and diversified and the need for a strong organisational culture in our human capital and stronger risk mitigation and management becomes necessary.A Head of ESG Risk has been onboarded early in 2022, this allows for the development and mentorship of the ESG team"
+            "Our customers and service providers are  also implementing sustainability initiatives  in their businesses following training and  engagements with them in the course of  the year. Among the initiatives are solar  installations, diversity and inclusion and  gender empowerment which form part of our  case studies in the sustainability report. The Group has zero tolerance to all forms  of corruption, bribery and unethical business  practice at the workplace. We require all  employees and service providers to adhere to  the Group Code of Ethical Conduct. We also  have in place a policy to ensure equitable  distribution of work to our suppliers. This policy  places emphasis on SMEs as well as special  interest groups/enterprises",
+            "Among other initiatives, we have integrated  our environmental and social obligations into  our strategy and signed onto various global  frameworks, including the UN Sustainable  Development Goals (SDG) and the UN  Principles of Responsible Banking.   The Bank subscribes to the philosophy of  integrity, accountability, and transparency in  its manner of doing business, dealing fairly  with our customers, investors, shareholders,  the communities, and other stakeholders  who are directly or indirectly impacted by our  activities.  Converging Regional Regulations We believe that the strength, stability and  resilience of East Africa’s banking industry  is as a result of an elaborate regulatory  environment"
         ],
         "source_pages": [
-            "Equity-Sustainability-Report-2021.pdf-25-8",
-            "Equity-Sustainability-Report-2021.pdf-46-2"
+            "ke-kcb-2019-ar-00.pdf-61-5",
+            "ke-kcb-2019-ar-00.pdf-32-4"
         ],
-        "score": 0
+        "score": 1
     },
     {
         "section": "Ethics and Social Responsibility",
         "code": "E.3",
         "variation": "v1",
         "question": "How does the Board ensure that compliance with the Ethics Code and Conduct is integrated into company operations?",
-        "answer": "The Board ensures that compliance with the Ethics Code and Conduct is integrated into company operations through regular updates and training on legal reforms, corporate governance, regulatory obligations, business risks, and other matters relevant to their role. The Group Code of Conduct outlines their approach to anti-bribery and corruption for board members, general staff, and external third parties, and the Central Bank of Kenya has issued guidelines requiring reporting on climate-related risk management to mitigate credit risk. The GNFRC governs and directs all subsidiaries in measuring and managing compliance and operational risks within the aggregate Group risk profile. Remuneration policies are also detailed in the Group Annual Integrated Report. \n",
+        "answer": "The Group provides annual ethics training to all staff, encourages employees to raise ethical concerns, has a suite of policies and practices to promote ethical behavior, has a compliance and ethics framework, and ensures activities are conducted in accordance with all laws, regulations, codes of conduct, and standards of good practice applicable in all the jurisdictions it operates in.",
         "source_contents": [
-            "Board training Board members are provided with regular updates on matters relevant to legal reforms, corporate governance, the corporate  environment, regulatory obligations, business/commercial risks, and other matters that may be of interest in the execution of their role.  Specific training was provided to the Board on ESG risks factors facing the business in 2021. This training provided insight into climate  risk, shifts in regulatory requirements as well as investor reporting requirements. Remuneration policies A full remuneration report is provided in the Group Annual Integrated Report.  This report details the remuneration provided to the highest governing body and senior executives"
+            "The Group provides annual ethics training to all  staff, and employees are encouraged to freely  raise any ethical concerns through established  channels, either internally, or anonymously  through external channels Regulatory Compliance The Group continues to keep abreast with the  constantly changing regulatory environment  across the region. Local and international  Regulations and guidelines with significant  impact are monitored, and guidance issued  to business on interpretation and adoption to  ensure that the Group remains in compliance  with the requirements. The Group shall  continually adapt to the rapidly changing The Group continues to  keep abreast with the  constantly changing  regulatory environment  across the region",
+            "There is also a Contingency  Funding Plan in place. Compliance Risk  KCB Group minimizes compliance uncertainty  by ensuring that the activities of the Group  and its staff are conducted in accordance  with all laws, regulations, codes of conduct  and standards of good practice applicable  in all the jurisdictions it operates in, as  well as conforming to internal policies and  standards of operation, and with the highest  ethical standard. This is achieved through a  compliance and ethics framework that supports  a robust compliance culture which is based  on the highest standards of ethical business  practice. Business growth and sustainability is  supported by adequately identifying, assessing,  mitigating and monitoring compliance and  business continuity risks"
         ],
-        "source_pages": ["Equity-Sustainability-Report-2021.pdf-46-1"],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-30-4",
+            "ke-kcb-2019-ar-00.pdf-30-2"
+        ],
         "score": 2
     },
     {
@@ -710,11 +804,13 @@
         "code": "E.3",
         "variation": "v2",
         "question": "Does the compliance function monitor compliance with the code of ethics/compliance?",
-        "answer": "YES, the compliance function monitors compliance with the code of ethics/compliance.",
+        "answer": "YES, the compliance function monitors compliance with the code of ethics and compliance. ",
         "source_contents": [
-            "loss of earnings, negative impact to business activities, adverse impact to customers and other stakeholders, or regulatory relationships through failure on our part to comply with laws or regulationsGroup Director Compliance, Conduct and Financial CrimeGroup Non-Financial Risks Committee (GNFRC)Group Board Risk and ALCO Financial Crime risk Potential for legal or regulatory penalties, material financial loss or reputational damage resulting from the failure to comply with applicable laws and regulations relating to anti-money laundering, and international and domestic sanctionsGroup Director Compliance, Conduct and Financial CrimeGroup Non-Financial Risks Committee (GNFRC)Group Board Risk and ALCO Reputational risk The potential that negative perceptions on the part of customers, counterparties"
+            "The Group provides annual ethics training to all  staff, and employees are encouraged to freely  raise any ethical concerns through established  channels, either internally, or anonymously  through external channels Regulatory Compliance The Group continues to keep abreast with the  constantly changing regulatory environment  across the region. Local and international  Regulations and guidelines with significant  impact are monitored, and guidance issued  to business on interpretation and adoption to  ensure that the Group remains in compliance  with the requirements. The Group shall  continually adapt to the rapidly changing The Group continues to  keep abreast with the  constantly changing  regulatory environment  across the region"
         ],
-        "source_pages": ["Equity-Sustainability-Report-2021.pdf-47-3"],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-30-4"
+        ],
         "score": 2
     },
     {
@@ -722,35 +818,45 @@
         "code": "E.4",
         "variation": "v1",
         "question": "Does the Board incorporate ethical and sustainability risks and opportunities in the risk management process?",
-        "answer": "YES, the Board incorporates ethical and sustainability risks and opportunities in the risk management process. ",
-        "source_contents": [],
-        "source_pages": [],
+        "answer": "YES. The Board oversees the risk management strategy and framework taking into account the risk appetite, prudential capital requirements, and strategic and business priorities of the Group, and the Risk Management Framework covers all systems, structures, policies, processes and people that identify, measure, evaluate, monitor, report and control or mitigate both internal and external sources of material risk. The Group promotes appropriate behavior and judgment in connection with risk-taking and ensures that emerging risks and risk-taking activities are identified, assessed, escalated, and addressed in a timely manner. There is also emphasis on cultivating integrity in the risk management culture. ",
+        "source_contents": [
+            "2019 Integrated Report & Financial Statements76 This is achieved through the Risk Management  Framework of the Company. The Group is  exposed to both financial and non-financial risks  and is committed to having risk management  policies, processes and practices that support  a high standard of governance. This enables  management to undertake prudent risk-taking  activities. The Board oversees the risk management  strategy and framework taking into account the  risk appetite, prudential capital requirements  and strategic and business priorities of the  Group. This includes setting and reviewing the  risk appetite, monitoring the effectiveness of  the risk management framework and making  changes to it"
+        ],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-76-0"
+        ],
         "score": 2
     },
     {
         "section": "Ethics and Social Responsibility",
         "code": "E.5",
         "variation": "v1",
-        "question": "How is the company performance on ethics assessed",
-        "answer": "The company performance on ethics is assessed through board evaluation, corporate governance practices, and tracking of ESG performance indicators for business unit heads.",
+        "question": "How is the company performance on ethics assessed, monitored and disclosed to internal and external stakeholders?",
+        "answer": "The content does not provide enough information to fully answer the question. It mentions that the Group provides annual ethics training and encourages employees to raise concerns through established channels. It also states that the group has a code of ethical conduct which all employees and service providers are required to adhere to. However, it does not provide specific information on how the company's performance on ethics is assessed, monitored, and disclosed to internal and external stakeholders.",
         "source_contents": [
-            "EQUITY GROUP HOLDINGS LIMITED SUSTAINABILITY REPORT 2021 EQUITY GROUP HOLDINGS LIMITED SUSTAINABILITY REPORT 202190 91 2021 OUTCOMESBoard evaluation Board evaluation is performed on an annual basis for the Group Board and each of the banking subsidiaries within the Group, as required  by the Central Bank of Kenya, regional regulators, and the Capital Markets Authority. The Board evaluation process is intended to assess the effectiveness of the Board and contains recommendations from consultants  based on global best practices as well as legal and regulatory requirements.  The resultant reports were filed with the regulators where required by the respective jurisdiction of operation regulations",
-            "EQUITY GROUP HOLDINGS LIMITED SUSTAINABILITY REPORT 2021 EQUITY GROUP HOLDINGS LIMITED SUSTAINABILITY REPORT 202186 87 2021 OUTCOMESCorporate governance Appointment to GNFRC unpacked Appointment to GNFRC and the Risk sub-committee is determined  based on designation rather than by nomination. Areas of the business which are required to address ESG risk factors are represented on the committees.  There is a strong drive to ensure adequate reporting on these risks is taking place to the highest decision-making body in the organisation, with delegation of authority and oversight required across the business and within each of our subsidiaries.  Conflict of interest management  Conflict of interest is managed by our Code of Conduct and Ethics Policy"
+            "The Group provides annual ethics training to all  staff, and employees are encouraged to freely  raise any ethical concerns through established  channels, either internally, or anonymously  through external channels Regulatory Compliance The Group continues to keep abreast with the  constantly changing regulatory environment  across the region. Local and international  Regulations and guidelines with significant  impact are monitored, and guidance issued  to business on interpretation and adoption to  ensure that the Group remains in compliance  with the requirements. The Group shall  continually adapt to the rapidly changing The Group continues to  keep abreast with the  constantly changing  regulatory environment  across the region",
+            "Our customers and service providers are  also implementing sustainability initiatives  in their businesses following training and  engagements with them in the course of  the year. Among the initiatives are solar  installations, diversity and inclusion and  gender empowerment which form part of our  case studies in the sustainability report. The Group has zero tolerance to all forms  of corruption, bribery and unethical business  practice at the workplace. We require all  employees and service providers to adhere to  the Group Code of Ethical Conduct. We also  have in place a policy to ensure equitable  distribution of work to our suppliers. This policy  places emphasis on SMEs as well as special  interest groups/enterprises"
         ],
         "source_pages": [
-            "Equity-Sustainability-Report-2021.pdf-46-0",
-            "Equity-Sustainability-Report-2021.pdf-44-0"
+            "ke-kcb-2019-ar-00.pdf-30-4",
+            "ke-kcb-2019-ar-00.pdf-61-5"
         ],
-        "score": 2
+        "score": 1
     },
     {
         "section": "Ethics and Social Responsibility",
         "code": "E.6",
         "variation": "v1",
         "question": "Has the company established and implemented a whistle blowing policy?",
-        "answer": "YES",
-        "source_contents": [],
-        "source_pages": [],
+        "answer": "YES. The company has established and implemented a whistle blowing policy.",
+        "source_contents": [
+            "KCB Group is  committed to a culture that encourages all  people to speak up about issues or conduct  that concerns them.  The KCB Group whistle-blower program  encourages the reporting of any wrong doing  in a way that protects and supports whistleblowers. The program provides confidential and  anonymous communication channels to raise  concerns. The confidential and anonymous  communications channels are supported and  monitored independently by Deloitte details of  which are provided below: Telephone Communication: Toll free number: 0800 720 990 (Kenya)",
+            "It emphasizes  the importance of making the right decisions  and behaving in a manner that builds respect  and trust in the organization. The Code sets  out clear behavioural requirements and where  these are not met, there are consequences.     The Group has in place a suite of policies and  practices to promote a culture of compliance,  honesty and ethical behaviour including in  relation to anti-money laundering and counterterrorism financing, whistle blower protection  and conflicts of interest.  WHISTLE BLOWING  KCB Group does not tolerate fraud, corrupt  conduct, bribery, unethical behaviour, legal or  regulatory non-compliance or questionable  accounting or auditing by employees, Directors,  customers and contractors"
+        ],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-75-5",
+            "ke-kcb-2019-ar-00.pdf-75-4"
+        ],
         "score": 2
     },
     {
@@ -758,14 +864,12 @@
         "code": "E.7",
         "variation": "v1",
         "question": "Has the Board/or management developed policies on corporate citizenship and sustainability and strategies for company use?",
-        "answer": "YES, the Board has developed policies on corporate citizenship and sustainability and strategies for company use.",
+        "answer": "YES, the management has developed policies on corporate citizenship and sustainability and strategies for company use. ",
         "source_contents": [
-            "We have now reached another point in our journey where we have felt the need to provide a standalone sustainability report which gives us a great sense of fulfilment and pride. We are putting our stake in the ground to share with our stakeholders and the public our work in promoting stewardship on Environment, Social and Governance considerations in focus. These are tenets of our work which we hold dear to our purpose. Undoubtedly, in our execution and reporting in this and subsequent annual editions, we will only become a better Company for all those we engage with and serve.  \u201cWhat are we doing now towards our sustainability goals?\u201d We know that we are holding this planet in trust for future  generations",
-            "Board training Board members are provided with regular updates on matters relevant to legal reforms, corporate governance, the corporate  environment, regulatory obligations, business/commercial risks, and other matters that may be of interest in the execution of their role.  Specific training was provided to the Board on ESG risks factors facing the business in 2021. This training provided insight into climate  risk, shifts in regulatory requirements as well as investor reporting requirements. Remuneration policies A full remuneration report is provided in the Group Annual Integrated Report.  This report details the remuneration provided to the highest governing body and senior executives"
+            "Our customers and service providers are  also implementing sustainability initiatives  in their businesses following training and  engagements with them in the course of  the year. Among the initiatives are solar  installations, diversity and inclusion and  gender empowerment which form part of our  case studies in the sustainability report. The Group has zero tolerance to all forms  of corruption, bribery and unethical business  practice at the workplace. We require all  employees and service providers to adhere to  the Group Code of Ethical Conduct. We also  have in place a policy to ensure equitable  distribution of work to our suppliers. This policy  places emphasis on SMEs as well as special  interest groups/enterprises"
         ],
         "source_pages": [
-            "Equity-Sustainability-Report-2021.pdf-6-11",
-            "Equity-Sustainability-Report-2021.pdf-46-1"
+            "ke-kcb-2019-ar-00.pdf-61-5"
         ],
         "score": 2
     },
@@ -773,15 +877,13 @@
         "section": "Ethics and Social Responsibility",
         "code": "E.8",
         "variation": "v1",
-        "question": "Does the Board consider not only the financial performance but also the impact of the company\u2019s operations on society and the environment?",
-        "answer": "YES, the Board considers not only the financial performance but also the impact of the company\u2019s operations on society and the environment.",
+        "question": "Does the Board consider not only the financial performance but also the impact of the company’s operations on society and the environment?",
+        "answer": "YES. The Board considers not only the financial performance but also the impact of the company’s operations on society and the environment. The company has incorporated sustainability into its balanced scorecard and has a culture of responsible living, with the ultimate intention of building a sustainable work environment that has minimal or nil adverse effects on the environment.",
         "source_contents": [
-            "To  deliver sustainable and supportive results in society, while leaving no one behind and doing no harm. At the very highest level, we work to ensure this happens.  The Board has a social and   fiduciary duty to ensure that our  business focus delivers not just profits for our shareholders but also delivers environmental stewardship, social well-being and transparent governance policies so that our profit is purposeful, and our purpose is profitable.  Increasingly, our model of doing business with both a social  mission and an economic engine, aligns us with international standards which are becoming the way of doing global business.  For Africa, it is a step into a more equitable and cleaner, greener, progressive and positive future for our citizens and future generations",
-            "In the past, we have been reporting on our Environmental, Social and Governance activities as a Group within our Annual Integrated Report, as a holistic representation of our twin engine business model. This report becomes our third reporting tool in addition to the Annual Integrated Report and the EGF Social Impact Report, `Transformational Impact.\u2019  Internally at Equity we strive for gender parity and a diverse and inclusive workforce which represents the full breadth and depth of  society"
+            "100 billion of the loan book for environmental,  social and governance compliance, reviewing  its positive and negative impacts using the  science based target model. By addressing the  environmental, social and governance (ESG)  risks and its effects on our operations, it will  allow us to have a better visibility of our impact  to the society and the environment.  Internally, KCB Group continues with its  green agenda initiative scoping the resource  consumption and operational efficiencies"
         ],
         "source_pages": [
-            "Equity-Sustainability-Report-2021.pdf-5-1",
-            "Equity-Sustainability-Report-2021.pdf-6-6"
+            "ke-kcb-2019-ar-00.pdf-61-3"
         ],
         "score": 2
     },
@@ -790,14 +892,12 @@
         "code": "E.8",
         "variation": "v2",
         "question": "Does the company report use the double materiality concept?",
-        "answer": "YES",
+        "answer": "YES, the company report uses the double materiality concept. ",
         "source_contents": [
-            "We apply the principle of materiality in assessing which  information is to be included in our Sustainability Report. This report focuses particularly on those issues, opportunities and challenges that impact materially on Equity Group and its ability to be a sustainable and responsible business that consistently delivers value addition to shareholders, prospective investors, and our key stakeholders. Our material matters influence our Group\u2019s strategy and inform the content in this report. This report was reviewed and endorsed by the Equity Group  Holdings Plc (\u201cEquity Group\u201d) Board of Directors. Any questions and comments which need to be addressed can be sent to sustainability@equitybank.co.ke",
-            "Materiality assessment Not all stakeholder concerns are deemed material to the Group, and do not always carry the same weight with respect to implementation. Materiality is determined based on whether the concern raised can impact the delivery of the objectives of Equity and the long-term sustainability of the business.  A sustainable bank is envisaged to be able to deliver consistent value to shareholders, prospective investors, and respond to the needs of key stakeholders.  Material matters defined The 2021 material matters identified and addressed during the year have been summarised"
+            "— IAS 1 and IAS 8 Definition of Material The amendment refines the definition of Material to make it easier to  understand and aligning the definition across IFRS Standards and the  Conceptual Framework. The amendment includes the concept of ‘obscuring’ to the definition,  alongside the existing references to ‘omitting’ and ‘misstating’. Additionally,  the amendment also adds the increased threshold of ‘could influence’ to  ‘could reasonably be expected to influence’ as below. “Information is material if omitting, misstating or obscuring it could  reasonably be expected to influence decisions that the primary users of  general purpose financial statements make on the basis of those financial  statements, which provide financial information about a specific reporting  entity"
         ],
         "source_pages": [
-            "Equity-Sustainability-Report-2021.pdf-4-4",
-            "Equity-Sustainability-Report-2021.pdf-25-5"
+            "ke-kcb-2019-ar-00.pdf-108-4"
         ],
         "score": 2
     },
@@ -806,136 +906,168 @@
         "code": "E.9",
         "variation": "v1",
         "question": "Does the Board monitor and report activities leading to good corporate citizenship and sustainability to demonstrate they are well coordinated?",
-        "answer": "YES, the Board monitors and reports activities leading to good corporate citizenship and sustainability to demonstrate they are well coordinated.",
+        "answer": "NO.",
+        "source_contents": [],
+        "source_pages": [],
+        "score": 0
+    },
+    {
+        "section": "Accountability, Risk Management and Internal Control",
+        "code": "F.1",
+        "variation": "v1",
+        "question": "Does the Audit Committee and the Board consider and review the financial statements for integrity of the process and for truthful and factual presentation?",
+        "answer": "YES. The Audit Committee and the Board consider and review the financial statements for integrity of the process and for truthful and factual presentation. ",
         "source_contents": [
-            "To  deliver sustainable and supportive results in society, while leaving no one behind and doing no harm. At the very highest level, we work to ensure this happens.  The Board has a social and   fiduciary duty to ensure that our  business focus delivers not just profits for our shareholders but also delivers environmental stewardship, social well-being and transparent governance policies so that our profit is purposeful, and our purpose is profitable.  Increasingly, our model of doing business with both a social  mission and an economic engine, aligns us with international standards which are becoming the way of doing global business.  For Africa, it is a step into a more equitable and cleaner, greener, progressive and positive future for our citizens and future generations"
+            "Evaluate the overall presentation, structure and content of the  consolidated and separate financial statements, including the  disclosures, and whether the consolidated and separate financial  statements represent the underlying transactions and events in a  manner that achieves fair presentation. Obtain sufficient appropriate audit evidence regarding the financial  information of the entities or business activities within the Group to  express an opinion on the consolidated financial statements. We are  responsible for the direction, supervision and performance of the  Group audit. We remain solely responsible for our audit opinion"
         ],
-        "source_pages": ["Equity-Sustainability-Report-2021.pdf-5-1"],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-93-4"
+        ],
         "score": 2
     },
     {
-        "section": "\"Accountability",
-        "code": " Risk Management and Internal Control\"",
-        "variation": "F.1",
-        "question": "v1",
-        "answer": "UNKNOWN",
+        "section": "Accountability, Risk Management and Internal Control",
+        "code": "F.2",
+        "variation": "v1",
+        "question": "Does the Annual Report contain a statement from the Board explaining its responsibility for preparing the accounts and is there a statement by the external auditor about his/her reporting responsibilities?",
+        "answer": "YES. The Annual Report contains a statement from the Board explaining its responsibility for preparing the accounts and there is a statement by the external auditor about his/her reporting responsibilities. ",
+        "source_contents": [
+            "The Directors’ responsibilities include: determining that the basis of accounting described in note 2 is an acceptable basis for preparing and presenting  the financial statements in the circumstances,  preparation and presentation of financial statements in accordance with International Financial  Reporting Standards and in the manner required by the Kenyan Companies Act, 2015 and for such internal control as the Directors determine is  necessary to enable the preparation of financial statements that are free from material misstatements, whether due to fraud or error"
+        ],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-90-1"
+        ],
+        "score": 0
+    },
+    {
+        "section": "Accountability, Risk Management and Internal Control",
+        "code": "F.3",
+        "variation": "v1",
+        "question": "Does the board or audit committee have a process in place to ensure the independence and competence of the Company’s external auditors?",
+        "answer": "YES, the Audit Committee oversees the external audit function, reviews and approves the external audit plan and engagement, and assesses the performance of the external auditor, ensuring the independence and competence of the Company’s external auditors. ",
+        "source_contents": [],
+        "source_pages": [],
+        "score": 2
+    },
+    {
+        "section": "Accountability, Risk Management and Internal Control",
+        "code": "F.3",
+        "variation": "v2",
+        "question": "Does the board/audit committee utilize Audit Quality Indicators (AQIs) to evaluate the independence and effectiveness of the external auditor?",
+        "answer": "NO. ",
         "source_contents": [],
         "source_pages": [],
         "score": 0
     },
     {
-        "section": "\"Accountability",
-        "code": " Risk Management and Internal Control\"",
-        "variation": "F.2",
-        "question": "v1",
-        "answer": "UNKNOWN",
-        "source_contents": [],
-        "source_pages": [],
+        "section": "Accountability, Risk Management and Internal Control",
+        "code": "F.4",
+        "variation": "v1",
+        "question": "Do the shareholders formally appoint the external auditor at the AGM through a formal and transparent process?",
+        "answer": "YES, the shareholders formally appoint the external auditor at the AGM through a formal and transparent process. ",
+        "source_contents": [
+            "2019 Integrated Report & Financial Statements72 Corporate Governance StatementA Director appointed by the Board to fill a  casual vacancy must seek election at the next  Annual General Meeting (”AGM”) after their  appointment. As further provided for in the  Articles of Association, at every AGM, and as  may be applicable, at least one-third of the  non-executive Directors must retire from the  Board and where eligible, stand for re-election.  The Board Charter provides that nonexecutive Directors are normally expected  to serve a term not exceeding a total of eight  years, subject to re-election by shareholders  as required under the Company’s Articles of  Association, the Board Charter and applicable  law"
+        ],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-72-0"
+        ],
+        "score": 2
+    },
+    {
+        "section": "Accountability, Risk Management and Internal Control",
+        "code": "F.5",
+        "variation": "v1",
+        "question": "Is the Company working towards the introduction of integrated reporting (incorporating financial and non-financial information)  or is the company's Annual Report prepared on an integrated basis using a framework available from the Integrated Reporting Council, The Global Reporting Initiative, G4 Sustainability Guidelines and/or Sustainability Accounting Standards Board standards?",
+        "answer": "The answer is UNKNOWN. \nSOURCES: ke-kcb-2019-ar-00.pdf-76-0, ke-kcb-2019-ar-00.pdf-2-1, ke-kcb-2019-ar-00.pdf-52-0 \nSCORE: 0",
+        "source_contents": [
+            "This report is also in  compliance with the International Integrated Reporting  Council (IIRC) Guidelines. The Group’s Annual Financial  Statements were prepared in accordance with the  International Financial Reporting Standards (IFRS). The  report is part of our commitment to be transparent and  accountable to our stakeholders. Assurance The Annual Financial Statements for the Group, KCB  Bank Kenya, KCB Bank South Sudan, KCB Bank Rwanda  and KCB Bank Burundi were audited by KPMG. KCB Bank  Tanzania was audited by PwC while KCB Bank Uganda  was audited by EY. The Annual Financial Statements of  National Bank of Kenya were audited by PwC.INTEGRATED REPORT &  FINANCIAL STATEMENTS 20192019 Integrated Report & Financial Statements 2"
+        ],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-2-1"
+        ],
         "score": 0
     },
     {
-        "section": "\"Accountability",
-        "code": " Risk Management and Internal Control\"",
-        "variation": "F.3",
-        "question": "v1",
-        "answer": "UNKNOWN",
-        "source_contents": [],
-        "source_pages": [],
-        "score": 0
+        "section": "Accountability, Risk Management and Internal Control",
+        "code": "F.6",
+        "variation": "v1",
+        "question": "Has the Board established an effective risk management framework which is inclusive of key risks as well as foreseeable risks, environmental and social risks and issues ?",
+        "answer": "YES. The Board has established an effective risk management framework which is inclusive of key risks as well as foreseeable risks, environmental and social risks and issues. The Risk Management Framework covers all systems, structures, policies, processes and people that identify, measure, evaluate, monitor, report and control or mitigate both internal and external sources of material risk. The Board oversees the risk management strategy and framework taking into account the risk appetite, prudential capital requirements and strategic and business priorities of the Group. ",
+        "source_contents": [
+            "2019 Integrated Report & Financial Statements76 This is achieved through the Risk Management  Framework of the Company. The Group is  exposed to both financial and non-financial risks  and is committed to having risk management  policies, processes and practices that support  a high standard of governance. This enables  management to undertake prudent risk-taking  activities. The Board oversees the risk management  strategy and framework taking into account the  risk appetite, prudential capital requirements  and strategic and business priorities of the  Group. This includes setting and reviewing the  risk appetite, monitoring the effectiveness of  the risk management framework and making  changes to it",
+            "These act as the foundation for  effective risk management across the Group. Corporate Governance StatementThe Risk Management Framework covers  all systems, structures, policies, processes  and people that identify, measure, evaluate,  monitor, report and control or mitigate both  internal and external sources of material risk.  The Risk Management Framework is regularly  reviewed in light of emerging risks arising from  the changing business environment, better  practice approaches and regulatory expectations. Additional information and details of the Risk  Management Governance of the Company is  contained in pages 22-31 of this integrated  report"
+        ],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-76-0",
+            "ke-kcb-2019-ar-00.pdf-76-3"
+        ],
+        "score": 2
     },
     {
-        "section": "\"Accountability",
-        "code": " Risk Management and Internal Control\"",
-        "variation": "F.3",
-        "question": "v2",
-        "answer": "UNKNOWN",
-        "source_contents": [],
-        "source_pages": [],
-        "score": 0
+        "section": "Accountability, Risk Management and Internal Control",
+        "code": "F.7",
+        "variation": "v1",
+        "question": "Has the Board established and reviewed on a regular basis the adequacy, integrity and management of internal control systems and information systems (including for compliance with all applicable laws, regulations, rules and guidelines)?",
+        "answer": "YES, the Board has established and reviewed on a regular basis the adequacy, integrity and management of internal control systems and information systems (including for compliance with all applicable laws, regulations, rules and guidelines)",
+        "source_contents": [
+            "The Committee received a report on an audit  undertaken in respect of the IT systems and operations  to ensure overall compliance with set policies and  procedures. Members Eng. Stanley Kamau (Chairman) Georgina Malombe Lawrence KimathiBoard  Committees",
+            "All Board committees have  both executive and non-executive members and report regularly to the  Board of Directors on their activities. The Group’s risk management policies are established to identify and  analyze the risks faced by the Group, to set appropriate risk limits and  controls and to monitor risks and adherence to limits. Risk management policies and systems are reviewed regularly to reflect  changes in market conditions, products and services offered. The Group,  through its training and management standards and procedures, aims  to develop a disciplined and constructive control environment in which  all employees understand their roles and obligations"
+        ],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-74-6",
+            "ke-kcb-2019-ar-00.pdf-122-1"
+        ],
+        "score": 2
     },
     {
-        "section": "\"Accountability",
-        "code": " Risk Management and Internal Control\"",
-        "variation": "F.4",
-        "question": "v1",
-        "answer": "UNKNOWN",
+        "section": "Accountability, Risk Management and Internal Control",
+        "code": "F.8",
+        "variation": "v1",
+        "question": "Does the Board annually conduct a review on the effectiveness of the company’s risk management practices and internal control systems and report this to shareholders?",
+        "answer": "YES, the Board oversees the risk management strategy and framework and reviews the risk appetite, and the Risk Management Committee oversees the enterprise-wide view of risks and controls. ",
         "source_contents": [],
         "source_pages": [],
-        "score": 0
+        "score": 2
     },
     {
-        "section": "\"Accountability",
-        "code": " Risk Management and Internal Control\"",
-        "variation": "F.5",
-        "question": "v1",
-        "answer": "UNKNOWN",
-        "source_contents": [],
-        "source_pages": [],
-        "score": 0
+        "section": "Accountability, Risk Management and Internal Control",
+        "code": "F.9",
+        "variation": "v1",
+        "question": "Has the Board established an effective internal audit function according to Code requirements and which reports directly to the Audit Committee?",
+        "answer": "YES, the Board has established an effective internal audit function according to Code requirements and which reports directly to the Audit Committee. ",
+        "source_contents": [
+            "The Committee  further reviewed the internal audit reports presented  by the Internal Auditor for audits undertaken during the  year in line with the approved audit plan. The Committee  further received a report on the external quality assurance  review on the internal audit function giving the internal audit  function a clean bill of health. The Committee held sessions with KPMG, the external  auditor, to receive the auditor’s independent report and  assurance on the financial statements.  Members Lawrence Njiru (Chairman) Anne Eriksson John NyerereHuman  Resources  Committee This Committee reviews human  resource policies and makes  suitable recommendations to  the Board on senior management  appointments"
+        ],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-74-2"
+        ],
+        "score": 2
     },
     {
-        "section": "\"Accountability",
-        "code": " Risk Management and Internal Control\"",
-        "variation": "F.6",
-        "question": "v1",
-        "answer": "UNKNOWN",
-        "source_contents": [],
-        "source_pages": [],
-        "score": 0
-    },
-    {
-        "section": "\"Accountability",
-        "code": " Risk Management and Internal Control\"",
-        "variation": "F.7",
-        "question": "v1",
-        "answer": "UNKNOWN",
-        "source_contents": [],
-        "source_pages": [],
-        "score": 0
-    },
-    {
-        "section": "\"Accountability",
-        "code": " Risk Management and Internal Control\"",
-        "variation": "F.8",
-        "question": "v1",
-        "answer": "UNKNOWN",
-        "source_contents": [],
-        "source_pages": [],
-        "score": 0
-    },
-    {
-        "section": "\"Accountability",
-        "code": " Risk Management and Internal Control\"",
-        "variation": "F.9",
-        "question": "v1",
-        "answer": "UNKNOWN",
-        "source_contents": [],
-        "source_pages": [],
-        "score": 0
-    },
-    {
-        "section": "\"Accountability",
-        "code": " Risk Management and Internal Control\"",
-        "variation": "F.10",
-        "question": "v1",
-        "answer": "UNKNOWN",
-        "source_contents": [],
-        "source_pages": [],
-        "score": 0
+        "section": "Accountability, Risk Management and Internal Control",
+        "code": "F.10",
+        "variation": "v1",
+        "question": "Does the Board disclose details of Audit Committee activities ?",
+        "answer": "YES. The Audit Committee provides oversight of the Group’s financial reporting responsibilities including external audit independence and performance, reviews the half-year and full-year statutory financial reports for recommendation to the Board, and reviews significant accounting estimates and judgments used for the preparation of the financial reports. However, it is not mentioned in any of the excerpts whether the Board discloses details of Audit Committee activities. ",
+        "source_contents": [
+            "The Committee received a report on an audit  undertaken in respect of the IT systems and operations  to ensure overall compliance with set policies and  procedures. Members Eng. Stanley Kamau (Chairman) Georgina Malombe Lawrence KimathiBoard  Committees"
+        ],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-74-6"
+        ],
+        "score": 1
     },
     {
         "section": "Transparency and Disclosure",
         "code": "G.1",
         "variation": "v1",
-        "question": "Does the company have policies and processes to ensure timely and balanced disclosure of all material information as required by all laws",
-        "answer": "YES",
+        "question": "Does the company have policies and processes to ensure timely and balanced disclosure of all material information as required by all laws, regulations and standards and this Code.",
+        "answer": "YES, the company has policies and processes to ensure timely and balanced disclosure of all material information as required by all laws, regulations and standards and this Code. ",
         "source_contents": [
-            "It also encourages employees and other relevant stakeholders to report any perceived act of impropriety which should not be based on mere speculation, rumours, and gossip but on knowledge of facts. Reportable misconducts covered under this policy include:  \u2022 All forms of financial malpractices or impropriety such as  fraud, corruption, bribery, solicitation, theft;  \u2022 Failure to comply with legal obligations, statutes, and  regulatory directives;  \u2022 Actions detrimental to Health and Safety or the Environment; \u2022 Any form of criminal activity;  \u2022 Improper conduct or unethical behaviour; that undermines  universal and core ethical values such as integrity, respect,  honesty, accountability, and fairness etc",
-            "Email is forwarded  to the department who  needs to address the  complaintThe Staff member  and any other  affected parties are  provided feedback on  measures taken to  address the concern  raised.Response is compiled  and sent back to the  sender. In person meeting  held if required.Whistle blower policy  The purpose of this policy document is to foster an environment and culture of information sharing, positive or negative, without the fear of retaliation. The policy and procedure manual is designed to enable stakeholders to speak up on their experiences, observations and opinions on products, service delivery, expectations, and challenges among others"
+            "It emphasizes  the importance of making the right decisions  and behaving in a manner that builds respect  and trust in the organization. The Code sets  out clear behavioural requirements and where  these are not met, there are consequences.     The Group has in place a suite of policies and  practices to promote a culture of compliance,  honesty and ethical behaviour including in  relation to anti-money laundering and counterterrorism financing, whistle blower protection  and conflicts of interest.  WHISTLE BLOWING  KCB Group does not tolerate fraud, corrupt  conduct, bribery, unethical behaviour, legal or  regulatory non-compliance or questionable  accounting or auditing by employees, Directors,  customers and contractors"
         ],
         "source_pages": [
-            "Equity-Sustainability-Report-2021.pdf-48-5",
-            "Equity-Sustainability-Report-2021.pdf-48-4"
+            "ke-kcb-2019-ar-00.pdf-75-4"
         ],
         "score": 2
     },
@@ -943,20 +1075,22 @@
         "section": "Transparency and Disclosure",
         "code": "G.2",
         "variation": "v1",
-        "question": "Does the Annual Report cover",
-        "answer": "The provided documents cover a range of topics including education and leadership development, enterprise development and financial inclusion, food and agriculture, health, social protection, shareholders and investors, our people, our customers, our communities, the regulator and government departments, board training, and remuneration policies. ",
+        "question": "Does the Annual Report cover, as a minimum, disclosures as prescribed in 7.1.1 relating to the company's governance, the Board and the Audit Committee?",
+        "answer": "YES. The Annual Report covers disclosures as prescribed in 7.1.1 relating to the company's governance, the Board and the Audit Committee.",
         "source_contents": [
-            "Other reports in this suite to be  referenced This report should be read in conjunction with the Equity Group  Integrated Report & Annual Financial Statements and Impact Report to fully assess the activities being undertaken by the Group.  Where appropriate reference will be made in this report to these other publications using the following icons:Integrated annual report Impact report About this report   Education and  Leadership Development EnterpriseDevelopment and FinancialInclusionFood andAgriculture HealthSocialProtection"
+            "2019 Integrated Report & Financial Statements70 vi. Provides oversight over performance against  targets and objectives. vii. Provides oversight over reporting to  shareholders on the direction, governance  and performance of the Group as well as  other processes that require reporting and  disclosure. viii. Provides oversight over the activities of the  subsidiaries of the Group. Authority and Delegation The Board Charter sets out the Board authority  and matters reserved for determination and  approval by the Board. These include decisions  concerning strategy and long term objectives  of the Group, the Group’s capital, financial  planning and financial budgets, significant  contracts and various statutory and regulatory  approvals"
         ],
-        "source_pages": ["Equity-Sustainability-Report-2021.pdf-4-5"],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-70-0"
+        ],
         "score": 2
     },
     {
         "section": "Transparency and Disclosure",
         "code": "G.3",
         "variation": "v1",
-        "question": "Does the Annual Report cover",
-        "answer": "The provided excerpts do not provide enough information to answer this question. ",
+        "question": "Does the Annual Report cover, as a minimum, disclosures as prescribed in 7.1.1 relating to the company's mission, vision and strategic objectives?",
+        "answer": "NO",
         "source_contents": [],
         "source_pages": [],
         "score": 0
@@ -965,15 +1099,13 @@
         "section": "Transparency and Disclosure",
         "code": "G.4",
         "variation": "v1",
-        "question": "Does the Annual Report cover",
-        "answer": "The Annual Report covers a range of topics including education and leadership development, enterprise development and financial inclusion, food and agriculture, health, social protection, shareholders and investors, our people, our customers, our communities, and the regulator and government departments. It also references other reports in the Equity Group Integrated Report and Annual Financial Statements and Impact Report. The report follows GRI reporting principles but is not GRI certified. The Board receives regular updates and training on matters relevant to their role, including ESG risks and remuneration policies are detailed in the Group Annual Integrated Report. \n",
+        "question": "Does the Annual Report cover, as a minimum, disclosures as prescribed in 7.1.1 relating to remuneration and whistleblowing?",
+        "answer": "YES. The auditable part of the directors’ remuneration report on pages 85 to 89 has been properly prepared in accordance with the Kenyan Companies Act, 2015. ",
         "source_contents": [
-            "Other reports in this suite to be  referenced This report should be read in conjunction with the Equity Group  Integrated Report & Annual Financial Statements and Impact Report to fully assess the activities being undertaken by the Group.  Where appropriate reference will be made in this report to these other publications using the following icons:Integrated annual report Impact report About this report   Education and  Leadership Development EnterpriseDevelopment and FinancialInclusionFood andAgriculture HealthSocialProtection",
-            "S01 Shareholders and Investors S02 Our People S03 Our Customers S04 Our Communities S05 The Regulator and Government Departments We have made use of the GRI reporting principles to guide the content presented in this report, this includes the manner of presentation and the level of disclosures provided.  This report has not been GRI certified. An attempt will be made to align to GRI reporting requirements, with the view of becoming GRI certified in the future. Reporting in this report will also facilitate disclosures required as signatories to the UN Global Compact (UNGC) and Global Company Network Kenya (GCNK) as well as accountability to key stakeholders and partners such as the Africa Continental Free Trade Secretariate and the East African Community"
+            "As a part of this, assessing  whether the disclosure of the key judgements and assumptions made was  sufficiently clear."
         ],
         "source_pages": [
-            "Equity-Sustainability-Report-2021.pdf-4-5",
-            "Equity-Sustainability-Report-2021.pdf-4-3"
+            "ke-kcb-2019-ar-00.pdf-91-8"
         ],
         "score": 2
     },
@@ -981,8 +1113,8 @@
         "section": "Transparency and Disclosure",
         "code": "G.5",
         "variation": "v1",
-        "question": "As a minimum",
-        "answer": "UNKNOWN",
+        "question": "As a minimum, does the company website disclose current information on all areas prescribed in 7.1.1 (Board Charter, Whistleblowing Policy, Code of Ethics and information on resignation of directors)?",
+        "answer": "NO",
         "source_contents": [],
         "source_pages": [],
         "score": 0
@@ -992,61 +1124,67 @@
         "code": "G.6",
         "variation": "v1",
         "question": "Does the Board disclose the management discussion and analysis as required in 7.1.1?",
-        "answer": "UNKNOWN",
-        "source_contents": [],
-        "source_pages": [],
+        "answer": "NO. ",
+        "source_contents": [
+            "2019 Integrated Report & Financial Statements70 vi. Provides oversight over performance against  targets and objectives. vii. Provides oversight over reporting to  shareholders on the direction, governance  and performance of the Group as well as  other processes that require reporting and  disclosure. viii. Provides oversight over the activities of the  subsidiaries of the Group. Authority and Delegation The Board Charter sets out the Board authority  and matters reserved for determination and  approval by the Board. These include decisions  concerning strategy and long term objectives  of the Group, the Group’s capital, financial  planning and financial budgets, significant  contracts and various statutory and regulatory  approvals"
+        ],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-70-0"
+        ],
         "score": 0
     },
     {
         "section": "Transparency and Disclosure",
         "code": "G.7",
         "variation": "v1",
-        "question": "Has the Board provided disclosures as required in 7.1.1 on compliance with laws",
-        "answer": "UNKNOWN",
-        "source_contents": [],
-        "source_pages": [],
-        "score": 0
+        "question": "Has the Board provided disclosures as required in 7.1.1 on compliance with laws, regulations and standards; ethical leadership, conflict of interest, corporate social responsibility and citizenship?",
+        "answer": "YES, the Board has provided disclosures as required in 7.1.1 on compliance with laws, regulations and standards; ethical leadership, conflict of interest, corporate social responsibility and citizenship. ",
+        "source_contents": [
+            "The Group provides annual ethics training to all  staff, and employees are encouraged to freely  raise any ethical concerns through established  channels, either internally, or anonymously  through external channels Regulatory Compliance The Group continues to keep abreast with the  constantly changing regulatory environment  across the region. Local and international  Regulations and guidelines with significant  impact are monitored, and guidance issued  to business on interpretation and adoption to  ensure that the Group remains in compliance  with the requirements. The Group shall  continually adapt to the rapidly changing The Group continues to  keep abreast with the  constantly changing  regulatory environment  across the region"
+        ],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-30-4"
+        ],
+        "score": 2
     },
     {
         "section": "Transparency and Disclosure",
         "code": "G.8",
         "variation": "v1",
-        "question": "Has the Board made all required disclosures",
+        "question": "Has the Board made all required disclosures, including confirming requirements of 7.1.1 which include that a governance audit was carried out and that there are no known insider dealings?",
         "answer": "UNKNOWN",
-        "source_contents": [
-            "Board training Board members are provided with regular updates on matters relevant to legal reforms, corporate governance, the corporate  environment, regulatory obligations, business/commercial risks, and other matters that may be of interest in the execution of their role.  Specific training was provided to the Board on ESG risks factors facing the business in 2021. This training provided insight into climate  risk, shifts in regulatory requirements as well as investor reporting requirements. Remuneration policies A full remuneration report is provided in the Group Annual Integrated Report.  This report details the remuneration provided to the highest governing body and senior executives",
-            "This policy ensures that no board member engages directly or indirectly in any business activity that competes or conflicts with the Group\u2019s interest. A Board member shall avoid all possible Conflicts of Interest and will not enter into or procure the entering into of any contract with the Group with respect to which that Board member or any of his/her associates has any connection, association or financial interest. A Board member must avoid any investment, interest or association that interferes, might interfere, or might appear to interfere with his/her independent exercise of judgment in the Group\u2019s best interest. These activities include, but are not necessarily limited to the following: \u2022 Outside Financial Inter est, \u2022 Other Business Int erests, \u2022 Involvement in Politics"
-        ],
-        "source_pages": [
-            "Equity-Sustainability-Report-2021.pdf-46-1",
-            "Equity-Sustainability-Report-2021.pdf-44-1"
-        ],
+        "source_contents": [],
+        "source_pages": [],
         "score": 0
     },
     {
         "section": "Transparency and Disclosure",
         "code": "G.9",
         "variation": "v1",
-        "question": "Has the Board disclosed the company's risk management policy",
-        "answer": "UNKNOWN.",
+        "question": "Has the Board disclosed the company's risk management policy, company procurement policy, policy on information technology as per 7.1.1?",
+        "answer": "YES, the Board has disclosed the company's risk management policy, company procurement policy, and policy on information technology as per 7.1.1.",
         "source_contents": [
-            "Board training Board members are provided with regular updates on matters relevant to legal reforms, corporate governance, the corporate  environment, regulatory obligations, business/commercial risks, and other matters that may be of interest in the execution of their role.  Specific training was provided to the Board on ESG risks factors facing the business in 2021. This training provided insight into climate  risk, shifts in regulatory requirements as well as investor reporting requirements. Remuneration policies A full remuneration report is provided in the Group Annual Integrated Report.  This report details the remuneration provided to the highest governing body and senior executives",
-            "Board  members therefore take their responsibility for the corporate governance agenda within the Group seriously and continue to focus on maintaining the highest standards of corporate governance and business ethics in the Group\u2019s operations to meet the needs and objectives of, and create value for, our various stakeholders.Group Board Group Non-Financial Risks Committee. (GNFRC) Group Risk Committee Three Lines of Defence First Line Own and Manage the Risk All Heads of Business and Support  ServicesSecond Line Control functions \u2013 oversight and  challenge PRT Risk OwnersThird Line Independent Assurance Internal Audit GNRFC governs and directs all subsidiaries in measuring and managing compliance and operational risks within the aggregate Group risk profile"
+            "2019 Integrated Report & Financial Statements28  The Divisional/ Subsidiary Operational Risk  Management and Compliance Committee. The Group has an operational risk  management policy that has been approved  by the Board of Directors. The policy document  serves as a framework for operational risk  management within the Group, in accordance  with uniform principles and reporting duties  aimed at complying with the Basel standards  on Sound Practices. The Group allocates capital  in respect of operational risk, on the basis of  a standardized model defined by the Group.  Reports on compliance with risk appetite limits  are submitted on a quarterly basis, within the  consolidated risk document",
+            "2019 Integrated Report & Financial Statements122 4. FINANCIAL RISK MANAGEMENT The Group’s activities expose it to a variety of financial risks, including  credit risk, liquidity risk, market risks and operational risks. The Group’s  overall risk management program focuses on the unpredictability of  financial markets and seeks to minimize potential adverse effects on the  Group’s financial performance.  The Board of Directors has overall responsibility for the establishment  and oversight of the Group’s risk management framework. The Board  of Directors of the Group has established the Credit, Audit, Risk, Human  Resources and Procurement and Information Technology committees,  which are responsible for developing and monitoring the Group risk  management policies in their specified areas"
         ],
         "source_pages": [
-            "Equity-Sustainability-Report-2021.pdf-46-1",
-            "Equity-Sustainability-Report-2021.pdf-43-1"
+            "ke-kcb-2019-ar-00.pdf-28-0",
+            "ke-kcb-2019-ar-00.pdf-122-0"
         ],
-        "score": 0
+        "score": 2
     },
     {
         "section": "Transparency and Disclosure",
         "code": "G.10",
         "variation": "v1",
-        "question": "Has the Board disclosed information on shareholders",
-        "answer": "UNKNOWN",
-        "source_contents": [],
-        "source_pages": [],
+        "question": "Has the Board disclosed information on shareholders, including the key shareholders, including shareholding by directors and senior management and the extent of their shareholdings as required in 7.1.1 and on stakeholder who influence company performance and sustainability?",
+        "answer": "NO. ",
+        "source_contents": [
+            "2019 Integrated Report & Financial Statements73 Corporate Governance StatementIn accordance with the Board Charter,  the Board only considers directors to be  independent where they are independent  of management and free of any business  or other relationship that could materially  interfere with, or reasonably be perceived  to materially interfere with, the directors  capacity to bring an independent judgement  to bear on issues before the Board and to act  in the best interest of the Company or the  shareholders generally. CONFLICT OF INTEREST All Directors of the Company must avoid any  situation which might give rise to a conflict  between their personal interest and that of  the Group"
+        ],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-73-0"
+        ],
         "score": 0
     },
     {
@@ -1054,11 +1192,13 @@
         "code": "G.11",
         "variation": "v1",
         "question": "Has the Board disclosed all related-party transactions?",
-        "answer": "UNKNOWN",
+        "answer": "NO.",
         "source_contents": [
-            "\u2022 Other forms of corporate governance breaches;  \u2022 Connected tr ansactions not disclosed or reported in line with  regulations;  \u2022 Non-disclosure of conflict of int erest;  \u2022 Sexual or physical abuse of any staff, customer, applicant,  service provider and other relevant stakeholders;  \u2022 Any matter considered to be against expected proper  behaviour or ethical standards of a professional Group or officer;  \u2022 Attempt to conceal any of the above listed acts; and  \u2022 Non-adherence t o Group\u2019s policies and proceduresAffiliations The Group and the Bank are also members of the following network associations and forums: 1. Association of Microfinance Institutions (AMFI); 2. Kenya Bankers Association (KBA); 3. Women\u2019s World Banking (WWB); 4. Global Network for Banking Inno vation (GNBI); 5"
+            "The total amount of emoluments paid to Directors for services rendered during  the Year 2019 is disclosed in Note 18 and 39 to the Financial Statements.  Neither at the end of the financial year, nor at any time during the  year, did there exist any arrangement to which the Company is a party,  under which Directors acquired benefits by means of acquisition of the  Company’s shares. 2. Non-Executive Directors Remuneration and privileges policy The Group has put in place a policy that adequately defines the remuneration  and related privileges received by the Non-Executive Directors of the  Company"
         ],
-        "source_pages": ["Equity-Sustainability-Report-2021.pdf-48-6"],
+        "source_pages": [
+            "ke-kcb-2019-ar-00.pdf-85-2"
+        ],
         "score": 0
     },
     {
@@ -1066,7 +1206,7 @@
         "code": "G.12",
         "variation": "v1",
         "question": "Does the Board include in its Annual Report a statement of policy on good governance and the status of the application of this Code?",
-        "answer": "UNKNOWN",
+        "answer": "NO.",
         "source_contents": [],
         "source_pages": [],
         "score": 0

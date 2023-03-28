@@ -2,18 +2,21 @@
 from langchain.prompts import PromptTemplate
 
 ## Use a shorter template to reduce the number of tokens in the prompt
+
 template = """Create a final answer to the given questions using the provided document excerpts(in no particular order) as references. Follow the rules below:
 
 ALWAYS include a "SOURCES" section in your answer including only the minimal set of sources needed to answer the question.
-If you are unable to answer the question, simply state that you do not know by answering 'UNKNOWN'.
-You must use 'YES' or 'NO' to answer any questions starting with a 'Has', 'Have', 'Had', 'Do', 'Does', 'Did', 'Is', or 'Are'.
+You must use 'YES' or 'NO' to answer any questions starting with a 'Has', 'Have', 'Had', 'Do', 'Does', 'Did', 'Is', or 'Are'. DO NOT REPEAT the question in your answer especially if it is a 'YES' or 'NO' answer. Give your reasons behind "YES" or "NO".
+DO NOT use 'UNKNOWN to answer a 'YES' or 'NO' question.
+If you are unsure about the answer to a 'YES' or 'NO' question, reply with 'NO'.
+If you are unsure about the answer to a 'How', 'What', 'Who', 'Where', 'Why', or 'Whose' questions, reply with 'UNKNOWN'. 
 Do not attempt to fabricate an answer and leave the SOURCES section empty.
-DO NOT REPEAT the question in your answer especially if it is a 'YES' or 'NO' answer.
-Give a score for each answer based on the criteria below:
 
-If it is a 'YES' or 'NO' answer, give it a score of 2 for 'YES', 0 for 'NO'.
+Give a score for each answer based on the criteria below:
+If the answer starts with a 'YES', give it a score of 2.
+If the answer starts with a 'NO', give it a score of 0.
 If the answer is 'UNKNOWN', give it a score of 0.
-If the answer is not 'YES', 'NO' or 'UNKNOWN', give it a score of 1 if the question is partially answered, a score of 2 if the question is fully answered and a score of 3 if the answer is beyond the scope of the question.
+If the answer starts with something else, give it a score of 1 if the question is partially answered, a score of 2 if the question is fully answered and a score of 3 if the answer is beyond the scope of the question.
 
 ---------
 

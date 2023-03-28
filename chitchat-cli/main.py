@@ -13,6 +13,7 @@ from utils import (
 )
 from tqdm import tqdm
 import json
+import pandas as pd
 
 config = configparser.ConfigParser()
 
@@ -86,19 +87,26 @@ def main():
     print("Done writing JSON data into .json file")
 
 
+# The following function is giving us a typo:
+
+# def load_query(query_file):
+#     dict_list = []
+#     with open(query_file, "r") as file:
+#         for line in file:
+#             values = line.strip().split(",")
+#             my_dict = {
+#                 "section": values[0],
+#                 "code": values[1],
+#                 "variation": values[2],
+#                 "question": values[3].strip().strip('"'),
+#             }
+#             dict_list.append(my_dict)
+#     return dict_list
+
 def load_query(query_file):
-    dict_list = []
-    with open(query_file, "r") as file:
-        for line in file:
-            values = line.strip().split(",")
-            my_dict = {
-                "section": values[0],
-                "code": values[1],
-                "variation": values[2],
-                "question": values[3].strip().strip('"'),
-            }
-            dict_list.append(my_dict)
-    return dict_list
+    df = pd.read_csv(query_file, header=None)
+    df.columns = ["section", "code", "variation", "question"]
+    return df.to_dict("records")
 
 
 def write_list(a_list):
