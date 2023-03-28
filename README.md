@@ -1,7 +1,7 @@
 # README
 
 <p align="center">
-<img src="https://s3.amazonaws.com/moonup/production/uploads/noauth/b3AVwKK334lyREpZwqPxs.jpeg" width="40%">
+<img src="logo.jpg" width="40%">
 </p>
 
 ## How to use chitchat?
@@ -60,10 +60,10 @@ streamlit run main.py
   - Zero point for each `NO`
   - Zero point for `UNKNOWN`
   - The final score of each company is the ratio of the [total points] to the [total number of questions times 3] normalized to [0, 1]
-    - Leadership rating (75% and above)
-    - Good rating (65% to 74%)
-    - Fair rating (50% to 64%)
-    - Needs improvement rating (below 50%)
+    - Leadership `[.75, 1]`
+    - Good `[.65, .75)`
+    - Fair `[.50, .65)`
+    - Needs improvement `[0, .50)`
   - Generate company-level score based on answers to multiple documents
   - Portfolio-level view will display the scores of all those companies
 - [ ] Better filepath handling
@@ -75,6 +75,9 @@ streamlit run main.py
 
 ## Resources
 
-- [Different document loaders that LangChain supports](https://langchain.readthedocs.io/en/latest/modules/document_loaders/how_to_guides.html)
-- [Question Answering - LangChain](https://langchain.readthedocs.io/en/latest/modules/indexes/chain_examples/question_answering.html)
+- [LangChain](https://github.com/hwchase17/langchain)
+  - [Document Loaders](https://python.langchain.com/en/latest/modules/indexes/document_loaders.html)
+  - [Question Answering over Docs](https://python.langchain.com/en/latest/use_cases/question_answering.html)
+  - [Question Answering with Sources](https://python.langchain.com/en/latest/modules/chains/index_examples/qa_with_sources.html)
+  - [Prompt Templates](https://python.langchain.com/en/latest/modules/prompts/prompt_templates.html)
 - [mmz-001/knowledge_gpt](https://github.com/mmz-001/knowledge_gpt)

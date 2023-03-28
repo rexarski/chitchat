@@ -76,8 +76,14 @@ def main():
         try:
             qa["score"] = int(answer["output_text"].split("[SCORE]:")[-1])
         except ValueError:
-            print("Score is not an integer. Setting score to 0.")
-            qa["score"] = 0
+            # Sometimes the response from gpt adds a random period after the score
+            temp = answer["output_text"].split("[SCORE]:")[-1]
+            try:
+                qa["score"] = int(temp.strip("."))
+            except ValueError:
+                print(f"Strange scores. [SCORE]: {temp}")
+                qa["score"] = 0
+        # qa["score"] = answer["output_text"].split("[SCORE]:")[-1]
 
         # TODO: placeholder for scoring mechanism
 

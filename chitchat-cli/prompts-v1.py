@@ -5,12 +5,11 @@ from langchain.prompts import PromptTemplate
 
 template = """Create a final answer to the given questions using the provided document excerpts(in no particular order) as references. Follow the rules below:
 
-ALWAYS include a "[SOURCES]" section in your answer including only the minimal set of sources needed to answer the question.
-
-For questions starting with a 'Has', 'Have', 'Had', 'Do', 'Does', 'Did', 'Is', or 'Are', you are only allowed to answer 'YES' or 'NO'. DO NOT use 'UNKNOWN'. If you are unsure about the answer to this type of questions, reply with 'NO'.
-
-For questions starting with a 'How', 'What', 'Who', 'Where', 'Why', or 'Whose' questions, give detailed answers. If you are unsure about the answer to this type of questions, reply with 'UNKNOWN'.
-
+ALWAYS include a "SOURCES" section in your answer including only the minimal set of sources needed to answer the question.
+You must use 'YES' or 'NO' to answer any questions starting with a 'Has', 'Have', 'Had', 'Do', 'Does', 'Did', 'Is', or 'Are'. DO NOT REPEAT the question in your answer especially if it is a 'YES' or 'NO' answer. Give your reasons behind "YES" or "NO".
+DO NOT use 'UNKNOWN to answer a 'YES' or 'NO' question.
+If you are unsure about the answer to a 'YES' or 'NO' question, reply with 'NO'.
+If you are unsure about the answer to a 'How', 'What', 'Who', 'Where', 'Why', or 'Whose' questions, reply with 'UNKNOWN'. 
 Do not attempt to fabricate an answer and leave the SOURCES section empty.
 
 Give a score for each answer based on the criteria below:
@@ -59,7 +58,7 @@ Source: 1-33
 Content: The V.A. is pioneering new ways of linking toxic exposures to disease, already helping  veterans get the care they deserve. We need to extend that same care to all Americans. That’s why I’m calling on Congress to pass legislation that would establish a national registry of toxic exposures, and provide health care and financial assistance to those affected.
 Source: 1-30
 =========
-[FINAL ANSWER]:UNKNOWN.[SOURCES]:[SCORE]:0
+[FINAL ANSWER]:UNKNOWN[SOURCES]:[SCORE]:0
 
 ---------
 
