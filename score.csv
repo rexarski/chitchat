@@ -1,0 +1,79 @@
+code,answer,score_v1,score_v2,score,ideal,score_ideal_ratio
+A.1,YES.,2,,2,2,1.0
+A.2,YES.,2,,2,2,1.0
+A.3,YES.,2,2.0,3,3,1.0
+A.4,"The Board ensures that all directors, CEOs, and management are fully aware of the requirements of the Code by providing guidance on how their responsibilities should be discharged, identifying and facilitating continuous Board education and Directors’ professional development, ensuring effective flow of information within the Board and its committees and between senior management and non-executive Directors, and facilitating the induction training of new Directors. The Board also keeps formal records of Board discussions and follows up on the timely execution of agreed actions. The Board is entitled to seek any information it requires from any Group employee or from any other source, and the Directors are entitled to obtain independent legal, accounting, or other professional advice at the Company’s expense. The Board reviews its performance and that of the Board committees and individual directors every year, and every third year, the review is facilitated by an external consultant.",2,,2,2,1.0
+A.5,YES.,2,2.0,3,3,1.0
+A.6,YES. The company strategy promotes sustainability of the company.,2,2.0,3,3,1.0
+A.7,YES.,2,2.0,3,3,1.0
+B.1,YES.,2,,2,2,1.0
+B.10,YES.,2,,2,2,1.0
+B.11,NO,0,,0,2,0.0
+B.12,YES. The Board must comprise of a majority of independent non-executive directors.,2,,2,2,1.0
+B.13,"The Board ensures a smooth transition of Board members by having a Nomination Committee responsible for the selection and appointment of board directors. Prior to any appointment, the Nomination Committee defines the functions and core competencies for each vacant directorship role. It also develops suitable selection criteria for potential candidates, screens and interviews them. Each Non-Executive Director serves for a total non-renewable period of 8 years from the date of appointment. However, in accordance with the Articles of Association of the Company, one-third of the Non-executive Directors are required to resign and may offer themselves for re-election to continue serving on the Board. Directors are issued with letters of appointment, with clear terms and conditions regarding the discharge of their duties. The Board regularly reviews the skills, knowledge, and experience represented on the Board against the skills and experience needed to deliver the strategy. The Board continuously reviews the skills, experience, and diversity mix of the Board and continues to make efforts on diversifying the skill set and gender.",2,2.0,3,3,1.0
+B.14,YES.,2,,2,2,1.0
+B.15,"YES. The functions of the Chairperson and the Chief Executive Officer are exercised by different individuals, with a clear division of responsibilities. The Board Charter delegates responsibility for the day-to-day management of the business to the Group Chief Executive Officer & Managing Director, who in turn delegates aspects of his own authority to members of the Executive Committee. The scope of, and limitations to, these delegations are clearly documented in various policies.",2,,2,2,1.0
+B.16,YES. The Chairman of the Board must be an independent non-executive director.,2,,2,2,1.0
+B.17,YES.,2,2.0,3,3,1.0
+B.18,YES.,2,,2,2,1.0
+B.19,YES.,2,,2,2,1.0
+B.2,"YES, except for the directorship held by the Cabinet Secretary, National Treasury, all other non-executive directors of the company were considered independent.",2,,2,2,1.0
+B.20,YES.,2,,2,2,1.0
+B.21,YES.,2,,2,2,1.0
+B.22,YES.,2,,2,2,1.0
+B.23,YES.,2,,2,2,1.0
+B.24,YES.,2,,2,2,1.0
+B.25,YES.,2,,2,2,1.0
+B.26,YES.,2,,2,2,1.0
+B.27,YES.,2,,2,2,1.0
+B.28,"The Board ensures compliance with all applicable laws, regulations, and standards, including the Constitution and internal policies by adhering to high standards and practices in Corporate Governance, conducting or directing any investigation to fulfill its responsibilities, retaining legal, accounting, or other services as necessary, keeping formal records of Board discussions, and reviewing its performance and that of the Board committees and individual directors every year. Directors have a statutory duty to promote the success of the Company for the benefit of its stakeholders, and the Board is committed to ensuring that the Company complies with the laws, regulations, and standards applicable to it. The Group continually adapts to the rapidly changing regulatory environment and ensures compliance while reducing exposure to regulatory risk. Business units identify, assess, and implement policy and regulatory requirements and establish controls, processes, procedures, and resources to ensure appropriate governance and compliance. The Risk and Legal functions provide oversight and proactive support to the business in identifying and managing regulatory and legal issues. The management level Disciplinary Committee reviews fraud cases and applies the consequence management framework.",2,2.0,3,3,1.0
+B.29,YES.,2,2.0,3,3,1.0
+B.3,YES.,2,2.0,3,3,1.0
+B.30,YES.,2,,2,2,1.0
+B.4,YES.,2,,2,2,1.0
+B.5,YES.,2,,2,2,1.0
+B.6,YES.,2,2.0,3,3,1.0
+B.7,NO,0,,0,2,0.0
+B.8,"YES, Alternate Director/s have been appointed according to regulation and Code requirements.",2,,2,2,1.0
+B.9,YES.,2,,2,2,1.0
+C.1,YES.,2,,2,2,1.0
+C.2,"The Board facilitates the effective exercise of shareholders' rights by ensuring that the rights of shareholders are always protected, communicating with shareholders through diverse channels and mechanisms, providing access to information and independent advice, and allowing shareholders to participate in the AGM and ask questions or make comments on the management of the Group. The Board also conducts investigations and retains legal, accounting, or other services as necessary to fulfill its duties. It provides guidance to the Board and Directors on how their responsibilities should be discharged in the best interests of the Company, identifies and facilitates continuous Board education and Directors’ professional development, ensures effective flow of information within the Board and its committees and between senior management and non-executive Directors, and discloses corporate governance matters as required by law and information of material importance to decision making by shareholders, customers, and other stakeholders.",2,,2,2,1.0
+C.3,"The Board facilitates shareholders participation at the AGM by ensuring that notice of meetings and all statutory notices and information are communicated to shareholders on time, allowing shareholders to appoint a proxy prior to the AGM, providing a reasonable opportunity for shareholders to ask questions about or make comments on the management of the Group, and strongly encouraging shareholders to attend and participate in the AGM. The Group also employs diverse channels and mechanisms to communicate and disseminate information to its various stakeholders, including shareholders, and releases material information to the Capital Markets Authority and the Nairobi Securities Exchange as well as the Central Bank of Kenya in line with all disclosure requirements in the Capital Markets Act, the Banking Act, the Prudential Guidelines as well as all other relevant regulation. The Group Chairman plays a pivotal role in fostering constructive dialogue between shareholders, the Board and management at the Annual General Meeting and other shareholder meetings.",2,,2,2,1.0
+C.4,YES.,2,,2,2,1.0
+C.5,YES.,2,,2,2,1.0
+D.1,YES.,2,,2,2,1.0
+D.2,YES.,2,,2,2,1.0
+D.3,"The Board takes into account the interests of key stakeholder groups by having due regard to the long-term consequences of their decisions, the legitimate interests of employees, the need to foster effective business relationships with suppliers, customers and various stakeholders, the impact of the Company’s operations on the community and the environment, and the desire to maintain a reputation for high standards of business conduct. The Board also engages with shareholders and investors to maintain transparency and accountability, and has established various committees including Audit & Risk, Human Resources & Governance, Strategy & IT, Nominations & Oversight committees, which are tasked with developing and continuous monitoring of the Group risk management policies in their specified areas. The Group considers all relevant information available when making the business model assessment.",2,2.0,3,3,1.0
+D.4,"The Board ensures effective communications with stakeholders by employing diverse channels and mechanisms to communicate and disseminate information to its various stakeholders, including shareholders. These channels and mechanisms include collection of investor feedback and communication via the investor relations function, financial information on the Company made available on the Company’s website and latest results being provided on a quarterly basis in national publications. The Group also makes use of the AGM as well as the published annual integrated report as an opportunity to communicate with its shareholders. The Board also provides guidance to the company in taking the initiative to not only disclose corporate governance matters as required by law, but also information of material importance to decision making by shareholders, customers, and other stakeholders.",2,2.0,3,3,1.0
+D.5,YES.,2,,2,2,1.0
+E.1,YES.,2,,2,2,1.0
+E.2,YES.,2,0.0,2,3,0.6666666666666666
+E.3,"The Board ensures that high standards and practices in Corporate Governance and more specifically the principles, practices and recommendations set out under the Code of Corporate Governance Practices for Issuers of Securities to the Public, 2015 (“the CMA Code”), the Corporate Governance Guidelines as prescribed by the Central Bank of Kenya being the primary regulatory authority of the Group and KCB Bank Kenya Limited as well as the Companies Act, 2015 (“the Act”) are adhered to. The Board also regularly reviews its corporate governance arrangements and practices and ensures that the same reflects the developments in regulation, best market practice and stakeholder expectations across all the countries where we operate. Additionally, KCB Group minimizes compliance uncertainty by ensuring that the activities of the Group and its staff are conducted in accordance with all laws, regulations, codes of conduct and standards of good practice applicable in all the jurisdictions it operates in, as well as conforming to internal policies and standards of operation, and with the highest ethical standard. This is achieved through a compliance and ethics framework that supports a robust compliance culture which is based on the highest standards of ethical business practice. Annual ethics training is provided to all staff, and employees are encouraged to freely raise any ethical concerns through established channels, either internally, or anonymously through external channels.",2,2.0,3,3,1.0
+E.4,YES.,2,,2,2,1.0
+E.5,"The company performance on ethics is assessed through annual ethics training for all staff, a framework for managing reputation risk, and channels for employees to raise ethical concerns internally or anonymously through external channels. The Board of Directors of KCB Group Plc. considers good governance achieved through an ethical culture, competitive performance, effective control and legitimacy, can create sustainable value and enhance long-term equity performance. The Board applies good governance practices to promote strategic decision making for the organization to balance short, medium and long-term outcomes to reconcile interests of the KCB Group as a whole together with its stakeholders and the society to create sustainable shared value. The assessment of the company's commitment to good corporate governance, board operations and control, rights of shareholders, stakeholder relations, ethics and social responsibility, accountability, risk management and internal control, transparency and disclosure is reviewed and disclosed to internal and external stakeholders. The company employs diverse channels and mechanisms to communicate and disseminate information to its various stakeholders, including shareholders.",2,,2,2,1.0
+E.6,YES.,2,,2,2,1.0
+E.7,YES.,2,,2,2,1.0
+E.8,YES.,2,0.0,2,3,0.6666666666666666
+E.9,YES.,2,,2,2,1.0
+F.1,YES.,2,,2,2,1.0
+F.10,YES.,2,,2,2,1.0
+F.2,YES.,2,,2,2,1.0
+F.3,YES.,2,2.0,3,3,1.0
+F.4,YES.,2,,2,2,1.0
+F.5,"YES. The company's Annual Report is prepared on an integrated basis using a framework available from the Integrated Reporting Council, The Global Reporting Initiative, G4 Sustainability Guidelines and/or Sustainability Accounting Standards Board standards.",2,,2,2,1.0
+F.6,YES.,2,,2,2,1.0
+F.7,YES.,2,,2,2,1.0
+F.8,YES.,2,,2,2,1.0
+F.9,YES.,2,,2,2,1.0
+G.1,YES.,2,,2,2,1.0
+G.10,YES.,2,,2,2,1.0
+G.11,YES.,2,,2,2,1.0
+G.12,YES.,2,,2,2,1.0
+G.2,YES.,2,,2,2,1.0
+G.3,NO,0,,0,2,0.0
+G.4,YES.,2,,2,2,1.0
+G.5,YES.,2,,2,2,1.0
+G.6,NO,0,,0,2,0.0
+G.7,YES.,2,,2,2,1.0
+G.8,YES.,2,,2,2,1.0
+G.9,YES.,2,,2,2,1.0

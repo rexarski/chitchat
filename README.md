@@ -1,8 +1,10 @@
-# README
+# chitchat
 
 <p align="center">
 <img src="logo.jpg" width="40%">
 </p>
+
+**chitchat is a context-based question answering tool powered by GPT3.5. Ideal for working with document collections, chitchat delivers accurate and efficient answers to your questions.**
 
 ## How to use chitchat?
 
@@ -24,6 +26,8 @@ candidate_files = [
     "data/Equity-Sustainability-Report-2020.pdf",
     ]
 question_file = "chitchat-cli/data/questions.csv"
+answer_file = "answer.json"
+score_file = "score.csv"
 ```
 
 ### CLI (WIP)
@@ -51,7 +55,7 @@ streamlit run main.py
 
 - [x] Add variation to the `questions.csv`
   - ~~For each question (code), select the answer-variation pair that has higher confidence (?)~~
-- [ ] Use rule-based approach to score each answer:
+- [x] Use rule-based approach to score each answer:
   - Add 2 points for straight `YES`
     - If variations (alternatives) of the questions lead to `YES`, then add 1 point as a bonus
     - [ ] The criterion for bonus point is not clear yet
@@ -64,10 +68,10 @@ streamlit run main.py
     - Good `[.65, .75)`
     - Fair `[.50, .65)`
     - Needs improvement `[0, .50)`
-  - Generate company-level score based on answers to multiple documents
-  - Portfolio-level view will display the scores of all those companies
+  - [x] Generate company-level score based on answers to multiple documents
 - [ ] Better filepath handling
 - [ ] Better pdf parsing
+- [ ] Prompt output parsing with [langchain](https://python.langchain.com/en/latest/modules/prompts/output_parsers/getting_started.html)
 
 - Optional
   - [ ] Confidence of the output. Probably a deadend though (?)

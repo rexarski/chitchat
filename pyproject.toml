@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "chichat"
-version = "0.0.1"
-description = "A Streamlit app utilizing gpt-turbo-3.5 and llama-index for long-form qa"
+version = "0.1.0"
+description = "A tool utilizing gpt-turbo-3.5 and llama-index for contextual question answering."
 authors = ["Rui Qiu"]
 license = "MIT"
 readme = "README.md"

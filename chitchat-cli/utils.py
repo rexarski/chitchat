@@ -5,7 +5,6 @@ from typing import Any, Dict, List
 
 import docx2txt
 
-# import streamlit as st
 from embeddings import OpenAIEmbeddings
 from langchain.chains.qa_with_sources import load_qa_with_sources_chain
 from langchain.docstore.document import Document
@@ -14,8 +13,10 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.vectorstores import VectorStore
 from langchain.vectorstores.faiss import FAISS
 from openai.error import AuthenticationError
-from prompts import STUFF_PROMPT
+from prompts import STUFF_PROMPT_INT, STUFF_PROMPT_WH
 from pypdf import PdfReader
+import pandas as pd
+import json
 
 
 def parse_docx(file: BytesIO) -> str:
@@ -111,23 +112,28 @@ def search_docs(_index: VectorStore, query: str) -> List[Document]:
     and returns a list of Documents."""
 
     # Search for similar chunks
-    docs = _index.similarity_search(query, k=3)
+    docs = _index.similarity_search(query, k=7)
     return docs
 
 
-def get_answer(docs: List[Document], query: str) -> Dict[str, Any]:
+def get_answer(docs: List[Document], query: str, question_type: str) -> Dict[str, Any]:
     """Gets an answer to a question from a list of Documents."""
 
     # Get the answer
 
+    if question_type == "interrogative":
+        prompt_used = STUFF_PROMPT_INT
+    elif question_type == "wh":
+        prompt_used = STUFF_PROMPT_WH
+
     chain = load_qa_with_sources_chain(
         OpenAI(
-            temperature=1,
+            temperature=0,  # for fixed, predictable results
             openai_api_key=os.environ["OPENAI_API_KEY"],
             model_name="gpt-3.5-turbo",
         ),  # type: ignore
         chain_type="stuff",
-        prompt=STUFF_PROMPT,
+        prompt=prompt_used,
     )
 
     # Cohere doesn't work very well as of now.
@@ -152,3 +158,31 @@ def get_sources(answer: Dict[str, Any], _docs: List[Document]) -> List[Document]
             source_docs.append(doc)
 
     return source_docs
+
+
+# The following function is giving us a typo:
+
+# def load_query(query_file):
+#     dict_list = []
+#     with open(query_file, "r") as file:
+#         for line in file:
+#             values = line.strip().split(",")
+#             my_dict = {
+#                 "section": values[0],
+#                 "code": values[1],
+#                 "variation": values[2],
+#                 "question": values[3].strip().strip('"'),
+#             }
+#             dict_list.append(my_dict)
+#     return dict_list
+
+
+def load_query(query_file):
+    df = pd.read_csv(query_file, header=None)
+    df.columns = ["section", "code", "variation", "question_type", "question"]
+    return df.to_dict("records")
+
+
+def write_list(a_list, filepath):
+    with open(filepath, "w") as file:
+        json.dump(a_list, file)
