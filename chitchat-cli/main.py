@@ -10,9 +10,12 @@ from utils import (
     parse_txt,
     search_docs,
     text_to_docs,
+    load_query,
+    write_list,
 )
 from tqdm import tqdm
 import json
+from score import calculate_score
 
 config = configparser.ConfigParser()
 
@@ -60,45 +63,42 @@ def main():
         qa["question"] = query
 
         try:
-            answer = get_answer(sources, query)
-            sources = get_sources(answer, sources)
-            qa["answer"] = answer["output_text"].split("SOURCES: ")[0]
-            top_k_contents = []
-            top_k_pages = []
-            for source in sources:
-                top_k_contents.append(source.page_content)
-                top_k_pages.append(source.metadata["source"])
-            qa["source_contents"] = top_k_contents
-            qa["source_pages"] = top_k_pages
+            answer = get_answer(sources, query, line["question_type"])
         except OpenAIError as e:
             print(e._message)
-
-        # TODO: placeholder for scoring mechanism
+        sources = get_sources(answer, sources)
+        qa["answer"] = answer["output_text"].split("[SOURCES]:")[0].rstrip()
+        # here k=7
+        top_k_contents = []
+        top_k_pages = []
+        for source in sources:
+            top_k_contents.append(source.page_content)
+            top_k_pages.append(source.metadata["source"])
+        qa["source_contents"] = top_k_contents
+        qa["source_pages"] = top_k_pages
+        try:
+            qa["score"] = int(answer["output_text"].split("[SCORE]:")[-1].rstrip())
+        except ValueError:
+            # Sometimes the response from gpt adds a random period after the score
+            temp = answer["output_text"].split("[SCORE]:")[-1]
+            try:
+                qa["score"] = int(temp.strip("."))
+            except ValueError:
+                print(f"Strange scores. [SCORE]: {temp}")
+                qa["score"] = 0
+        # qa["score"] = answer["output_text"].split("[SCORE]:")[-1]
 
         output.append(qa)
 
-    write_list(output)
-    print("Done writing JSON data into .json file")
+    write_list(output, answer_file)
+    print("[DONE] Data written into JSON")
 
+    # TODO: need to figure out how we are going to use this output_df
+    score_df, company_level_score = calculate_score(answer_file)
+    print(f"The company level score is {company_level_score}")
 
-def load_query(query_file):
-    dict_list = []
-    with open(query_file, "r") as file:
-        for line in file:
-            values = line.strip().split(",")
-            my_dict = {
-                "section": values[0],
-                "code": values[1],
-                "variation": values[2],
-                "question": values[3].strip().strip('"'),
-            }
-            dict_list.append(my_dict)
-    return dict_list
-
-
-def write_list(a_list):
-    with open("output.json", "w") as file:
-        json.dump(a_list, file)
+    # write score_df into a csv file
+    score_df.to_csv(score_file, index=False)
 
 
 if __name__ == "__main__":
@@ -106,5 +106,6 @@ if __name__ == "__main__":
     os.environ["OPENAI_API_KEY"] = config.get("API", "openai_api_key")
     candidate_files = json.loads(config.get("files", "candidate_files"))
     question_file = json.loads(config.get("files", "question_file"))
-    print(question_file)
+    answer_file = json.loads(config.get("files", "answer_file"))
+    score_file = json.loads(config.get("files", "score_file"))
     main()

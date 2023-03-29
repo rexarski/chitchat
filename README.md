@@ -1,10 +1,12 @@
-# README
+# chitchat
 
 <p align="center">
-<img src="https://s3.amazonaws.com/moonup/production/uploads/noauth/b3AVwKK334lyREpZwqPxs.jpeg" width="40%">
+<img src="logo.jpg" width="40%">
 </p>
 
-## How to use chitchat?
+**chitchat is a context-based question answering tool powered by GPT3.5. Ideal for working with document collections, chitchat delivers accurate and efficient answers to your questions.**
+
+## Setup
 
 - Make sure `poetry` is [installed](https://python-poetry.org/docs/) for package and dependency management.
 - Use `poetry install` to initialize the virtual environment for the first time.
@@ -23,22 +25,24 @@ candidate_files = [
     "data/Equity-Sustainability-Report-2021.pdf",
     "data/Equity-Sustainability-Report-2020.pdf",
     ]
-question_file = "chitchat-cli/questions.csv"
+question_file = "chitchat-cli/data/questions.csv"
+answer_file = "answer.json"
+score_file = "score.csv"
 ```
 
-### CLI (WIP)
+## CLI (WIP)
 
 A command line interface for a set of predefined questions.
 
 ```bash
 # In root directory of this repo:
-python chitchat-cli/cli-app.py
+python chitchat-cli/main.py
 ```
 
-- Specify the document path (`candidate_files`, `question_file`)in `main.py`.
-- Modify `chitchat-cli/questions.csv` if needed for additional questions.
+- Specify the document path (`candidate_files`, `question_file`, `answer_file` and `score_file`) in `config.ini`.
+- Modify `chitchat-cli/data/questions.csv` if needed for additional questions.
 
-### Streamlit app
+## Streamlit app
 
 An interactive web app.
 
@@ -51,7 +55,7 @@ streamlit run main.py
 
 - [x] Add variation to the `questions.csv`
   - ~~For each question (code), select the answer-variation pair that has higher confidence (?)~~
-- [ ] Use rule-based approach to score each answer:
+- [x] Use rule-based approach to score each answer:
   - Add 2 points for straight `YES`
     - If variations (alternatives) of the questions lead to `YES`, then add 1 point as a bonus
     - [ ] The criterion for bonus point is not clear yet
@@ -60,14 +64,14 @@ streamlit run main.py
   - Zero point for each `NO`
   - Zero point for `UNKNOWN`
   - The final score of each company is the ratio of the [total points] to the [total number of questions times 3] normalized to [0, 1]
-    - Leadership rating (75% and above)
-    - Good rating (65% to 74%)
-    - Fair rating (50% to 64%)
-    - Needs improvement rating (below 50%)
-  - Generate company-level score based on answers to multiple documents
-  - Portfolio-level view will display the scores of all those companies
+    - Leadership `[.75, 1]`
+    - Good `[.65, .75)`
+    - Fair `[.50, .65)`
+    - Needs improvement `[0, .50)`
+  - [x] Generate company-level score based on answers to multiple documents
 - [ ] Better filepath handling
 - [ ] Better pdf parsing
+- [ ] Prompt output parsing with [langchain](https://python.langchain.com/en/latest/modules/prompts/output_parsers/getting_started.html)
 
 - Optional
   - [ ] Confidence of the output. Probably a deadend though (?)
@@ -75,6 +79,9 @@ streamlit run main.py
 
 ## Resources
 
-- [Different document loaders that LangChain supports](https://langchain.readthedocs.io/en/latest/modules/document_loaders/how_to_guides.html)
-- [Question Answering - LangChain](https://langchain.readthedocs.io/en/latest/modules/indexes/chain_examples/question_answering.html)
+- [LangChain](https://github.com/hwchase17/langchain)
+  - [Document Loaders](https://python.langchain.com/en/latest/modules/indexes/document_loaders.html)
+  - [Question Answering over Docs](https://python.langchain.com/en/latest/use_cases/question_answering.html)
+  - [Question Answering with Sources](https://python.langchain.com/en/latest/modules/chains/index_examples/qa_with_sources.html)
+  - [Prompt Templates](https://python.langchain.com/en/latest/modules/prompts/prompt_templates.html)
 - [mmz-001/knowledge_gpt](https://github.com/mmz-001/knowledge_gpt)
