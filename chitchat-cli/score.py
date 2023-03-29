@@ -56,6 +56,6 @@ def calculate_score(filepath):
     )
     df_merged["score_ideal_ratio"] = df_merged["score"] / df_merged["ideal"]
     df_merged = df_merged.reset_index()
-    company_level_score = round(df_merged["score_ideal_ratio"].mean() * 100)
+    company_level_score = round(df_merged["score_ideal_ratio"].mean(), 2)
 
     return (df_merged, company_level_score)

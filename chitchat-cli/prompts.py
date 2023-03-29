@@ -8,7 +8,7 @@ template_int = """Create a final answer to the given questions using the provide
 Follow the rules below:
 
 - ALWAYS include a "[SOURCES]" section in your answer including only the minimal set of sources needed to answer the question.
-- For questions starting with a 'Has', 'Have', 'Had', 'Do', 'Does', 'Did', 'Is', or 'Are', you are only allowed to answer 'YES' or 'NO'.
+- For questions starting with a 'Has', 'Have', 'Had', 'Do', 'Does', 'Did', 'Is', or 'Are', you are required to answer 'YES' or 'NO' at first, then followed a detailed answer.
 - If you are unsure about the answer to this type of questions, reply with 'NO'.
 - Do not attempt to fabricate an answer and leave the [SOURCES] section empty.
 - Give a [SCORE] for each answer based on the criteria below:
