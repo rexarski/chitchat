@@ -6,7 +6,7 @@
 
 **chitchat is a context-based question answering tool powered by GPT3.5. Ideal for working with document collections, chitchat delivers accurate and efficient answers to your questions.**
 
-## How to use chitchat?
+## Setup
 
 - Make sure `poetry` is [installed](https://python-poetry.org/docs/) for package and dependency management.
 - Use `poetry install` to initialize the virtual environment for the first time.
@@ -30,19 +30,19 @@ answer_file = "answer.json"
 score_file = "score.csv"
 ```
 
-### CLI (WIP)
+## CLI (WIP)
 
 A command line interface for a set of predefined questions.
 
 ```bash
 # In root directory of this repo:
-python chitchat-cli/cli-app.py
+python chitchat-cli/main.py
 ```
 
-- Specify the document path (`candidate_files`, `question_file`)in `main.py`.
-- Modify `chitchat-cli/questions.csv` if needed for additional questions.
+- Specify the document path (`candidate_files`, `question_file`, `answer_file` and `score_file`) in `config.ini`.
+- Modify `chitchat-cli/data/questions.csv` if needed for additional questions.
 
-### Streamlit app
+## Streamlit app
 
 An interactive web app.
 
