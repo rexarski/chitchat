@@ -34,7 +34,7 @@ score_file = "example/score.csv"
 
 > We are using the [integrated report](https://drive.google.com/file/d/1_HDUkfimhW8XdqLtLQTl9la2hV10KMhP/view) by Kenya Commercial Bank (2021) as the input document.
 
-## cli
+## Demo
 
 A callable script from cli.
 
@@ -96,15 +96,6 @@ The arithmetic mean of `score_ideal_ratio` is the final score of the company, wh
   - Good `[.65, .75)`
   - Fair `[.50, .65)`
   - Needs improvement `[0, .50)`
-
-## streamlit
-
-An interactive web app.
-
-```bash
-cd chitchat
-streamlit run main.py
-```
 
 ## Roadmap
 
