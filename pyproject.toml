@@ -19,6 +19,7 @@ pypdf = "^3.3.0"
 tenacity = "8.1.0"
 llama-index = "^0.4.21"
 tiktoken = "^0.3.0"
+transformers = "^4.27.4"
 
 
 [tool.poetry.group.dev.dependencies]
