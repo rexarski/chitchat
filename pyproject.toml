@@ -20,11 +20,13 @@ tenacity = "8.1.0"
 llama-index = "^0.4.21"
 tiktoken = "^0.3.0"
 transformers = "^4.27.4"
+torch = "^2.0.0"
 
 
 [tool.poetry.group.dev.dependencies]
 python-dotenv = "^0.21.1"
 pytest = "^7.2.1"
+ipykernel = "^6.22.0"
 
 
 [tool.poetry.group.lint.dependencies]

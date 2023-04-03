@@ -4,7 +4,7 @@
 <img src="logo.jpg" width="40%">
 </p>
 
-![badge](https://img.shields.io/badge/version-0.1.0-blue)
+![badge](https://img.shields.io/badge/version-0.1.1-blue)
 
 **chitchat is a context-based question answering tool powered by GPT3.5. Ideal for working with document collections, chitchat delivers accurate and efficient answers to your questions.**
 
@@ -97,16 +97,42 @@ The arithmetic mean of `score_ideal_ratio` is the final score of the company, wh
   - Fair `[.50, .65)`
   - Needs improvement `[0, .50)`
 
+## Setup - dolly
+
+> dolly-v1-6b is not a state-of-the-art generative language model and, though quantitative benchmarking is ongoing, is not designed to perform competitively with more modern model architectures or models subject to larger pretraining corpuses. It is designed for academic or research purposes, and to encourage model and engineering experimentation.
+
+See Databricks's blog post, [*Hello Dolly: Democratizing the magic of ChatGPT with open models*](https://www.databricks.com/blog/2023/03/24/hello-dolly-democratizing-magic-chatgpt-open-models.html).
+
+- If you fancy a local version of the model, do this:
+
+```bash
+# make sure LFS is enabled
+brew install git-lfs
+git lfs install
+# clone the model within this repo
+git clone https://huggingface.co/databricks/dolly-v1-6b
+```
+
+Otherwise, use it from 🤗`transformers`:
+
+```python
+from transformers import AutoTokenizer, AutoModelForCausalLM
+tokenizer = AutoTokenizer.from_pretrained("databricks/dolly-v1-6b")
+model = AutoModelForCausalLM.from_pretrained("databricks/dolly-v1-6b")
+```
+
 ## Roadmap
 
 - [x] Add variation to the `questions.csv`
   - ~~For each question (code), select the answer-variation pair that has higher confidence (?)~~
 - [x] Use rule-based approach to score each answer
+- [ ] Other llm candidates?
 - [ ] Better filepath handling
 - [ ] Better pdf parsing
 - [ ] Prompt output parsing with [langchain](https://python.langchain.com/en/latest/modules/prompts/output_parsers/getting_started.html)
 
 - Optional
+  - [ ] Similarity between the output and provided human answers (?)
   - [ ] Confidence of the output. Probably a deadend though (?)
   - [ ] Factcheck the output with human assessment (?)
 

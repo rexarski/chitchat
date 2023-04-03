@@ -234,3 +234,7 @@ __pycache__/
 *.pyc
 draft/
 data/*
+
+# exclusion of huggingface models
+
+dolly-v1-6b/
