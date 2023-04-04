@@ -32,7 +32,7 @@ answer_file = "example/answer.json"
 score_file = "example/score.csv"
 ```
 
-> We are using the [integrated report](https://drive.google.com/file/d/1_HDUkfimhW8XdqLtLQTl9la2hV10KMhP/view) by Kenya Commercial Bank (2021) as the input document.
+> We are using the [integrated report](https://drive.google.com/file/d/1_HDUkfimhW8XdqLtLQTl9la2hV10KMhP/view) of Kenya Commercial Bank (2021) as the input document.
 
 ## Demo
 
