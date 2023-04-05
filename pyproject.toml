@@ -9,7 +9,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-langchain = "^0.0.102"
+langchain = "^0.0.132"
 cohere = "^3.2.1"
 faiss-cpu = "^1.7.3"
 openai = "^0.27.0"
@@ -19,8 +19,7 @@ pypdf = "^3.3.0"
 tenacity = "8.1.0"
 llama-index = "^0.4.21"
 tiktoken = "^0.3.0"
-transformers = "^4.27.4"
-torch = "^2.0.0"
+jupyter-black = "^0.3.3"
 
 
 [tool.poetry.group.dev.dependencies]
