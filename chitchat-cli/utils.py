@@ -8,7 +8,7 @@ import docx2txt
 from embeddings import OpenAIEmbeddings
 from langchain.chains.qa_with_sources import load_qa_with_sources_chain
 from langchain.docstore.document import Document
-from langchain.llms import OpenAI
+from langchain.chat_models import ChatOpenAI
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.vectorstores import VectorStore
 from langchain.vectorstores.faiss import FAISS
@@ -61,7 +61,9 @@ def text_to_docs(cands: List[dict]) -> List[Document]:
             cand = [cand]
         for page in cand:
             page_docs.append(
-                Document(page_content=page["text"], metadata={"file": page["file"]})
+                Document(
+                    page_content=page["text"], metadata={"file": page["file"]}
+                )
             )
 
         # Add page numbers as metadata
@@ -74,9 +76,9 @@ def text_to_docs(cands: List[dict]) -> List[Document]:
 
     for doc in page_docs:
         text_splitter = RecursiveCharacterTextSplitter(
-            chunk_size=800,
+            chunk_size=1200,
             separators=["\n\n", "\n", ".", "!", "?", ",", " ", ""],
-            chunk_overlap=0,
+            chunk_overlap=50,
         )
         chunks = text_splitter.split_text(doc.page_content)
         for i, chunk in enumerate(chunks):
@@ -116,7 +118,9 @@ def search_docs(_index: VectorStore, query: str) -> List[Document]:
     return docs
 
 
-def get_answer(docs: List[Document], query: str, question_type: str) -> Dict[str, Any]:
+def get_answer(
+    docs: List[Document], query: str, question_type: str
+) -> Dict[str, Any]:
     """Gets an answer to a question from a list of Documents."""
 
     # Get the answer
@@ -127,7 +131,7 @@ def get_answer(docs: List[Document], query: str, question_type: str) -> Dict[str
         prompt_used = STUFF_PROMPT_WH
 
     chain = load_qa_with_sources_chain(
-        OpenAI(
+        ChatOpenAI(
             temperature=0,  # for fixed, predictable results
             openai_api_key=os.environ["OPENAI_API_KEY"],
             model_name="gpt-3.5-turbo",
@@ -146,11 +150,15 @@ def get_answer(docs: List[Document], query: str, question_type: str) -> Dict[str
     return answer
 
 
-def get_sources(answer: Dict[str, Any], _docs: List[Document]) -> List[Document]:
+def get_sources(
+    answer: Dict[str, Any], _docs: List[Document]
+) -> List[Document]:
     """Gets the source documents for an answer."""
 
     # Get sources for the answer
-    source_keys = [s for s in answer["output_text"].split("[SOURCES]:")[-1].split(", ")]
+    source_keys = [
+        s for s in answer["output_text"].split("[SOURCES]:")[-1].split(", ")
+    ]
 
     source_docs = []
     for doc in _docs:

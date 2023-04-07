@@ -49,8 +49,6 @@ def main():
 
     output = []
 
-    # TODO: parallelize this
-
     questions = load_query(question_file)
     for line in tqdm(questions):
         query = line["question"]
@@ -77,7 +75,9 @@ def main():
         qa["source_contents"] = top_k_contents
         qa["source_pages"] = top_k_pages
         try:
-            qa["score"] = int(answer["output_text"].split("[SCORE]:")[-1].rstrip())
+            qa["score"] = int(
+                answer["output_text"].split("[SCORE]:")[-1].rstrip()
+            )
         except ValueError:
             # Sometimes the response from gpt adds a random period after the score
             temp = answer["output_text"].split("[SCORE]:")[-1]
