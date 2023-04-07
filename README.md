@@ -34,6 +34,10 @@ score_file = "example/score.csv"
 
 > We are using the [integrated report](https://drive.google.com/file/d/1_HDUkfimhW8XdqLtLQTl9la2hV10KMhP/view) of Kenya Commercial Bank (2021) as the input document.
 
+- Another headsup: in `utils.py` we have control over two parameters: `chunk_size` and `chunk_overlap`. The former controls the length of the text chunks, by default, it is using `length_function=len`, which refers to the character number. The latter controls the overlap between two adjacent chunks.
+
+> Sometimes when `chunk_overlap` is set to be small, the answer could be generated without any specific "sources" as no similar such chunks are detected. But bear in mind that, the reason why we don't see any relevant chunks could be complicated as the file parsing is not perfect sometimes. Table of contents, footnotes, tables, captions, or even paragraphs split into two columns, two pages, will mess up the parsed text.
+
 ## Demo
 
 A callable script from cli.
