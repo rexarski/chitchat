@@ -61,7 +61,7 @@ def main():
         qa["question"] = query
 
         try:
-            answer = get_answer(sources, query, line["question_type"])
+            answer = get_answer(sources, query)
         except OpenAIError as e:
             print(e._message)
         sources = get_sources(answer, sources)

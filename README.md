@@ -54,8 +54,6 @@ python chitchat-cli/main.py
 
 #### Definition
 
-Predefined questions are separated into two categories:
-
 - *Interrogative questions* with `YES` or `NO` answers, e.g.,
   - "Does the company have a sustainability strategy?"
   - "Is there any evidence of the company's commitment to sustainability?"
@@ -109,14 +107,10 @@ The arithmetic mean of `score_ideal_ratio` is the final score of the company, wh
   - ~~dolly-v1-6b. [*Hello Dolly: Democratizing the magic of ChatGPT with open models*](https://www.databricks.com/blog/2023/03/24/hello-dolly-democratizing-magic-chatgpt-open-models.html)~~
     - "dolly-v1-6b is not a state-of-the-art generative language model and, though quantitative benchmarking is ongoing, is not designed to perform competitively with more modern model architectures or models subject to larger pretraining corpuses. It is designed for academic or research purposes, and to encourage model and engineering experimentation."
     - *Review: slow, not following instructions.*
-- [ ] Better filepath handling
 - [ ] Better pdf parsing
-- [ ] Prompt output parsing with [`langchain`](https://python.langchain.com/en/latest/modules/prompts/output_parsers/getting_started.html)
-
-- Optional
-  - [ ] Similarity between the output and provided human answers (?)
-  - [ ] Confidence of the output. Probably a deadend though (?)
-  - [ ] Fact-check the output with human assessment (?)
+- [ ] Similarity between the output and provided human answers (?)
+- [ ] Confidence of the output. Probably a deadend though (?)
+- [ ] Fact-check the output with human assessment (?)
 
 ## Resources
 

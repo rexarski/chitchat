@@ -13,7 +13,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.vectorstores import VectorStore
 from langchain.vectorstores.faiss import FAISS
 from openai.error import AuthenticationError
-from prompts import STUFF_PROMPT_INT, STUFF_PROMPT_WH
+from prompts import STUFF_PROMPT
 from pypdf import PdfReader
 import pandas as pd
 import json
@@ -118,17 +118,10 @@ def search_docs(_index: VectorStore, query: str) -> List[Document]:
     return docs
 
 
-def get_answer(
-    docs: List[Document], query: str, question_type: str
-) -> Dict[str, Any]:
+def get_answer(docs: List[Document], query: str) -> Dict[str, Any]:
     """Gets an answer to a question from a list of Documents."""
 
     # Get the answer
-
-    if question_type == "interrogative":
-        prompt_used = STUFF_PROMPT_INT
-    elif question_type == "wh":
-        prompt_used = STUFF_PROMPT_WH
 
     chain = load_qa_with_sources_chain(
         ChatOpenAI(
@@ -137,7 +130,7 @@ def get_answer(
             model_name="gpt-3.5-turbo",
         ),  # type: ignore
         chain_type="stuff",
-        prompt=prompt_used,
+        prompt=STUFF_PROMPT,
     )
 
     # Cohere doesn't work very well as of now.
@@ -168,26 +161,9 @@ def get_sources(
     return source_docs
 
 
-# The following function is giving us a typo:
-
-# def load_query(query_file):
-#     dict_list = []
-#     with open(query_file, "r") as file:
-#         for line in file:
-#             values = line.strip().split(",")
-#             my_dict = {
-#                 "section": values[0],
-#                 "code": values[1],
-#                 "variation": values[2],
-#                 "question": values[3].strip().strip('"'),
-#             }
-#             dict_list.append(my_dict)
-#     return dict_list
-
-
 def load_query(query_file):
     df = pd.read_csv(query_file, header=None)
-    df.columns = ["section", "code", "variation", "question_type", "question"]
+    df.columns = ["section", "code", "variation", "question"]
     return df.to_dict("records")
 
 
