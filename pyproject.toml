@@ -20,6 +20,10 @@ tenacity = "8.1.0"
 llama-index = "^0.4.21"
 tiktoken = "^0.3.0"
 jupyter-black = "^0.3.3"
+torch = "^2.0.0"
+transformers = "^4.28.0"
+accelerate = "^0.18.0"
+huggingface-hub = {extras = ["cli"], version = "^0.13.4"}
 
 
 [tool.poetry.group.dev.dependencies]
