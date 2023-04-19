@@ -2,7 +2,7 @@ import re
 import os
 from io import BytesIO
 from typing import Any, Dict, List
-
+import streamlit as st
 import docx2txt
 
 from embeddings import OpenAIEmbeddings
@@ -19,6 +19,7 @@ import pandas as pd
 import json
 
 
+@st.cache_data
 def parse_docx(file: BytesIO) -> str:
     text = docx2txt.process(file)
     # Remove multiple newlines
@@ -26,6 +27,7 @@ def parse_docx(file: BytesIO) -> str:
     return {"text": text, "file": file.name}
 
 
+@st.cache_data
 def parse_pdf(file: BytesIO) -> List[str]:
     pdf = PdfReader(file)
     output = []
@@ -43,6 +45,7 @@ def parse_pdf(file: BytesIO) -> List[str]:
     return output
 
 
+@st.cache_data
 def parse_txt(file: BytesIO) -> str:
     text = file.read().decode("utf-8")
     # Remove multiple newlines
@@ -51,6 +54,7 @@ def parse_txt(file: BytesIO) -> str:
     return {"text": text, "file": file.name}
 
 
+@st.cache_data
 def text_to_docs(cands: List[dict]) -> List[Document]:
     """Converts a list of dictionaries to a list of Documents
     with metadata."""
@@ -99,16 +103,26 @@ def text_to_docs(cands: List[dict]) -> List[Document]:
     return doc_chunks
 
 
+@st.cache_data
 def embed_docs(_docs: List[Document]) -> VectorStore:
     """Embeds a list of Documents and returns a FAISS index"""
 
-    # Embed the chunks
-    embeddings = OpenAIEmbeddings(openai_api_key=os.environ["OPENAI_API_KEY"])
-    index = FAISS.from_documents(_docs, embeddings)
+    if not st.session_state.get("OPENAI_API_KEY"):
+        raise AuthenticationError(
+            "Enter your OpenAI API key in the sidebar. You can get a key at"
+            " https://platform.openai.com/account/api-keys."
+        )
+    else:
+        # Embed the chunks
+        embeddings = OpenAIEmbeddings(
+            openai_api_key=st.session_state.get("OPENAI_API_KEY")
+        )  # type: ignore
+        index = FAISS.from_documents(_docs, embeddings)
 
-    return index
+        return index
 
 
+@st.cache_data
 def search_docs(_index: VectorStore, query: str) -> List[Document]:
     """Searches a FAISS index for similar chunks to the query
     and returns a list of Documents."""
@@ -118,7 +132,8 @@ def search_docs(_index: VectorStore, query: str) -> List[Document]:
     return docs
 
 
-def get_answer(docs: List[Document], query: str) -> Dict[str, Any]:
+@st.cache_data
+def get_answer(_docs: List[Document], query: str) -> Dict[str, Any]:
     """Gets an answer to a question from a list of Documents."""
 
     # Get the answer
@@ -126,7 +141,7 @@ def get_answer(docs: List[Document], query: str) -> Dict[str, Any]:
     chain = load_qa_with_sources_chain(
         ChatOpenAI(
             temperature=0,  # for fixed, predictable results
-            openai_api_key=os.environ["OPENAI_API_KEY"],
+            openai_api_key=st.session_state.get("OPENAI_API_KEY"),
             model_name="gpt-3.5-turbo",
         ),  # type: ignore
         chain_type="stuff",
@@ -138,11 +153,12 @@ def get_answer(docs: List[Document], query: str) -> Dict[str, Any]:
     #     Cohere(temperature=0), chain_type="stuff", prompt=STUFF_PROMPT  # type: ignore
     # )
     answer = chain(
-        {"input_documents": docs, "question": query}, return_only_outputs=True
+        {"input_documents": _docs, "question": query}, return_only_outputs=True
     )
     return answer
 
 
+@st.cache_data
 def get_sources(
     answer: Dict[str, Any], _docs: List[Document]
 ) -> List[Document]:

@@ -39,12 +39,18 @@ def calculate_score(filepath):
     df = pd.DataFrame(data, columns=["code", "score", "variation", "answer"])
 
     # Group the dataframe by code and keep answers from variation v1
-    df_v1 = df.loc[df["variation"] == "v1"].groupby("code")[["answer", "score"]].first()
+    df_v1 = (
+        df.loc[df["variation"] == "v1"]
+        .groupby("code")[["answer", "score"]]
+        .first()
+    )
 
     # Calculate bonus points for score of variation v1 and v2
     df_v2 = df.loc[df["variation"] == "v2"].groupby("code")["score"].first()
 
-    df_merged = df_v1.merge(df_v2, on="code", how="left", suffixes=("_v1", "_v2"))
+    df_merged = df_v1.merge(
+        df_v2, on="code", how="left", suffixes=("_v1", "_v2")
+    )
 
     # Calculate final score based on score_x and score_y
     df_merged["score"] = (
