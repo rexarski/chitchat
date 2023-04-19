@@ -6,7 +6,7 @@
 
 ![badge](https://img.shields.io/badge/version-0.2-blue)
 
-**chitchat is a context-based question answering tool powered by GPT3.5. Ideal for working with document collections, chitchat delivers accurate and efficient answers to your questions.**
+**chitchat is a context-based question answering tool powered by GPT3.5. Ideal for working with document collections, chitchat delivers answers to your predefined questions.**
 
 ## Setup
 

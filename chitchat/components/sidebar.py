@@ -1,8 +1,5 @@
 import streamlit as st
 
-from components.faq import faq
-
-
 # def set_openai_api_key(api_key: str):
 #     st.session_state["OPENAI_API_KEY"] = api_key
 #     st.session_state["api_key_configured"] = True
@@ -30,8 +27,8 @@ def sidebar():
         st.markdown("---")
         st.markdown("# About")
         st.markdown(
-            "**chitchat** is a context-based question answering tool powered by GPT3.5."
-            "Ideal for working with document collections, chitchat delivers answers to"
+            "**chitchat** is a context-based question answering tool powered by GPT3.5. "
+            "Ideal for working with document collections, chitchat delivers answers to "
             "your predefined questions."
         )
         st.markdown(

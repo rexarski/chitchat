@@ -1,7 +1,7 @@
 import streamlit as st
 
-st.set_page_config(page_title="chitchat", page_icon="🤖💬📢🤖", layout="centered")
-st.header("chitchat")
+st.set_page_config(page_title="chitchat", page_icon="💬", layout="centered")
+st.header("chitchat 🤖💬📢🤖")
 
 from openai.error import OpenAIError
 import configparser
