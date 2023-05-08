@@ -1,0 +1,8 @@
+code,answer,score_v1,score_v2,score,ideal,score_ideal_ratio
+A.1,NO.,0,,0,2,0.0
+A.2,NO,0,,0,2,0.0
+A.3,NO,0,0.0,0,3,0.0
+A.4,UNKNOWN,0,,0,2,0.0
+A.5,NO,0,0.0,0,3,0.0
+A.6,"YES, the company strategy promotes sustainability through the International Finance Corporation's eight Performance Standards which define its environmental and social requirements for investment projects. These standards aim to minimize the project's environmental footprint and maximize resource efficiency, ensure fair and safe working conditions, and safeguard cultural heritage resources that may be affected by the project. The standards also recognize and respect the rights of indigenous peoples and require clients to engage with them in a culturally appropriate manner and obtain their free, prior, and informed consent for any project activities that may affect them.",2,0.0,2,3,0.6666666666666666
+A.7,NO,0,0.0,0,3,0.0

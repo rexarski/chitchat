@@ -4,7 +4,7 @@
 <img src="logo.jpg" width="40%">
 </p>
 
-![badge](https://img.shields.io/badge/version-0.1.1-blue)
+![badge](https://img.shields.io/badge/version-0.2.0-blue)
 
 **chitchat is a context-based question answering tool powered by GPT3.5. Ideal for working with document collections, chitchat delivers accurate and efficient answers to your questions.**
 
@@ -13,6 +13,7 @@
 - Make sure `poetry` is [installed](https://python-poetry.org/docs/) for package and dependency management.
 - Use `poetry install` to initialize the virtual environment for the first time.
 - Use `poetry shell` to activate the virtual environment.
+- [Optional] Use `poetry export -f requirements.txt --output requirements.txt --without-hashes` to output the `requirements.txt` file for deployment (if needed).
 - Rename `config-template.ini` to `config.ini`, and fill in the values. For example:
 
 ```ini
