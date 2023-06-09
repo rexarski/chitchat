@@ -4,7 +4,7 @@
 <img src="img/logo.jpg" width="40%">
 </p>
 
-![badge](https://img.shields.io/badge/version-0.2.1-blue)
+![badge](https://img.shields.io/badge/version-0.2.2-blue)
 
 **chitchat is a context-based question answering tool powered by GPT3.5. Ideal for working with document collections, chitchat delivers answers to your predefined questions.**
 
