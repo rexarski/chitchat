@@ -18,6 +18,8 @@ from pypdf import PdfReader
 import pandas as pd
 import json
 
+from itertools import groupby
+
 
 def parse_docx(file: BytesIO) -> str:
     text = docx2txt.process(file)
@@ -67,9 +69,16 @@ def text_to_docs(cands: List[dict]) -> List[Document]:
             )
 
         # Add page numbers as metadata
-        for i, doc in enumerate(page_docs):
-            doc.metadata["page"] = i + 1
-    # page_docs = [Document(page_content=page) for page in text]
+        # for i, doc in enumerate(page_docs):
+        #     doc.metadata["page"] = i + 1
+
+        page_docs.sort(key=lambda doc: doc.metadata["file"])
+        for group_value, group_docs in groupby(
+            page_docs, key=lambda doc: doc.metadata["file"]
+        ):
+            for i, doc in enumerate(group_docs):
+                # print(f'page {i+1} of {doc.metadata["file"]}')
+                doc.metadata["page"] = i + 1
 
     # Split pages into chunks
     doc_chunks = []
